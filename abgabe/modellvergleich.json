@@ -1,0 +1,1163 @@
+{
+  "outer_seed": 2006,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "extended_comparison": {
+    "summary": {
+      "RF large leaf=1 features=sqrt": {
+        "cost": 276,
+        "FP": 36,
+        "FN": 40
+      },
+      "RF small leaf=1 features=all": {
+        "cost": 311,
+        "FP": 29,
+        "FN": 47
+      },
+      "RF small leaf=2 features=all": {
+        "cost": 291,
+        "FP": 21,
+        "FN": 45
+      },
+      "RF small leaf=5 features=all": {
+        "cost": 289,
+        "FP": 49,
+        "FN": 40
+      },
+      "RF small leaf=1 features=.65": {
+        "cost": 304,
+        "FP": 28,
+        "FN": 46
+      },
+      "RF small leaf=2 features=.65 cost weight": {
+        "cost": 271,
+        "FP": 37,
+        "FN": 39
+      },
+      "ET small leaf=1 features=all": {
+        "cost": 276,
+        "FP": 42,
+        "FN": 39
+      },
+      "ET small leaf=2 features=all": {
+        "cost": 304,
+        "FP": 40,
+        "FN": 44
+      },
+      "ET small leaf=2 features=.65 cost weight": {
+        "cost": 329,
+        "FP": 53,
+        "FN": 46
+      },
+      "HGB small leaf=2 depth=3": {
+        "cost": 406,
+        "FP": 88,
+        "FN": 53
+      },
+      "HGB small leaf=5 depth=5": {
+        "cost": 345,
+        "FP": 81,
+        "FN": 44
+      },
+      "HGB large leaf=5 depth=5": {
+        "cost": 356,
+        "FP": 110,
+        "FN": 41
+      },
+      "Tree small leaf=5": {
+        "cost": 297,
+        "FP": 27,
+        "FN": 45
+      },
+      "Tree small leaf=10 cost weight": {
+        "cost": 292,
+        "FP": 40,
+        "FN": 42
+      },
+      "mean RF all": {
+        "cost": 294,
+        "FP": 24,
+        "FN": 45
+      },
+      "mean RF/ET/HGB": {
+        "cost": 311,
+        "FP": 47,
+        "FN": 44
+      },
+      "inner winner": {
+        "cost": 277,
+        "FP": 37,
+        "FN": 40
+      },
+      "RF inner winner": {
+        "cost": 280,
+        "FP": 40,
+        "FN": 40
+      }
+    },
+    "folds": {
+      "RF large leaf=1 features=sqrt": [
+        {
+          "fold": 1,
+          "cost": 60,
+          "FP": 6,
+          "FN": 9,
+          "threshold": 0.2944444444444444
+        },
+        {
+          "fold": 2,
+          "cost": 62,
+          "FP": 8,
+          "FN": 9,
+          "threshold": 0.2166666666666666
+        },
+        {
+          "fold": 3,
+          "cost": 40,
+          "FP": 4,
+          "FN": 6,
+          "threshold": 0.3055555555555556
+        },
+        {
+          "fold": 4,
+          "cost": 64,
+          "FP": 10,
+          "FN": 9,
+          "threshold": 0.2277777777777777
+        },
+        {
+          "fold": 5,
+          "cost": 50,
+          "FP": 8,
+          "FN": 7,
+          "threshold": 0.2722222222222222
+        }
+      ],
+      "RF small leaf=1 features=all": [
+        {
+          "fold": 1,
+          "cost": 75,
+          "FP": 3,
+          "FN": 12,
+          "threshold": 0.4499999999999999
+        },
+        {
+          "fold": 2,
+          "cost": 79,
+          "FP": 1,
+          "FN": 13,
+          "threshold": 0.6222222222222222
+        },
+        {
+          "fold": 3,
+          "cost": 43,
+          "FP": 7,
+          "FN": 6,
+          "threshold": 0.2388888888888888
+        },
+        {
+          "fold": 4,
+          "cost": 63,
+          "FP": 9,
+          "FN": 9,
+          "threshold": 0.3055555555555556
+        },
+        {
+          "fold": 5,
+          "cost": 51,
+          "FP": 9,
+          "FN": 7,
+          "threshold": 0.35
+        }
+      ],
+      "RF small leaf=2 features=all": [
+        {
+          "fold": 1,
+          "cost": 61,
+          "FP": 1,
+          "FN": 10,
+          "threshold": 0.3963888888888888
+        },
+        {
+          "fold": 2,
+          "cost": 78,
+          "FP": 0,
+          "FN": 13,
+          "threshold": 0.6394444444444445
+        },
+        {
+          "fold": 3,
+          "cost": 40,
+          "FP": 4,
+          "FN": 6,
+          "threshold": 0.262037037037037
+        },
+        {
+          "fold": 4,
+          "cost": 65,
+          "FP": 11,
+          "FN": 9,
+          "threshold": 0.2294378306878306
+        },
+        {
+          "fold": 5,
+          "cost": 47,
+          "FP": 5,
+          "FN": 7,
+          "threshold": 0.3359722222222223
+        }
+      ],
+      "RF small leaf=5 features=all": [
+        {
+          "fold": 1,
+          "cost": 62,
+          "FP": 14,
+          "FN": 8,
+          "threshold": 0.1581541298207965
+        },
+        {
+          "fold": 2,
+          "cost": 66,
+          "FP": 6,
+          "FN": 10,
+          "threshold": 0.2281612369112368
+        },
+        {
+          "fold": 3,
+          "cost": 47,
+          "FP": 5,
+          "FN": 7,
+          "threshold": 0.2166547881131214
+        },
+        {
+          "fold": 4,
+          "cost": 69,
+          "FP": 15,
+          "FN": 9,
+          "threshold": 0.1834499065749066
+        },
+        {
+          "fold": 5,
+          "cost": 45,
+          "FP": 9,
+          "FN": 6,
+          "threshold": 0.2217590633767104
+        }
+      ],
+      "RF small leaf=1 features=.65": [
+        {
+          "fold": 1,
+          "cost": 62,
+          "FP": 2,
+          "FN": 10,
+          "threshold": 0.3611111111111111
+        },
+        {
+          "fold": 2,
+          "cost": 84,
+          "FP": 0,
+          "FN": 14,
+          "threshold": 0.5222222222222223
+        },
+        {
+          "fold": 3,
+          "cost": 41,
+          "FP": 5,
+          "FN": 6,
+          "threshold": 0.2666666666666666
+        },
+        {
+          "fold": 4,
+          "cost": 64,
+          "FP": 10,
+          "FN": 9,
+          "threshold": 0.2388888888888888
+        },
+        {
+          "fold": 5,
+          "cost": 53,
+          "FP": 11,
+          "FN": 7,
+          "threshold": 0.25
+        }
+      ],
+      "RF small leaf=2 features=.65 cost weight": [
+        {
+          "fold": 1,
+          "cost": 61,
+          "FP": 13,
+          "FN": 8,
+          "threshold": 0.3696979655525837
+        },
+        {
+          "fold": 2,
+          "cost": 68,
+          "FP": 2,
+          "FN": 11,
+          "threshold": 0.5679104691604692
+        },
+        {
+          "fold": 3,
+          "cost": 46,
+          "FP": 10,
+          "FN": 6,
+          "threshold": 0.4301735610068943
+        },
+        {
+          "fold": 4,
+          "cost": 54,
+          "FP": 6,
+          "FN": 8,
+          "threshold": 0.4998618265310732
+        },
+        {
+          "fold": 5,
+          "cost": 42,
+          "FP": 6,
+          "FN": 6,
+          "threshold": 0.5234114959114959
+        }
+      ],
+      "ET small leaf=1 features=all": [
+        {
+          "fold": 1,
+          "cost": 64,
+          "FP": 10,
+          "FN": 9,
+          "threshold": 0.2875
+        },
+        {
+          "fold": 2,
+          "cost": 62,
+          "FP": 8,
+          "FN": 9,
+          "threshold": 0.3125
+        },
+        {
+          "fold": 3,
+          "cost": 39,
+          "FP": 3,
+          "FN": 6,
+          "threshold": 0.3958333333333333
+        },
+        {
+          "fold": 4,
+          "cost": 55,
+          "FP": 7,
+          "FN": 8,
+          "threshold": 0.3333333333333333
+        },
+        {
+          "fold": 5,
+          "cost": 56,
+          "FP": 14,
+          "FN": 7,
+          "threshold": 0.2958333333333333
+        }
+      ],
+      "ET small leaf=2 features=all": [
+        {
+          "fold": 1,
+          "cost": 62,
+          "FP": 8,
+          "FN": 9,
+          "threshold": 0.2833333333333333
+        },
+        {
+          "fold": 2,
+          "cost": 83,
+          "FP": 5,
+          "FN": 13,
+          "threshold": 0.3495535714285714
+        },
+        {
+          "fold": 3,
+          "cost": 47,
+          "FP": 5,
+          "FN": 7,
+          "threshold": 0.2722222222222222
+        },
+        {
+          "fold": 4,
+          "cost": 55,
+          "FP": 7,
+          "FN": 8,
+          "threshold": 0.29125
+        },
+        {
+          "fold": 5,
+          "cost": 57,
+          "FP": 15,
+          "FN": 7,
+          "threshold": 0.2770833333333333
+        }
+      ],
+      "ET small leaf=2 features=.65 cost weight": [
+        {
+          "fold": 1,
+          "cost": 73,
+          "FP": 13,
+          "FN": 10,
+          "threshold": 0.3599691248294188
+        },
+        {
+          "fold": 2,
+          "cost": 79,
+          "FP": 7,
+          "FN": 12,
+          "threshold": 0.3899860483084166
+        },
+        {
+          "fold": 3,
+          "cost": 44,
+          "FP": 8,
+          "FN": 6,
+          "threshold": 0.3657616177681966
+        },
+        {
+          "fold": 4,
+          "cost": 68,
+          "FP": 8,
+          "FN": 10,
+          "threshold": 0.4106782822440715
+        },
+        {
+          "fold": 5,
+          "cost": 65,
+          "FP": 17,
+          "FN": 8,
+          "threshold": 0.4081736780050845
+        }
+      ],
+      "HGB small leaf=2 depth=3": [
+        {
+          "fold": 1,
+          "cost": 103,
+          "FP": 7,
+          "FN": 16,
+          "threshold": 0.4150513074708453
+        },
+        {
+          "fold": 2,
+          "cost": 98,
+          "FP": 14,
+          "FN": 14,
+          "threshold": 0.4717120708584599
+        },
+        {
+          "fold": 3,
+          "cost": 51,
+          "FP": 9,
+          "FN": 7,
+          "threshold": 0.2210133179138192
+        },
+        {
+          "fold": 4,
+          "cost": 75,
+          "FP": 21,
+          "FN": 9,
+          "threshold": 0.1275888391858157
+        },
+        {
+          "fold": 5,
+          "cost": 79,
+          "FP": 37,
+          "FN": 7,
+          "threshold": 0.0922143630346126
+        }
+      ],
+      "HGB small leaf=5 depth=5": [
+        {
+          "fold": 1,
+          "cost": 85,
+          "FP": 13,
+          "FN": 12,
+          "threshold": 0.1611714358315939
+        },
+        {
+          "fold": 2,
+          "cost": 73,
+          "FP": 7,
+          "FN": 11,
+          "threshold": 0.147275593049549
+        },
+        {
+          "fold": 3,
+          "cost": 47,
+          "FP": 17,
+          "FN": 5,
+          "threshold": 0.0468827084539142
+        },
+        {
+          "fold": 4,
+          "cost": 70,
+          "FP": 16,
+          "FN": 9,
+          "threshold": 0.0874073270776514
+        },
+        {
+          "fold": 5,
+          "cost": 70,
+          "FP": 28,
+          "FN": 7,
+          "threshold": 0.0667187953569184
+        }
+      ],
+      "HGB large leaf=5 depth=5": [
+        {
+          "fold": 1,
+          "cost": 71,
+          "FP": 17,
+          "FN": 9,
+          "threshold": 0.0687486084756459
+        },
+        {
+          "fold": 2,
+          "cost": 72,
+          "FP": 6,
+          "FN": 11,
+          "threshold": 0.2398755983867966
+        },
+        {
+          "fold": 3,
+          "cost": 48,
+          "FP": 12,
+          "FN": 6,
+          "threshold": 0.051759213432396
+        },
+        {
+          "fold": 4,
+          "cost": 75,
+          "FP": 27,
+          "FN": 8,
+          "threshold": 0.0152023296918784
+        },
+        {
+          "fold": 5,
+          "cost": 90,
+          "FP": 48,
+          "FN": 7,
+          "threshold": 0.013581894854617
+        }
+      ],
+      "Tree small leaf=5": [
+        {
+          "fold": 1,
+          "cost": 73,
+          "FP": 1,
+          "FN": 12,
+          "threshold": 0.7125
+        },
+        {
+          "fold": 2,
+          "cost": 73,
+          "FP": 1,
+          "FN": 12,
+          "threshold": 0.7571428571428571
+        },
+        {
+          "fold": 3,
+          "cost": 48,
+          "FP": 6,
+          "FN": 7,
+          "threshold": 0.4365079365079365
+        },
+        {
+          "fold": 4,
+          "cost": 56,
+          "FP": 8,
+          "FN": 8,
+          "threshold": 0.5277777777777778
+        },
+        {
+          "fold": 5,
+          "cost": 47,
+          "FP": 11,
+          "FN": 6,
+          "threshold": 0.2361111111111111
+        }
+      ],
+      "Tree small leaf=10 cost weight": [
+        {
+          "fold": 1,
+          "cost": 61,
+          "FP": 7,
+          "FN": 9,
+          "threshold": 0.7846153846153847
+        },
+        {
+          "fold": 2,
+          "cost": 64,
+          "FP": 4,
+          "FN": 10,
+          "threshold": 0.7697368421052632
+        },
+        {
+          "fold": 3,
+          "cost": 58,
+          "FP": 10,
+          "FN": 8,
+          "threshold": 0.735
+        },
+        {
+          "fold": 4,
+          "cost": 56,
+          "FP": 8,
+          "FN": 8,
+          "threshold": 0.7846153846153847
+        },
+        {
+          "fold": 5,
+          "cost": 53,
+          "FP": 11,
+          "FN": 7,
+          "threshold": 0.6990950226244343
+        }
+      ],
+      "mean RF all": [
+        {
+          "fold": 1,
+          "cost": 64,
+          "FP": 4,
+          "FN": 10,
+          "threshold": 0.3090515194681861
+        },
+        {
+          "fold": 2,
+          "cost": 78,
+          "FP": 0,
+          "FN": 13,
+          "threshold": 0.6369206410873078
+        },
+        {
+          "fold": 3,
+          "cost": 42,
+          "FP": 6,
+          "FN": 6,
+          "threshold": 0.2227834461290343
+        },
+        {
+          "fold": 4,
+          "cost": 63,
+          "FP": 9,
+          "FN": 9,
+          "threshold": 0.2381961405817614
+        },
+        {
+          "fold": 5,
+          "cost": 47,
+          "FP": 5,
+          "FN": 7,
+          "threshold": 0.3164779253668142
+        }
+      ],
+      "mean RF/ET/HGB": [
+        {
+          "fold": 1,
+          "cost": 65,
+          "FP": 11,
+          "FN": 9,
+          "threshold": 0.2691460045811683
+        },
+        {
+          "fold": 2,
+          "cost": 88,
+          "FP": 4,
+          "FN": 14,
+          "threshold": 0.4036105522389925
+        },
+        {
+          "fold": 3,
+          "cost": 41,
+          "FP": 5,
+          "FN": 6,
+          "threshold": 0.2845574405070282
+        },
+        {
+          "fold": 4,
+          "cost": 57,
+          "FP": 9,
+          "FN": 8,
+          "threshold": 0.2800895444273673
+        },
+        {
+          "fold": 5,
+          "cost": 60,
+          "FP": 18,
+          "FN": 7,
+          "threshold": 0.2947048054550925
+        }
+      ],
+      "inner winner": [
+        {
+          "fold": 1,
+          "cost": 61,
+          "FP": 13,
+          "FN": 8
+        },
+        {
+          "fold": 2,
+          "cost": 66,
+          "FP": 6,
+          "FN": 10
+        },
+        {
+          "fold": 3,
+          "cost": 40,
+          "FP": 4,
+          "FN": 6
+        },
+        {
+          "fold": 4,
+          "cost": 63,
+          "FP": 9,
+          "FN": 9
+        },
+        {
+          "fold": 5,
+          "cost": 47,
+          "FP": 5,
+          "FN": 7
+        }
+      ],
+      "RF inner winner": [
+        {
+          "fold": 1,
+          "cost": 61,
+          "FP": 13,
+          "FN": 8
+        },
+        {
+          "fold": 2,
+          "cost": 66,
+          "FP": 6,
+          "FN": 10
+        },
+        {
+          "fold": 3,
+          "cost": 40,
+          "FP": 4,
+          "FN": 6
+        },
+        {
+          "fold": 4,
+          "cost": 63,
+          "FP": 9,
+          "FN": 9
+        },
+        {
+          "fold": 5,
+          "cost": 50,
+          "FP": 8,
+          "FN": 7
+        }
+      ]
+    }
+  },
+  "precision_comparison_rf": {
+    "outer_seed": 2006,
+    "rows": 8000,
+    "summary": {
+      "RF raw": {
+        "cost": 431,
+        "FP": 167,
+        "FN": 44
+      },
+      "RF physics": {
+        "cost": 291,
+        "FP": 21,
+        "FN": 45
+      },
+      "RF precision": {
+        "cost": 270,
+        "FP": 18,
+        "FN": 42
+      },
+      "Innere Modellauswahl": {
+        "cost": 270,
+        "FP": 18,
+        "FN": 42
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "inner_winner": "RF precision",
+        "models": {
+          "RF raw": {
+            "threshold": 0.1611111111111111,
+            "inner_cost": 436,
+            "cost": 75,
+            "FP": 39,
+            "FN": 6
+          },
+          "RF physics": {
+            "threshold": 0.39638888888888885,
+            "inner_cost": 253,
+            "cost": 61,
+            "FP": 1,
+            "FN": 10
+          },
+          "RF precision": {
+            "threshold": 0.4080820105820106,
+            "inner_cost": 217,
+            "cost": 55,
+            "FP": 1,
+            "FN": 9
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "inner_winner": "RF precision",
+        "models": {
+          "RF raw": {
+            "threshold": 0.12777777777777777,
+            "inner_cost": 420,
+            "cost": 102,
+            "FP": 48,
+            "FN": 9
+          },
+          "RF physics": {
+            "threshold": 0.6394444444444445,
+            "inner_cost": 225,
+            "cost": 78,
+            "FP": 0,
+            "FN": 13
+          },
+          "RF precision": {
+            "threshold": 0.5810185185185186,
+            "inner_cost": 192,
+            "cost": 66,
+            "FP": 0,
+            "FN": 11
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "inner_winner": "RF precision",
+        "models": {
+          "RF raw": {
+            "threshold": 0.21666666666666667,
+            "inner_cost": 362,
+            "cost": 94,
+            "FP": 34,
+            "FN": 10
+          },
+          "RF physics": {
+            "threshold": 0.26203703703703707,
+            "inner_cost": 225,
+            "cost": 40,
+            "FP": 4,
+            "FN": 6
+          },
+          "RF precision": {
+            "threshold": 0.23152777777777778,
+            "inner_cost": 211,
+            "cost": 45,
+            "FP": 9,
+            "FN": 6
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "inner_winner": "RF precision",
+        "models": {
+          "RF raw": {
+            "threshold": 0.21666666666666667,
+            "inner_cost": 385,
+            "cost": 98,
+            "FP": 26,
+            "FN": 12
+          },
+          "RF physics": {
+            "threshold": 0.22943783068783064,
+            "inner_cost": 206,
+            "cost": 65,
+            "FP": 11,
+            "FN": 9
+          },
+          "RF precision": {
+            "threshold": 0.23068783068783066,
+            "inner_cost": 192,
+            "cost": 62,
+            "FP": 8,
+            "FN": 9
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "inner_winner": "RF precision",
+        "models": {
+          "RF raw": {
+            "threshold": 0.26111111111111107,
+            "inner_cost": 382,
+            "cost": 62,
+            "FP": 20,
+            "FN": 7
+          },
+          "RF physics": {
+            "threshold": 0.3359722222222223,
+            "inner_cost": 223,
+            "cost": 47,
+            "FP": 5,
+            "FN": 7
+          },
+          "RF precision": {
+            "threshold": 0.6530555555555555,
+            "inner_cost": 214,
+            "cost": 42,
+            "FP": 0,
+            "FN": 7
+          }
+        }
+      }
+    ]
+  },
+  "precision_comparison_et_hgb": {
+    "outer_seed": 2006,
+    "rows": 8000,
+    "summary": {
+      "ET physics": {
+        "cost": 376,
+        "FP": 118,
+        "FN": 43
+      },
+      "ET precision": {
+        "cost": 399,
+        "FP": 129,
+        "FN": 45
+      },
+      "HGB physics": {
+        "cost": 406,
+        "FP": 88,
+        "FN": 53
+      },
+      "HGB precision": {
+        "cost": 346,
+        "FP": 58,
+        "FN": 48
+      },
+      "Ensemble precision": {
+        "cost": 302,
+        "FP": 50,
+        "FN": 42
+      },
+      "Innere Modellauswahl": {
+        "cost": 302,
+        "FP": 50,
+        "FN": 42
+      }
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "inner_winner": "Ensemble precision",
+        "models": {
+          "ET physics": {
+            "threshold": 0.21250000000000002,
+            "inner_cost": 355,
+            "cost": 88,
+            "FP": 22,
+            "FN": 11
+          },
+          "ET precision": {
+            "threshold": 0.16249999999999998,
+            "inner_cost": 346,
+            "cost": 103,
+            "FP": 37,
+            "FN": 11
+          },
+          "HGB physics": {
+            "threshold": 0.4150513074708453,
+            "inner_cost": 286,
+            "cost": 103,
+            "FP": 7,
+            "FN": 16
+          },
+          "HGB precision": {
+            "threshold": 0.3677002611101194,
+            "inner_cost": 252,
+            "cost": 84,
+            "FP": 6,
+            "FN": 13
+          },
+          "Ensemble precision": {
+            "threshold": 0.22464997873313755,
+            "inner_cost": 250,
+            "cost": 62,
+            "FP": 8,
+            "FN": 9
+          }
+        }
+      },
+      {
+        "fold": 2,
+        "inner_winner": "Ensemble precision",
+        "models": {
+          "ET physics": {
+            "threshold": 0.24583333333333335,
+            "inner_cost": 350,
+            "cost": 74,
+            "FP": 14,
+            "FN": 10
+          },
+          "ET precision": {
+            "threshold": 0.25416666666666665,
+            "inner_cost": 339,
+            "cost": 79,
+            "FP": 13,
+            "FN": 11
+          },
+          "HGB physics": {
+            "threshold": 0.47171207085845995,
+            "inner_cost": 296,
+            "cost": 98,
+            "FP": 14,
+            "FN": 14
+          },
+          "HGB precision": {
+            "threshold": 0.24174853600389506,
+            "inner_cost": 251,
+            "cost": 76,
+            "FP": 16,
+            "FN": 10
+          },
+          "Ensemble precision": {
+            "threshold": 0.3035968230915901,
+            "inner_cost": 247,
+            "cost": 73,
+            "FP": 13,
+            "FN": 10
+          }
+        }
+      },
+      {
+        "fold": 3,
+        "inner_winner": "Ensemble precision",
+        "models": {
+          "ET physics": {
+            "threshold": 0.19583333333333336,
+            "inner_cost": 355,
+            "cost": 61,
+            "FP": 25,
+            "FN": 6
+          },
+          "ET precision": {
+            "threshold": 0.20416666666666666,
+            "inner_cost": 355,
+            "cost": 61,
+            "FP": 25,
+            "FN": 6
+          },
+          "HGB physics": {
+            "threshold": 0.22101331791381923,
+            "inner_cost": 266,
+            "cost": 51,
+            "FP": 9,
+            "FN": 7
+          },
+          "HGB precision": {
+            "threshold": 0.1575461660691967,
+            "inner_cost": 262,
+            "cost": 50,
+            "FP": 8,
+            "FN": 7
+          },
+          "Ensemble precision": {
+            "threshold": 0.2977649757727007,
+            "inner_cost": 234,
+            "cost": 46,
+            "FP": 4,
+            "FN": 7
+          }
+        }
+      },
+      {
+        "fold": 4,
+        "inner_winner": "Ensemble precision",
+        "models": {
+          "ET physics": {
+            "threshold": 0.19583333333333336,
+            "inner_cost": 340,
+            "cost": 66,
+            "FP": 18,
+            "FN": 8
+          },
+          "ET precision": {
+            "threshold": 0.21250000000000002,
+            "inner_cost": 338,
+            "cost": 69,
+            "FP": 15,
+            "FN": 9
+          },
+          "HGB physics": {
+            "threshold": 0.12758883918581576,
+            "inner_cost": 260,
+            "cost": 75,
+            "FP": 21,
+            "FN": 9
+          },
+          "HGB precision": {
+            "threshold": 0.28922109275890506,
+            "inner_cost": 252,
+            "cost": 71,
+            "FP": 11,
+            "FN": 10
+          },
+          "Ensemble precision": {
+            "threshold": 0.26261338666800776,
+            "inner_cost": 230,
+            "cost": 65,
+            "FP": 11,
+            "FN": 9
+          }
+        }
+      },
+      {
+        "fold": 5,
+        "inner_winner": "Ensemble precision",
+        "models": {
+          "ET physics": {
+            "threshold": 0.17916666666666664,
+            "inner_cost": 344,
+            "cost": 87,
+            "FP": 39,
+            "FN": 8
+          },
+          "ET precision": {
+            "threshold": 0.1875,
+            "inner_cost": 327,
+            "cost": 87,
+            "FP": 39,
+            "FN": 8
+          },
+          "HGB physics": {
+            "threshold": 0.09221436303461261,
+            "inner_cost": 308,
+            "cost": 79,
+            "FP": 37,
+            "FN": 7
+          },
+          "HGB precision": {
+            "threshold": 0.21742844712153597,
+            "inner_cost": 303,
+            "cost": 65,
+            "FP": 17,
+            "FN": 8
+          },
+          "Ensemble precision": {
+            "threshold": 0.27358824048563996,
+            "inner_cost": 272,
+            "cost": 56,
+            "FP": 14,
+            "FN": 7
+          }
+        }
+      }
+    ]
+  }
+}

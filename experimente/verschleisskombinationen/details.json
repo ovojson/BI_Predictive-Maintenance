@@ -1,0 +1,4638 @@
+{
+  "time_log": [
+    {
+      "time": "2026-11-15T20:32:48+01:00",
+      "event": "Kompakter Verschleißversuch gestartet."
+    },
+    {
+      "time": "2026-11-15T20:32:53+01:00",
+      "event": "Seed 2006 abgeschlossen. Referenz 240, neue Verschleißkurve 265 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:32:58+01:00",
+      "event": "Seed 2026 abgeschlossen. Referenz 237, neue Verschleißkurve 272 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:33:05+01:00",
+      "event": "Seed 2007 abgeschlossen. Referenz 242, neue Verschleißkurve 267 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:33:12+01:00",
+      "event": "Seed 888 abgeschlossen. Referenz 235, neue Verschleißkurve 257 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:33:21+01:00",
+      "event": "Seed 1024 abgeschlossen. Referenz 234, neue Verschleißkurve 271 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:33:21+01:00",
+      "event": "Vergleich beendet. Niedrigste mittlere Kosten: Hybrid aktuell mit 237.6."
+    }
+  ],
+  "knot_offset_min": 20,
+  "grid": {
+    "Kurve": {
+      "Kurve C=0.01": 0.01,
+      "Kurve C=0.1": 0.1,
+      "Kurve C=1": 1.0,
+      "Kurve C=10": 10.0
+    },
+    "Kurve + Drehmoment": {
+      "Kurve + Drehmoment C=0.01": 0.01,
+      "Kurve + Drehmoment C=0.1": 0.1,
+      "Kurve + Drehmoment C=1": 1.0,
+      "Kurve + Drehmoment C=10": 10.0
+    },
+    "Kurve + Produktvariante": {
+      "Kurve + Produktvariante C=0.01": 0.01,
+      "Kurve + Produktvariante C=0.1": 0.1,
+      "Kurve + Produktvariante C=1": 1.0,
+      "Kurve + Produktvariante C=10": 10.0
+    },
+    "Kurve + beide Wechselwirkungen": {
+      "Kurve + beide Wechselwirkungen C=0.01": 0.01,
+      "Kurve + beide Wechselwirkungen C=0.1": 0.1,
+      "Kurve + beide Wechselwirkungen C=1": 1.0,
+      "Kurve + beide Wechselwirkungen C=10": 10.0
+    }
+  },
+  "versions": {
+    "Hybrid aktuell": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240,
+        "new_hits": 0,
+        "lost_hits": 0,
+        "new_false_alarms": 0,
+        "removed_false_alarms": 0,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237,
+        "new_hits": 0,
+        "lost_hits": 0,
+        "new_false_alarms": 0,
+        "removed_false_alarms": 0,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242,
+        "new_hits": 0,
+        "lost_hits": 0,
+        "new_false_alarms": 0,
+        "removed_false_alarms": 0,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235,
+        "new_hits": 0,
+        "lost_hits": 0,
+        "new_false_alarms": 0,
+        "removed_false_alarms": 0,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234,
+        "new_hits": 0,
+        "lost_hits": 0,
+        "new_false_alarms": 0,
+        "removed_false_alarms": 0,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      }
+    ],
+    "Hybrid mit optimierter Schwelle": [
+      {
+        "seed": 2006,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 37,
+        "tp": 234,
+        "cost": 240,
+        "new_hits": 0,
+        "lost_hits": 1,
+        "new_false_alarms": 2,
+        "removed_false_alarms": 8,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 40,
+        "tp": 231,
+        "cost": 259,
+        "new_hits": 0,
+        "lost_hits": 5,
+        "new_false_alarms": 0,
+        "removed_false_alarms": 8,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 39,
+        "tp": 232,
+        "cost": 251,
+        "new_hits": 0,
+        "lost_hits": 3,
+        "new_false_alarms": 0,
+        "removed_false_alarms": 9,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 36,
+        "tp": 235,
+        "cost": 239,
+        "new_hits": 0,
+        "lost_hits": 1,
+        "new_false_alarms": 1,
+        "removed_false_alarms": 3,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 39,
+        "tp": 232,
+        "cost": 252,
+        "new_hits": 0,
+        "lost_hits": 4,
+        "new_false_alarms": 0,
+        "removed_false_alarms": 6,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      }
+    ],
+    "Verschleißkurve mit innerer Auswahl": [
+      {
+        "seed": 2006,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 40,
+        "tp": 231,
+        "cost": 265,
+        "new_hits": 0,
+        "lost_hits": 4,
+        "new_false_alarms": 8,
+        "removed_false_alarms": 7,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 41,
+        "tp": 230,
+        "cost": 272,
+        "new_hits": 1,
+        "lost_hits": 7,
+        "new_false_alarms": 7,
+        "removed_false_alarms": 8,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7690,
+        "fp": 39,
+        "fn": 38,
+        "tp": 233,
+        "cost": 267,
+        "new_hits": 0,
+        "lost_hits": 2,
+        "new_false_alarms": 13,
+        "removed_false_alarms": 0,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7682,
+        "fp": 47,
+        "fn": 35,
+        "tp": 236,
+        "cost": 257,
+        "new_hits": 2,
+        "lost_hits": 2,
+        "new_false_alarms": 25,
+        "removed_false_alarms": 3,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7686,
+        "fp": 43,
+        "fn": 38,
+        "tp": 233,
+        "cost": 271,
+        "new_hits": 1,
+        "lost_hits": 4,
+        "new_false_alarms": 25,
+        "removed_false_alarms": 6,
+        "new_hits_200_219": 1,
+        "lost_hits_200_219": 0
+      }
+    ],
+    "Kurve": [
+      {
+        "seed": 2006,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 39,
+        "tp": 232,
+        "cost": 263,
+        "new_hits": 0,
+        "lost_hits": 3,
+        "new_false_alarms": 10,
+        "removed_false_alarms": 5,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7697,
+        "fp": 32,
+        "fn": 39,
+        "tp": 232,
+        "cost": 266,
+        "new_hits": 1,
+        "lost_hits": 5,
+        "new_false_alarms": 9,
+        "removed_false_alarms": 4,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7692,
+        "fp": 37,
+        "fn": 37,
+        "tp": 234,
+        "cost": 259,
+        "new_hits": 1,
+        "lost_hits": 2,
+        "new_false_alarms": 14,
+        "removed_false_alarms": 3,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7676,
+        "fp": 53,
+        "fn": 34,
+        "tp": 237,
+        "cost": 257,
+        "new_hits": 2,
+        "lost_hits": 1,
+        "new_false_alarms": 28,
+        "removed_false_alarms": 0,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7709,
+        "fp": 20,
+        "fn": 39,
+        "tp": 232,
+        "cost": 254,
+        "new_hits": 0,
+        "lost_hits": 4,
+        "new_false_alarms": 1,
+        "removed_false_alarms": 5,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      }
+    ],
+    "Kurve + Drehmoment": [
+      {
+        "seed": 2006,
+        "tn": 7709,
+        "fp": 20,
+        "fn": 40,
+        "tp": 231,
+        "cost": 260,
+        "new_hits": 0,
+        "lost_hits": 4,
+        "new_false_alarms": 4,
+        "removed_false_alarms": 8,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 39,
+        "tp": 232,
+        "cost": 264,
+        "new_hits": 2,
+        "lost_hits": 6,
+        "new_false_alarms": 11,
+        "removed_false_alarms": 8,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7684,
+        "fp": 45,
+        "fn": 37,
+        "tp": 234,
+        "cost": 267,
+        "new_hits": 0,
+        "lost_hits": 1,
+        "new_false_alarms": 23,
+        "removed_false_alarms": 4,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7682,
+        "fp": 47,
+        "fn": 36,
+        "tp": 235,
+        "cost": 263,
+        "new_hits": 2,
+        "lost_hits": 3,
+        "new_false_alarms": 25,
+        "removed_false_alarms": 3,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7684,
+        "fp": 45,
+        "fn": 39,
+        "tp": 232,
+        "cost": 279,
+        "new_hits": 0,
+        "lost_hits": 4,
+        "new_false_alarms": 25,
+        "removed_false_alarms": 4,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      }
+    ],
+    "Kurve + Produktvariante": [
+      {
+        "seed": 2006,
+        "tn": 7708,
+        "fp": 21,
+        "fn": 40,
+        "tp": 231,
+        "cost": 261,
+        "new_hits": 0,
+        "lost_hits": 4,
+        "new_false_alarms": 5,
+        "removed_false_alarms": 8,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 39,
+        "tp": 232,
+        "cost": 265,
+        "new_hits": 2,
+        "lost_hits": 6,
+        "new_false_alarms": 15,
+        "removed_false_alarms": 11,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7681,
+        "fp": 48,
+        "fn": 34,
+        "tp": 237,
+        "cost": 252,
+        "new_hits": 3,
+        "lost_hits": 1,
+        "new_false_alarms": 28,
+        "removed_false_alarms": 6,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7669,
+        "fp": 60,
+        "fn": 33,
+        "tp": 238,
+        "cost": 258,
+        "new_hits": 3,
+        "lost_hits": 1,
+        "new_false_alarms": 35,
+        "removed_false_alarms": 0,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 37,
+        "tp": 234,
+        "cost": 255,
+        "new_hits": 1,
+        "lost_hits": 3,
+        "new_false_alarms": 14,
+        "removed_false_alarms": 5,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      }
+    ],
+    "Kurve + beide Wechselwirkungen": [
+      {
+        "seed": 2006,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 41,
+        "tp": 230,
+        "cost": 265,
+        "new_hits": 0,
+        "lost_hits": 5,
+        "new_false_alarms": 2,
+        "removed_false_alarms": 7,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 38,
+        "tp": 233,
+        "cost": 257,
+        "new_hits": 1,
+        "lost_hits": 4,
+        "new_false_alarms": 14,
+        "removed_false_alarms": 12,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 39,
+        "tp": 232,
+        "cost": 262,
+        "new_hits": 1,
+        "lost_hits": 4,
+        "new_false_alarms": 13,
+        "removed_false_alarms": 11,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 39,
+        "tp": 232,
+        "cost": 253,
+        "new_hits": 1,
+        "lost_hits": 5,
+        "new_false_alarms": 5,
+        "removed_false_alarms": 11,
+        "new_hits_200_219": 0,
+        "lost_hits_200_219": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7681,
+        "fp": 48,
+        "fn": 38,
+        "tp": 233,
+        "cost": 276,
+        "new_hits": 1,
+        "lost_hits": 4,
+        "new_false_alarms": 30,
+        "removed_false_alarms": 6,
+        "new_hits_200_219": 1,
+        "lost_hits_200_219": 0
+      }
+    ]
+  },
+  "configurations": {
+    "Verschleißlogistik C=1": [
+      {
+        "seed": 2006,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 37,
+        "tp": 234,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 40,
+        "tp": 231,
+        "cost": 259
+      },
+      {
+        "seed": 2007,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 39,
+        "tp": 232,
+        "cost": 251
+      },
+      {
+        "seed": 888,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 36,
+        "tp": 235,
+        "cost": 239
+      },
+      {
+        "seed": 1024,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 39,
+        "tp": 232,
+        "cost": 252
+      }
+    ],
+    "Kurve C=0.01": [
+      {
+        "seed": 2006,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 39,
+        "tp": 232,
+        "cost": 265
+      },
+      {
+        "seed": 2026,
+        "tn": 7697,
+        "fp": 32,
+        "fn": 39,
+        "tp": 232,
+        "cost": 266
+      },
+      {
+        "seed": 2007,
+        "tn": 7680,
+        "fp": 49,
+        "fn": 36,
+        "tp": 235,
+        "cost": 265
+      },
+      {
+        "seed": 888,
+        "tn": 7690,
+        "fp": 39,
+        "fn": 35,
+        "tp": 236,
+        "cost": 249
+      },
+      {
+        "seed": 1024,
+        "tn": 7709,
+        "fp": 20,
+        "fn": 39,
+        "tp": 232,
+        "cost": 254
+      }
+    ],
+    "Kurve C=0.1": [
+      {
+        "seed": 2006,
+        "tn": 7708,
+        "fp": 21,
+        "fn": 40,
+        "tp": 231,
+        "cost": 261
+      },
+      {
+        "seed": 2026,
+        "tn": 7707,
+        "fp": 22,
+        "fn": 39,
+        "tp": 232,
+        "cost": 256
+      },
+      {
+        "seed": 2007,
+        "tn": 7697,
+        "fp": 32,
+        "fn": 37,
+        "tp": 234,
+        "cost": 254
+      },
+      {
+        "seed": 888,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 37,
+        "tp": 234,
+        "cost": 250
+      },
+      {
+        "seed": 1024,
+        "tn": 7677,
+        "fp": 52,
+        "fn": 36,
+        "tp": 235,
+        "cost": 268
+      }
+    ],
+    "Kurve C=1": [
+      {
+        "seed": 2006,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 40,
+        "tp": 231,
+        "cost": 257
+      },
+      {
+        "seed": 2026,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 2007,
+        "tn": 7715,
+        "fp": 14,
+        "fn": 41,
+        "tp": 230,
+        "cost": 260
+      },
+      {
+        "seed": 888,
+        "tn": 7728,
+        "fp": 1,
+        "fn": 42,
+        "tp": 229,
+        "cost": 253
+      },
+      {
+        "seed": 1024,
+        "tn": 7714,
+        "fp": 15,
+        "fn": 40,
+        "tp": 231,
+        "cost": 255
+      }
+    ],
+    "Kurve C=10": [
+      {
+        "seed": 2006,
+        "tn": 7713,
+        "fp": 16,
+        "fn": 41,
+        "tp": 230,
+        "cost": 262
+      },
+      {
+        "seed": 2026,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 2007,
+        "tn": 7716,
+        "fp": 13,
+        "fn": 41,
+        "tp": 230,
+        "cost": 259
+      },
+      {
+        "seed": 888,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 1024,
+        "tn": 7713,
+        "fp": 16,
+        "fn": 39,
+        "tp": 232,
+        "cost": 250
+      }
+    ],
+    "Kurve + Drehmoment C=0.01": [
+      {
+        "seed": 2006,
+        "tn": 7707,
+        "fp": 22,
+        "fn": 40,
+        "tp": 231,
+        "cost": 262
+      },
+      {
+        "seed": 2026,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 37,
+        "tp": 234,
+        "cost": 255
+      },
+      {
+        "seed": 2007,
+        "tn": 7684,
+        "fp": 45,
+        "fn": 37,
+        "tp": 234,
+        "cost": 267
+      },
+      {
+        "seed": 888,
+        "tn": 7685,
+        "fp": 44,
+        "fn": 36,
+        "tp": 235,
+        "cost": 260
+      },
+      {
+        "seed": 1024,
+        "tn": 7691,
+        "fp": 38,
+        "fn": 38,
+        "tp": 233,
+        "cost": 266
+      }
+    ],
+    "Kurve + Drehmoment C=0.1": [
+      {
+        "seed": 2006,
+        "tn": 7716,
+        "fp": 13,
+        "fn": 42,
+        "tp": 229,
+        "cost": 265
+      },
+      {
+        "seed": 2026,
+        "tn": 7714,
+        "fp": 15,
+        "fn": 42,
+        "tp": 229,
+        "cost": 267
+      },
+      {
+        "seed": 2007,
+        "tn": 7707,
+        "fp": 22,
+        "fn": 39,
+        "tp": 232,
+        "cost": 256
+      },
+      {
+        "seed": 888,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 39,
+        "tp": 232,
+        "cost": 262
+      },
+      {
+        "seed": 1024,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 40,
+        "tp": 231,
+        "cost": 265
+      }
+    ],
+    "Kurve + Drehmoment C=1": [
+      {
+        "seed": 2006,
+        "tn": 7723,
+        "fp": 6,
+        "fn": 42,
+        "tp": 229,
+        "cost": 258
+      },
+      {
+        "seed": 2026,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 41,
+        "tp": 230,
+        "cost": 264
+      },
+      {
+        "seed": 2007,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 38,
+        "tp": 233,
+        "cost": 261
+      },
+      {
+        "seed": 888,
+        "tn": 7715,
+        "fp": 14,
+        "fn": 40,
+        "tp": 231,
+        "cost": 254
+      },
+      {
+        "seed": 1024,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 39,
+        "tp": 232,
+        "cost": 267
+      }
+    ],
+    "Kurve + Drehmoment C=10": [
+      {
+        "seed": 2006,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 42,
+        "tp": 229,
+        "cost": 257
+      },
+      {
+        "seed": 2026,
+        "tn": 7709,
+        "fp": 20,
+        "fn": 41,
+        "tp": 230,
+        "cost": 266
+      },
+      {
+        "seed": 2007,
+        "tn": 7692,
+        "fp": 37,
+        "fn": 38,
+        "tp": 233,
+        "cost": 265
+      },
+      {
+        "seed": 888,
+        "tn": 7718,
+        "fp": 11,
+        "fn": 40,
+        "tp": 231,
+        "cost": 251
+      },
+      {
+        "seed": 1024,
+        "tn": 7697,
+        "fp": 32,
+        "fn": 39,
+        "tp": 232,
+        "cost": 266
+      }
+    ],
+    "Kurve + Produktvariante C=0.01": [
+      {
+        "seed": 2006,
+        "tn": 7707,
+        "fp": 22,
+        "fn": 39,
+        "tp": 232,
+        "cost": 256
+      },
+      {
+        "seed": 2026,
+        "tn": 7694,
+        "fp": 35,
+        "fn": 37,
+        "tp": 234,
+        "cost": 257
+      },
+      {
+        "seed": 2007,
+        "tn": 7681,
+        "fp": 48,
+        "fn": 34,
+        "tp": 237,
+        "cost": 252
+      },
+      {
+        "seed": 888,
+        "tn": 7669,
+        "fp": 60,
+        "fn": 33,
+        "tp": 238,
+        "cost": 258
+      },
+      {
+        "seed": 1024,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 37,
+        "tp": 234,
+        "cost": 255
+      }
+    ],
+    "Kurve + Produktvariante C=0.1": [
+      {
+        "seed": 2006,
+        "tn": 7693,
+        "fp": 36,
+        "fn": 40,
+        "tp": 231,
+        "cost": 276
+      },
+      {
+        "seed": 2026,
+        "tn": 7717,
+        "fp": 12,
+        "fn": 42,
+        "tp": 229,
+        "cost": 264
+      },
+      {
+        "seed": 2007,
+        "tn": 7722,
+        "fp": 7,
+        "fn": 41,
+        "tp": 230,
+        "cost": 253
+      },
+      {
+        "seed": 888,
+        "tn": 7721,
+        "fp": 8,
+        "fn": 40,
+        "tp": 231,
+        "cost": 248
+      },
+      {
+        "seed": 1024,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 40,
+        "tp": 231,
+        "cost": 270
+      }
+    ],
+    "Kurve + Produktvariante C=1": [
+      {
+        "seed": 2006,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 41,
+        "tp": 230,
+        "cost": 263
+      },
+      {
+        "seed": 2026,
+        "tn": 7728,
+        "fp": 1,
+        "fn": 42,
+        "tp": 229,
+        "cost": 253
+      },
+      {
+        "seed": 2007,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 40,
+        "tp": 231,
+        "cost": 259
+      },
+      {
+        "seed": 888,
+        "tn": 7721,
+        "fp": 8,
+        "fn": 41,
+        "tp": 230,
+        "cost": 254
+      },
+      {
+        "seed": 1024,
+        "tn": 7722,
+        "fp": 7,
+        "fn": 41,
+        "tp": 230,
+        "cost": 253
+      }
+    ],
+    "Kurve + Produktvariante C=10": [
+      {
+        "seed": 2006,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 41,
+        "tp": 230,
+        "cost": 273
+      },
+      {
+        "seed": 2026,
+        "tn": 7728,
+        "fp": 1,
+        "fn": 42,
+        "tp": 229,
+        "cost": 253
+      },
+      {
+        "seed": 2007,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 40,
+        "tp": 231,
+        "cost": 257
+      },
+      {
+        "seed": 888,
+        "tn": 7721,
+        "fp": 8,
+        "fn": 41,
+        "tp": 230,
+        "cost": 254
+      },
+      {
+        "seed": 1024,
+        "tn": 7720,
+        "fp": 9,
+        "fn": 41,
+        "tp": 230,
+        "cost": 255
+      }
+    ],
+    "Kurve + beide Wechselwirkungen C=0.01": [
+      {
+        "seed": 2006,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 41,
+        "tp": 230,
+        "cost": 265
+      },
+      {
+        "seed": 2026,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 38,
+        "tp": 233,
+        "cost": 257
+      },
+      {
+        "seed": 2007,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 38,
+        "tp": 233,
+        "cost": 257
+      },
+      {
+        "seed": 888,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 37,
+        "tp": 234,
+        "cost": 249
+      },
+      {
+        "seed": 1024,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 39,
+        "tp": 232,
+        "cost": 265
+      }
+    ],
+    "Kurve + beide Wechselwirkungen C=0.1": [
+      {
+        "seed": 2006,
+        "tn": 7717,
+        "fp": 12,
+        "fn": 41,
+        "tp": 230,
+        "cost": 258
+      },
+      {
+        "seed": 2026,
+        "tn": 7718,
+        "fp": 11,
+        "fn": 40,
+        "tp": 231,
+        "cost": 251
+      },
+      {
+        "seed": 2007,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 41,
+        "tp": 230,
+        "cost": 251
+      },
+      {
+        "seed": 888,
+        "tn": 7716,
+        "fp": 13,
+        "fn": 41,
+        "tp": 230,
+        "cost": 259
+      },
+      {
+        "seed": 1024,
+        "tn": 7723,
+        "fp": 6,
+        "fn": 41,
+        "tp": 230,
+        "cost": 252
+      }
+    ],
+    "Kurve + beide Wechselwirkungen C=1": [
+      {
+        "seed": 2006,
+        "tn": 7717,
+        "fp": 12,
+        "fn": 42,
+        "tp": 229,
+        "cost": 264
+      },
+      {
+        "seed": 2026,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 41,
+        "tp": 230,
+        "cost": 251
+      },
+      {
+        "seed": 2007,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 40,
+        "tp": 231,
+        "cost": 263
+      },
+      {
+        "seed": 888,
+        "tn": 7718,
+        "fp": 11,
+        "fn": 41,
+        "tp": 230,
+        "cost": 257
+      },
+      {
+        "seed": 1024,
+        "tn": 7715,
+        "fp": 14,
+        "fn": 40,
+        "tp": 231,
+        "cost": 254
+      }
+    ],
+    "Kurve + beide Wechselwirkungen C=10": [
+      {
+        "seed": 2006,
+        "tn": 7717,
+        "fp": 12,
+        "fn": 42,
+        "tp": 229,
+        "cost": 264
+      },
+      {
+        "seed": 2026,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 41,
+        "tp": 230,
+        "cost": 251
+      },
+      {
+        "seed": 2007,
+        "tn": 7723,
+        "fp": 6,
+        "fn": 41,
+        "tp": 230,
+        "cost": 252
+      },
+      {
+        "seed": 888,
+        "tn": 7719,
+        "fp": 10,
+        "fn": 41,
+        "tp": 230,
+        "cost": 256
+      },
+      {
+        "seed": 1024,
+        "tn": 7709,
+        "fp": 20,
+        "fn": 40,
+        "tp": 231,
+        "cost": 260
+      }
+    ]
+  },
+  "folds": [
+    {
+      "seed": 2006,
+      "fold": 1,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=1",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Produktvariante C=1",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 194,
+          "threshold": 0.6126078988632498
+        },
+        "Kurve C=0.01": {
+          "cost": 186,
+          "threshold": 0.07060047909049659
+        },
+        "Kurve C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 187,
+          "threshold": 0.07073313562702052
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 192,
+          "threshold": 0.41771400101074846
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 184,
+          "threshold": 0.18278868218662622
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 184,
+          "threshold": 0.18727826139549503
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 196,
+          "threshold": 0.13007433575638272
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 9,
+          "tp": 45,
+          "cost": 57
+        },
+        "Kurve": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 9,
+          "tp": 45,
+          "cost": 57
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 9,
+          "tp": 45,
+          "cost": 56
+        }
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 2,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 183,
+          "threshold": 0.12294104817369267
+        },
+        "Kurve C=0.01": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=0.1": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=1": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 186,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 11,
+          "tp": 43,
+          "cost": 66
+        },
+        "Kurve": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 11,
+          "tp": 43,
+          "cost": 66
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 11,
+          "tp": 43,
+          "cost": 66
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 11,
+          "tp": 43,
+          "cost": 66
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 11,
+          "tp": 43,
+          "cost": 66
+        }
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 3,
+      "chosen": {
+        "Kurve": "Kurve C=1",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Drehmoment C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 191,
+          "threshold": 0.1645882851556691
+        },
+        "Kurve C=0.01": {
+          "cost": 194,
+          "threshold": 0.0583153492116633
+        },
+        "Kurve C=0.1": {
+          "cost": 196,
+          "threshold": 0.11698377155713308
+        },
+        "Kurve C=1": {
+          "cost": 192,
+          "threshold": 0.12961035403039517
+        },
+        "Kurve C=10": {
+          "cost": 193,
+          "threshold": 0.1292822646401318
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 186,
+          "threshold": 0.08058633443199628
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 194,
+          "threshold": 0.20584625322074496
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 193,
+          "threshold": 0.19878615906687866
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 193,
+          "threshold": 0.20199384744565654
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 193,
+          "threshold": 0.0751456367672337
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 194,
+          "threshold": 0.10221536647945578
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 206,
+          "threshold": 0.2044819962219835
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 206,
+          "threshold": 0.20544152136398403
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 190,
+          "threshold": 0.09309844769330751
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 195,
+          "threshold": 0.2324477719044038
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 195,
+          "threshold": 0.18854946046258866
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 195,
+          "threshold": 0.1926479882676621
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 6,
+          "tp": 48,
+          "cost": 40
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 6,
+          "tp": 48,
+          "cost": 38
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 6,
+          "tp": 48,
+          "cost": 41
+        },
+        "Kurve": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 6,
+          "tp": 48,
+          "cost": 45
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 6,
+          "tp": 48,
+          "cost": 41
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 6,
+          "tp": 48,
+          "cost": 42
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 7,
+          "tp": 47,
+          "cost": 47
+        }
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 4,
+      "chosen": {
+        "Kurve": "Kurve C=0.1",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=1",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.1",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + beide Wechselwirkungen C=0.1",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 185,
+          "threshold": 0.3057893798782972
+        },
+        "Kurve C=0.01": {
+          "cost": 186,
+          "threshold": 0.1297150441249893
+        },
+        "Kurve C=0.1": {
+          "cost": 184,
+          "threshold": 0.21777231945382253
+        },
+        "Kurve C=1": {
+          "cost": 184,
+          "threshold": 0.2235694153629958
+        },
+        "Kurve C=10": {
+          "cost": 185,
+          "threshold": 0.21884959159137726
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 186,
+          "threshold": 0.13890244481867578
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 185,
+          "threshold": 0.2774020709468913
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 184,
+          "threshold": 0.2874353289707432
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 185,
+          "threshold": 0.28987351489229246
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 185,
+          "threshold": 0.1505495370312926
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 188,
+          "threshold": 0.17670714945399765
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 186,
+          "threshold": 0.17503976680576427
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 190,
+          "threshold": 0.17261361301712605
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 187,
+          "threshold": 0.25711117883380463
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 183,
+          "threshold": 0.2560956810053254
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 189,
+          "threshold": 0.23988761065870362
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 191,
+          "threshold": 0.22795641508222114
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 8,
+          "tp": 46,
+          "cost": 54
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Kurve": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        }
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 5,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 190,
+          "threshold": 0.2001900078506781
+        },
+        "Kurve C=0.01": {
+          "cost": 185,
+          "threshold": 0.057601277700972675
+        },
+        "Kurve C=0.1": {
+          "cost": 204,
+          "threshold": 0.19350205707746015
+        },
+        "Kurve C=1": {
+          "cost": 204,
+          "threshold": 0.19139973608388247
+        },
+        "Kurve C=10": {
+          "cost": 207,
+          "threshold": 0.20385580117060242
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 193,
+          "threshold": 0.0696804502285427
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 208,
+          "threshold": 0.1914259813368273
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 185,
+          "threshold": 0.11197302852185573
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 198,
+          "threshold": 0.11798790555877806
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 206,
+          "threshold": 0.1831203767196058
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 204,
+          "threshold": 0.1493439512245385
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 192,
+          "threshold": 0.10470281416148308
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 208,
+          "threshold": 0.16790545033064955
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 209,
+          "threshold": 0.24588055554608618
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 209,
+          "threshold": 0.24837127377970725
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1536,
+          "fp": 9,
+          "fn": 6,
+          "tp": 49,
+          "cost": 45
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 6,
+          "tp": 49,
+          "cost": 43
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1532,
+          "fp": 13,
+          "fn": 6,
+          "tp": 49,
+          "cost": 49
+        },
+        "Kurve": {
+          "tn": 1532,
+          "fp": 13,
+          "fn": 6,
+          "tp": 49,
+          "cost": 49
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1534,
+          "fp": 11,
+          "fn": 6,
+          "tp": 49,
+          "cost": 47
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 6,
+          "tp": 49,
+          "cost": 43
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1537,
+          "fp": 8,
+          "fn": 6,
+          "tp": 49,
+          "cost": 44
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 1,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 185,
+          "threshold": 0.12395716388763203
+        },
+        "Kurve C=0.01": {
+          "cost": 180,
+          "threshold": 0.0612422464583968
+        },
+        "Kurve C=0.1": {
+          "cost": 195,
+          "threshold": 0.18585269662101944
+        },
+        "Kurve C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 181,
+          "threshold": 0.05674905068828394
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 195,
+          "threshold": 0.17895943189653743
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 197,
+          "threshold": 0.10016424241423431
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 9,
+          "tp": 45,
+          "cost": 61
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 9,
+          "tp": 45,
+          "cost": 61
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 9,
+          "tp": 45,
+          "cost": 62
+        },
+        "Kurve": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 9,
+          "tp": 45,
+          "cost": 62
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 8,
+          "tp": 46,
+          "cost": 56
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 9,
+          "tp": 45,
+          "cost": 58
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 2,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.1",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.1",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Produktvariante C=0.1",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 186,
+          "threshold": 0.13554856931237524
+        },
+        "Kurve C=0.01": {
+          "cost": 186,
+          "threshold": 0.06428087004895591
+        },
+        "Kurve C=0.1": {
+          "cost": 188,
+          "threshold": 0.16376850039983248
+        },
+        "Kurve C=1": {
+          "cost": 190,
+          "threshold": 0.21495396367245928
+        },
+        "Kurve C=10": {
+          "cost": 190,
+          "threshold": 0.22116850717394546
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 192,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 190,
+          "threshold": 0.23036988247410295
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 190,
+          "threshold": 0.2718716895599944
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 190,
+          "threshold": 0.2819528613910095
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 186,
+          "threshold": 0.11904516951062516
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 184,
+          "threshold": 0.17718927001419554
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 192,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 192,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 189,
+          "threshold": 0.1391518687217686
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 189,
+          "threshold": 0.18433711986139262
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 192,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 192,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 10,
+          "tp": 44,
+          "cost": 60
+        },
+        "Kurve": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 10,
+          "tp": 44,
+          "cost": 60
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 10,
+          "tp": 44,
+          "cost": 60
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 3,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Drehmoment C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 184,
+          "threshold": 0.12266341686988895
+        },
+        "Kurve C=0.01": {
+          "cost": 185,
+          "threshold": 0.05572352314467238
+        },
+        "Kurve C=0.1": {
+          "cost": 187,
+          "threshold": 0.11856475485008541
+        },
+        "Kurve C=1": {
+          "cost": 198,
+          "threshold": 0.3732397072591339
+        },
+        "Kurve C=10": {
+          "cost": 198,
+          "threshold": 0.3702638593203101
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 178,
+          "threshold": 0.056866394265255596
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 192,
+          "threshold": 0.14293390148416008
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 197,
+          "threshold": 0.12731635323332544
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 197,
+          "threshold": 0.12459327627556249
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 182,
+          "threshold": 0.04402764719578285
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 194,
+          "threshold": 0.13462617791030737
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 198,
+          "threshold": 0.7557224035216179
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 198,
+          "threshold": 0.7411551409651735
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 187,
+          "threshold": 0.038133631629932385
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 193,
+          "threshold": 0.1728521969852228
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 192,
+          "threshold": 0.22577659029172314
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 192,
+          "threshold": 0.22934975946130265
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1535,
+          "fp": 11,
+          "fn": 7,
+          "tp": 47,
+          "cost": 53
+        },
+        "Kurve": {
+          "tn": 1534,
+          "fp": 12,
+          "fn": 7,
+          "tp": 47,
+          "cost": 54
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1535,
+          "fp": 11,
+          "fn": 7,
+          "tp": 47,
+          "cost": 53
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1530,
+          "fp": 16,
+          "fn": 6,
+          "tp": 48,
+          "cost": 52
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1528,
+          "fp": 18,
+          "fn": 7,
+          "tp": 47,
+          "cost": 60
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 4,
+      "chosen": {
+        "Kurve": "Kurve C=0.1",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.1",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Produktvariante C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 210,
+          "threshold": 0.6063686008177389
+        },
+        "Kurve C=0.01": {
+          "cost": 216,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=0.1": {
+          "cost": 212,
+          "threshold": 0.20025918945053903
+        },
+        "Kurve C=1": {
+          "cost": 213,
+          "threshold": 0.23889470145264746
+        },
+        "Kurve C=10": {
+          "cost": 213,
+          "threshold": 0.24367329392681686
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 215,
+          "threshold": 0.11612083452027186
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 211,
+          "threshold": 0.20752687192012503
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 213,
+          "threshold": 0.24709044292700386
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 213,
+          "threshold": 0.2518983562869431
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 207,
+          "threshold": 0.15129603099155892
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 212,
+          "threshold": 0.25758185382798615
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 212,
+          "threshold": 0.28750088420866515
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 213,
+          "threshold": 0.2844001430435089
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 207,
+          "threshold": 0.17043898037870803
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 210,
+          "threshold": 0.2869117409867429
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 211,
+          "threshold": 0.29358015143325117
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 211,
+          "threshold": 0.2964826485571327
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 2,
+          "tp": 52,
+          "cost": 16
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Kurve": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 5,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 182,
+          "threshold": 0.22111952705618632
+        },
+        "Kurve C=0.01": {
+          "cost": 180,
+          "threshold": 0.09319375468101078
+        },
+        "Kurve C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 182,
+          "threshold": 0.054051766023716794
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 188,
+          "threshold": 0.21907996343612932
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 192,
+          "threshold": 0.25968294727003516
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 191,
+          "threshold": 0.26367737015329507
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 183,
+          "threshold": 0.05684208873134476
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 197,
+          "threshold": 0.24589570450156556
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 196,
+          "threshold": 0.23764657114268087
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 195,
+          "threshold": 0.24260707788226524
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 181,
+          "threshold": 0.08116144127645455
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 184,
+          "threshold": 0.18135843625349626
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 190,
+          "threshold": 0.22542380088912045
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 189,
+          "threshold": 0.2307228640323758
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 8,
+          "tp": 47,
+          "cost": 55
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1542,
+          "fp": 3,
+          "fn": 9,
+          "tp": 46,
+          "cost": 57
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 9,
+          "tp": 46,
+          "cost": 61
+        },
+        "Kurve": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 9,
+          "tp": 46,
+          "cost": 61
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1534,
+          "fp": 11,
+          "fn": 8,
+          "tp": 47,
+          "cost": 59
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1534,
+          "fp": 11,
+          "fn": 8,
+          "tp": 47,
+          "cost": 59
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 8,
+          "tp": 47,
+          "cost": 55
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 1,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=1",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 188,
+          "threshold": 0.14071734845499062
+        },
+        "Kurve C=0.01": {
+          "cost": 189,
+          "threshold": 0.0683282015695799
+        },
+        "Kurve C=0.1": {
+          "cost": 195,
+          "threshold": 0.1093176644770015
+        },
+        "Kurve C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 192,
+          "threshold": 0.3468213752087148
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 193,
+          "threshold": 0.21338237974298901
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 194,
+          "threshold": 0.20223789211618626
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 194,
+          "threshold": 0.20831691934895968
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Kurve": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 2,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Drehmoment C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 175,
+          "threshold": 0.15300042176449075
+        },
+        "Kurve C=0.01": {
+          "cost": 177,
+          "threshold": 0.05100086328702914
+        },
+        "Kurve C=0.1": {
+          "cost": 183,
+          "threshold": 0.11518841832083716
+        },
+        "Kurve C=1": {
+          "cost": 184,
+          "threshold": 0.13228242447886587
+        },
+        "Kurve C=10": {
+          "cost": 184,
+          "threshold": 0.13418661360307874
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 175,
+          "threshold": 0.07714613733033308
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 182,
+          "threshold": 0.15527053726114756
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 183,
+          "threshold": 0.1296291440304113
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 185,
+          "threshold": 0.1289240329811333
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 176,
+          "threshold": 0.09756109008097978
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 184,
+          "threshold": 0.15177154553373057
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 185,
+          "threshold": 0.13924595112801755
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 188,
+          "threshold": 0.1155557317788143
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 181,
+          "threshold": 0.07969699285909235
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 186,
+          "threshold": 0.1467358959581192
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 190,
+          "threshold": 0.10649330827525513
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 192,
+          "threshold": 0.24482497285290095
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 9,
+          "tp": 45,
+          "cost": 59
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 9,
+          "tp": 45,
+          "cost": 57
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 9,
+          "tp": 45,
+          "cost": 61
+        },
+        "Kurve": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 9,
+          "tp": 45,
+          "cost": 63
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 9,
+          "tp": 45,
+          "cost": 61
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 9,
+          "tp": 45,
+          "cost": 56
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 9,
+          "tp": 45,
+          "cost": 57
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 3,
+      "chosen": {
+        "Kurve": "Kurve C=1",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + beide Wechselwirkungen C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 204,
+          "threshold": 0.722841394554808
+        },
+        "Kurve C=0.01": {
+          "cost": 202,
+          "threshold": 0.03801996150535375
+        },
+        "Kurve C=0.1": {
+          "cost": 204,
+          "threshold": 0.174031763117465
+        },
+        "Kurve C=1": {
+          "cost": 199,
+          "threshold": 0.161544304565084
+        },
+        "Kurve C=10": {
+          "cost": 199,
+          "threshold": 0.1627437369821325
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 200,
+          "threshold": 0.044628513284668464
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 202,
+          "threshold": 0.20311148270619045
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 205,
+          "threshold": 0.26855915830585786
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 205,
+          "threshold": 0.2721410435546203
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 203,
+          "threshold": 0.08091736430537771
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 203,
+          "threshold": 0.13549189731509972
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 208,
+          "threshold": 0.15563555004199664
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 208,
+          "threshold": 0.15707785704160043
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 192,
+          "threshold": 0.10004335636749734
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 206,
+          "threshold": 0.22010516466002167
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 200,
+          "threshold": 0.1416490018284816
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 201,
+          "threshold": 0.14245214538004153
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 4,
+          "tp": 50,
+          "cost": 28
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 6,
+          "tp": 48,
+          "cost": 42
+        },
+        "Kurve": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 6,
+          "tp": 48,
+          "cost": 40
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1531,
+          "fp": 15,
+          "fn": 4,
+          "tp": 50,
+          "cost": 39
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 4,
+          "tp": 50,
+          "cost": 29
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 6,
+          "tp": 48,
+          "cost": 42
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 4,
+      "chosen": {
+        "Kurve": "Kurve C=0.1",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Drehmoment C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 186,
+          "threshold": 0.2015173449957266
+        },
+        "Kurve C=0.01": {
+          "cost": 185,
+          "threshold": 0.047974465975060984
+        },
+        "Kurve C=0.1": {
+          "cost": 184,
+          "threshold": 0.12693678024008176
+        },
+        "Kurve C=1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 180,
+          "threshold": 0.04310111911239783
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 193,
+          "threshold": 0.11600352750195382
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 203,
+          "threshold": 0.12233711853093793
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 203,
+          "threshold": 0.11357241096164145
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 192,
+          "threshold": 0.033268841218984255
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 202,
+          "threshold": 0.16342551754283105
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 183,
+          "threshold": 0.03420052562343136
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 203,
+          "threshold": 0.2297779679269038
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 202,
+          "threshold": 0.2820562594977519
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 202,
+          "threshold": 0.2936248904169516
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 9,
+          "tp": 45,
+          "cost": 62
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 9,
+          "tp": 45,
+          "cost": 60
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1529,
+          "fp": 17,
+          "fn": 9,
+          "tp": 45,
+          "cost": 71
+        },
+        "Kurve": {
+          "tn": 1531,
+          "fp": 15,
+          "fn": 8,
+          "tp": 46,
+          "cost": 63
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1529,
+          "fp": 17,
+          "fn": 9,
+          "tp": 45,
+          "cost": 71
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1523,
+          "fp": 23,
+          "fn": 8,
+          "tp": 46,
+          "cost": 71
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1527,
+          "fp": 19,
+          "fn": 8,
+          "tp": 46,
+          "cost": 67
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 5,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.1",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 197,
+          "threshold": 0.16763838487725952
+        },
+        "Kurve C=0.01": {
+          "cost": 197,
+          "threshold": 0.08165410822106327
+        },
+        "Kurve C=0.1": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=1": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 201,
+          "threshold": 0.08725816640453535
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 205,
+          "threshold": 0.3412476226582648
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 204,
+          "threshold": 0.38176601903370033
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 204,
+          "threshold": 0.3780220762076772
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 204,
+          "threshold": 0.05074162663278543
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 205,
+          "threshold": 0.4026576206741148
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 204,
+          "threshold": 0.42826450222999607
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 204,
+          "threshold": 0.3927591426383933
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 204,
+          "threshold": 0.3896855256765006
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 6,
+          "tp": 49,
+          "cost": 43
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 6,
+          "tp": 49,
+          "cost": 42
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 6,
+          "tp": 49,
+          "cost": 43
+        },
+        "Kurve": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 6,
+          "tp": 49,
+          "cost": 43
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 6,
+          "tp": 49,
+          "cost": 42
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1527,
+          "fp": 18,
+          "fn": 4,
+          "tp": 51,
+          "cost": 42
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1545,
+          "fp": 0,
+          "fn": 7,
+          "tp": 48,
+          "cost": 42
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 1,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 196,
+          "threshold": 0.13257496500086163
+        },
+        "Kurve C=0.01": {
+          "cost": 200,
+          "threshold": 0.07503038595939208
+        },
+        "Kurve C=0.1": {
+          "cost": 204,
+          "threshold": 0.29229039582913785
+        },
+        "Kurve C=1": {
+          "cost": 208,
+          "threshold": 0.21446739054209518
+        },
+        "Kurve C=10": {
+          "cost": 208,
+          "threshold": 0.21782811662531082
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 204,
+          "threshold": 0.4694603561472187
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 205,
+          "threshold": 0.2555454035219232
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 204,
+          "threshold": 0.7788517153078648
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 204,
+          "threshold": 0.3950852093483311
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 204,
+          "threshold": 0.777669373625028
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 205,
+          "threshold": 0.3470046325223448
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 210,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 6,
+          "tp": 48,
+          "cost": 38
+        },
+        "Kurve": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 6,
+          "tp": 48,
+          "cost": 38
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 2,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Drehmoment C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 197,
+          "threshold": 0.22083041384164342
+        },
+        "Kurve C=0.01": {
+          "cost": 198,
+          "threshold": 0.10375836670637284
+        },
+        "Kurve C=0.1": {
+          "cost": 205,
+          "threshold": 0.1844382252297373
+        },
+        "Kurve C=1": {
+          "cost": 215,
+          "threshold": 0.21701966047650514
+        },
+        "Kurve C=10": {
+          "cost": 216,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 196,
+          "threshold": 0.043336175835739454
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 205,
+          "threshold": 0.118315942472733
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 209,
+          "threshold": 0.1707529789944276
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 209,
+          "threshold": 0.17513211971902742
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 199,
+          "threshold": 0.08213104243913599
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 206,
+          "threshold": 0.14942403760814457
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 207,
+          "threshold": 0.1591282025849667
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 208,
+          "threshold": 0.16034762001056907
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 200,
+          "threshold": 0.12665492553225535
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 204,
+          "threshold": 0.16221839759502138
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 206,
+          "threshold": 0.14891375423104103
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 205,
+          "threshold": 0.15169904007534685
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 4,
+          "tp": 50,
+          "cost": 33
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 5,
+          "tp": 49,
+          "cost": 36
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1531,
+          "fp": 15,
+          "fn": 4,
+          "tp": 50,
+          "cost": 39
+        },
+        "Kurve": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 5,
+          "tp": 49,
+          "cost": 39
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1531,
+          "fp": 15,
+          "fn": 4,
+          "tp": 50,
+          "cost": 39
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1536,
+          "fp": 10,
+          "fn": 4,
+          "tp": 50,
+          "cost": 34
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 5,
+          "tp": 49,
+          "cost": 36
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 3,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.1",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=1",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Drehmoment C=0.1",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 175,
+          "threshold": 0.13006264950118945
+        },
+        "Kurve C=0.01": {
+          "cost": 171,
+          "threshold": 0.04065099079144729
+        },
+        "Kurve C=0.1": {
+          "cost": 179,
+          "threshold": 0.16877849161380581
+        },
+        "Kurve C=1": {
+          "cost": 180,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 180,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 173,
+          "threshold": 0.20787495248674637
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 166,
+          "threshold": 0.1297922978769665
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 172,
+          "threshold": 0.21185327172229812
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 172,
+          "threshold": 0.22156989243558614
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 175,
+          "threshold": 0.03491341823184882
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 175,
+          "threshold": 0.16453357867997476
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 180,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 180,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 171,
+          "threshold": 0.04227737027540017
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 171,
+          "threshold": 0.13430999972380536
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 169,
+          "threshold": 0.16375268441754975
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 169,
+          "threshold": 0.1684023251617629
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 10,
+          "tp": 44,
+          "cost": 67
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 10,
+          "tp": 44,
+          "cost": 68
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 12,
+          "tp": 42,
+          "cost": 77
+        },
+        "Kurve": {
+          "tn": 1534,
+          "fp": 12,
+          "fn": 10,
+          "tp": 44,
+          "cost": 72
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 12,
+          "tp": 42,
+          "cost": 77
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1528,
+          "fp": 18,
+          "fn": 9,
+          "tp": 45,
+          "cost": 72
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 12,
+          "tp": 42,
+          "cost": 74
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 4,
+      "chosen": {
+        "Kurve": "Kurve C=0.1",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.1",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Drehmoment C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 185,
+          "threshold": 0.1551405949572207
+        },
+        "Kurve C=0.01": {
+          "cost": 186,
+          "threshold": 0.08742336765957154
+        },
+        "Kurve C=0.1": {
+          "cost": 184,
+          "threshold": 0.1242897628829466
+        },
+        "Kurve C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 182,
+          "threshold": 0.047390927667790544
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 196,
+          "threshold": 0.2603210277212109
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 194,
+          "threshold": 0.2711510029769888
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 194,
+          "threshold": 0.2724161347612318
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 185,
+          "threshold": 0.036029615040348274
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 193,
+          "threshold": 0.40227435676126255
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 192,
+          "threshold": 0.3857322179700009
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 192,
+          "threshold": 0.35750253127885523
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 192,
+          "threshold": 0.35417469112264455
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1531,
+          "fp": 15,
+          "fn": 7,
+          "tp": 47,
+          "cost": 57
+        },
+        "Kurve": {
+          "tn": 1529,
+          "fp": 17,
+          "fn": 7,
+          "tp": 47,
+          "cost": 59
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1531,
+          "fp": 15,
+          "fn": 7,
+          "tp": 47,
+          "cost": 57
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1527,
+          "fp": 19,
+          "fn": 7,
+          "tp": 47,
+          "cost": 61
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1545,
+          "fp": 1,
+          "fn": 9,
+          "tp": 45,
+          "cost": 55
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 5,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + beide Wechselwirkungen C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 184,
+          "threshold": 0.1676428476819614
+        },
+        "Kurve C=0.01": {
+          "cost": 188,
+          "threshold": 0.033365157637121584
+        },
+        "Kurve C=0.1": {
+          "cost": 198,
+          "threshold": 0.1528362966375596
+        },
+        "Kurve C=1": {
+          "cost": 203,
+          "threshold": 0.22684793211511378
+        },
+        "Kurve C=10": {
+          "cost": 203,
+          "threshold": 0.2266394600486858
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 186,
+          "threshold": 0.038605574412925225
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 194,
+          "threshold": 0.132382586064345
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 199,
+          "threshold": 0.16272300697887906
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 196,
+          "threshold": 0.1677086304218421
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 193,
+          "threshold": 0.032185770242254025
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 185,
+          "threshold": 0.03661776647542993
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1535,
+          "fp": 10,
+          "fn": 6,
+          "tp": 49,
+          "cost": 46
+        },
+        "Kurve": {
+          "tn": 1532,
+          "fp": 13,
+          "fn": 6,
+          "tp": 49,
+          "cost": 49
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1533,
+          "fp": 12,
+          "fn": 6,
+          "tp": 49,
+          "cost": 48
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1532,
+          "fp": 13,
+          "fn": 6,
+          "tp": 49,
+          "cost": 49
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1535,
+          "fp": 10,
+          "fn": 6,
+          "tp": 49,
+          "cost": 46
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 1,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 195,
+          "threshold": 0.1871695411882092
+        },
+        "Kurve C=0.01": {
+          "cost": 196,
+          "threshold": 0.09186678015398317
+        },
+        "Kurve C=0.1": {
+          "cost": 200,
+          "threshold": 0.15769129849211397
+        },
+        "Kurve C=1": {
+          "cost": 206,
+          "threshold": 0.2645127853068323
+        },
+        "Kurve C=10": {
+          "cost": 206,
+          "threshold": 0.2623803065531334
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 201,
+          "threshold": 0.09361654320067549
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 212,
+          "threshold": 0.22253679380849845
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 210,
+          "threshold": 0.26546409585418584
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 209,
+          "threshold": 0.26873711399477374
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 196,
+          "threshold": 0.06102706349939549
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 207,
+          "threshold": 0.17488429094132507
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 208,
+          "threshold": 0.25048898693886124
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 210,
+          "threshold": 0.21546287582947654
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 200,
+          "threshold": 0.0633753751381187
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 212,
+          "threshold": 0.22627887923680617
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 211,
+          "threshold": 0.2555201603619921
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 213,
+          "threshold": 0.25480571348107267
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 7,
+          "tp": 47,
+          "cost": 50
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 7,
+          "tp": 47,
+          "cost": 49
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 7,
+          "tp": 47,
+          "cost": 50
+        },
+        "Kurve": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 7,
+          "tp": 47,
+          "cost": 50
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 7,
+          "tp": 47,
+          "cost": 50
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1532,
+          "fp": 14,
+          "fn": 7,
+          "tp": 47,
+          "cost": 56
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1533,
+          "fp": 13,
+          "fn": 7,
+          "tp": 47,
+          "cost": 55
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 2,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=0.01": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 198,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 6,
+          "tp": 48,
+          "cost": 39
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Kurve": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 3,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=1",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=10",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + beide Wechselwirkungen C=10",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 181,
+          "threshold": 0.1927485169638367
+        },
+        "Kurve C=0.01": {
+          "cost": 181,
+          "threshold": 0.09332970578101271
+        },
+        "Kurve C=0.1": {
+          "cost": 188,
+          "threshold": 0.11101102655486583
+        },
+        "Kurve C=1": {
+          "cost": 192,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve C=10": {
+          "cost": 191,
+          "threshold": 0.1663803796813403
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 184,
+          "threshold": 0.03966736715489334
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 185,
+          "threshold": 0.1248173835501919
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 181,
+          "threshold": 0.11817000842843463
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 181,
+          "threshold": 0.12040780383563104
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 182,
+          "threshold": 0.0916292964231511
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 189,
+          "threshold": 0.13555865621981195
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 187,
+          "threshold": 0.17128972428489386
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 187,
+          "threshold": 0.19090810275162312
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 186,
+          "threshold": 0.14224407236124423
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 184,
+          "threshold": 0.20895916483684407
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 178,
+          "threshold": 0.15042689450421537
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 174,
+          "threshold": 0.13300549954058521
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 7,
+          "tp": 47,
+          "cost": 47
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1528,
+          "fp": 18,
+          "fn": 8,
+          "tp": 46,
+          "cost": 66
+        },
+        "Kurve": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1521,
+          "fp": 25,
+          "fn": 8,
+          "tp": 46,
+          "cost": 73
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 7,
+          "tp": 47,
+          "cost": 46
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1528,
+          "fp": 18,
+          "fn": 8,
+          "tp": 46,
+          "cost": 66
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 4,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + beide Wechselwirkungen C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 187,
+          "threshold": 0.15772271926839165
+        },
+        "Kurve C=0.01": {
+          "cost": 188,
+          "threshold": 0.08391384111704744
+        },
+        "Kurve C=0.1": {
+          "cost": 196,
+          "threshold": 0.11849646331682061
+        },
+        "Kurve C=1": {
+          "cost": 194,
+          "threshold": 0.12558186210656944
+        },
+        "Kurve C=10": {
+          "cost": 201,
+          "threshold": 0.1282653540706749
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 186,
+          "threshold": 0.04298847243504593
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 194,
+          "threshold": 0.1277363645625174
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 196,
+          "threshold": 0.12334731327684051
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 196,
+          "threshold": 0.1225996753037672
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 190,
+          "threshold": 0.03655589418177775
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 195,
+          "threshold": 0.08884987811358303
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 185,
+          "threshold": 0.03491095784021292
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 7,
+          "tp": 47,
+          "cost": 51
+        },
+        "Kurve": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 8,
+          "tp": 46,
+          "cost": 54
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 7,
+          "tp": 47,
+          "cost": 49
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 7,
+          "tp": 47,
+          "cost": 51
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 5,
+      "chosen": {
+        "Kurve": "Kurve C=0.01",
+        "Kurve + Drehmoment": "Kurve + Drehmoment C=0.01",
+        "Kurve + Produktvariante": "Kurve + Produktvariante C=0.01",
+        "Kurve + beide Wechselwirkungen": "Kurve + beide Wechselwirkungen C=0.01",
+        "Verschleißkurve mit innerer Auswahl": "Kurve + Produktvariante C=0.01",
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1"
+      },
+      "inner": {
+        "Verschleißlogistik C=1": {
+          "cost": 184,
+          "threshold": 0.2070350664839417
+        },
+        "Kurve C=0.01": {
+          "cost": 190,
+          "threshold": 0.09307505110188974
+        },
+        "Kurve C=0.1": {
+          "cost": 198,
+          "threshold": 0.11810834929585862
+        },
+        "Kurve C=1": {
+          "cost": 199,
+          "threshold": 0.15217481774182168
+        },
+        "Kurve C=10": {
+          "cost": 203,
+          "threshold": 0.15720163550517607
+        },
+        "Kurve + Drehmoment C=0.01": {
+          "cost": 196,
+          "threshold": 0.08048391845144066
+        },
+        "Kurve + Drehmoment C=0.1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=1": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Drehmoment C=10": {
+          "cost": 204,
+          "threshold": "nur_kerneingriffe"
+        },
+        "Kurve + Produktvariante C=0.01": {
+          "cost": 185,
+          "threshold": 0.07598509424110023
+        },
+        "Kurve + Produktvariante C=0.1": {
+          "cost": 200,
+          "threshold": 0.3038925011906923
+        },
+        "Kurve + Produktvariante C=1": {
+          "cost": 200,
+          "threshold": 0.3147172888012326
+        },
+        "Kurve + Produktvariante C=10": {
+          "cost": 200,
+          "threshold": 0.319095210770028
+        },
+        "Kurve + beide Wechselwirkungen C=0.01": {
+          "cost": 193,
+          "threshold": 0.07508119310304982
+        },
+        "Kurve + beide Wechselwirkungen C=0.1": {
+          "cost": 201,
+          "threshold": 0.28701778913548404
+        },
+        "Kurve + beide Wechselwirkungen C=1": {
+          "cost": 200,
+          "threshold": 0.31665765467088036
+        },
+        "Kurve + beide Wechselwirkungen C=10": {
+          "cost": 200,
+          "threshold": 0.3179417367948407
+        }
+      },
+      "outer": {
+        "Hybrid aktuell": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Verschleißkurve mit innerer Auswahl": {
+          "tn": 1537,
+          "fp": 8,
+          "fn": 7,
+          "tp": 48,
+          "cost": 50
+        },
+        "Kurve": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Kurve + Drehmoment": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Kurve + Produktvariante": {
+          "tn": 1537,
+          "fp": 8,
+          "fn": 7,
+          "tp": 48,
+          "cost": 50
+        },
+        "Kurve + beide Wechselwirkungen": {
+          "tn": 1537,
+          "fp": 8,
+          "fn": 7,
+          "tp": 48,
+          "cost": 50
+        }
+      }
+    }
+  ],
+  "reproduction_log": [
+    {
+      "time": "2026-11-15T20:33:53+01:00",
+      "event": "Kompakter Verschleißversuch gestartet."
+    },
+    {
+      "time": "2026-11-15T20:34:00+01:00",
+      "event": "Seed 2006 abgeschlossen. Referenz 240, neue Verschleißkurve 265 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:34:04+01:00",
+      "event": "Seed 2026 abgeschlossen. Referenz 237, neue Verschleißkurve 272 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:34:08+01:00",
+      "event": "Seed 2007 abgeschlossen. Referenz 242, neue Verschleißkurve 267 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:34:13+01:00",
+      "event": "Seed 888 abgeschlossen. Referenz 235, neue Verschleißkurve 257 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:34:17+01:00",
+      "event": "Seed 1024 abgeschlossen. Referenz 234, neue Verschleißkurve 271 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:34:17+01:00",
+      "event": "Vergleich beendet. Niedrigste mittlere Kosten: Hybrid aktuell mit 237.6."
+    }
+  ]
+}

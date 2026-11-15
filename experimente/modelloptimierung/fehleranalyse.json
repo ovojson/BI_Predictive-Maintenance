@@ -1,0 +1,391 @@
+{
+  "started": "2026-11-15T20:05:25+01:00",
+  "seeds": {
+    "2006": {
+      "baseline": {
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      "fn": {
+        "n": 36,
+        "wear_le_onset": 7,
+        "wear_200_219": 23,
+        "wear_ge_220": 7,
+        "wear_score_median": 0.009359491492145166,
+        "wear_score_le_01": 20,
+        "tolerances": {
+          "0.5": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 1,
+            "near_physical_any": 0,
+            "near_any": 1
+          },
+          "1": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 6,
+            "near_physical_any": 0,
+            "near_any": 6
+          },
+          "2": {
+            "near_power": 0,
+            "near_thermal": 1,
+            "near_overload": 1,
+            "near_wear": 15,
+            "near_physical_any": 2,
+            "near_any": 17
+          }
+        }
+      },
+      "tn": {
+        "n": 7705,
+        "wear_le_onset": 7223,
+        "wear_200_219": 443,
+        "wear_ge_220": 66,
+        "wear_score_median": 0.0029259643177404165,
+        "wear_score_le_01": 7459,
+        "tolerances": {
+          "0.5": {
+            "near_power": 20,
+            "near_thermal": 29,
+            "near_overload": 19,
+            "near_wear": 27,
+            "near_physical_any": 68,
+            "near_any": 95
+          },
+          "1": {
+            "near_power": 33,
+            "near_thermal": 66,
+            "near_overload": 36,
+            "near_wear": 71,
+            "near_physical_any": 132,
+            "near_any": 201
+          },
+          "2": {
+            "near_power": 65,
+            "near_thermal": 152,
+            "near_overload": 85,
+            "near_wear": 237,
+            "near_physical_any": 291,
+            "near_any": 500
+          }
+        }
+      }
+    },
+    "2026": {
+      "baseline": {
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      },
+      "fn": {
+        "n": 35,
+        "wear_le_onset": 7,
+        "wear_200_219": 23,
+        "wear_ge_220": 6,
+        "wear_score_median": 0.00910766300347814,
+        "wear_score_le_01": 19,
+        "tolerances": {
+          "0.5": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 2,
+            "near_physical_any": 0,
+            "near_any": 2
+          },
+          "1": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 5,
+            "near_physical_any": 0,
+            "near_any": 5
+          },
+          "2": {
+            "near_power": 0,
+            "near_thermal": 1,
+            "near_overload": 1,
+            "near_wear": 14,
+            "near_physical_any": 2,
+            "near_any": 16
+          }
+        }
+      },
+      "tn": {
+        "n": 7702,
+        "wear_le_onset": 7223,
+        "wear_200_219": 443,
+        "wear_ge_220": 63,
+        "wear_score_median": 0.0029478048472479424,
+        "wear_score_le_01": 7458,
+        "tolerances": {
+          "0.5": {
+            "near_power": 20,
+            "near_thermal": 29,
+            "near_overload": 19,
+            "near_wear": 24,
+            "near_physical_any": 68,
+            "near_any": 92
+          },
+          "1": {
+            "near_power": 33,
+            "near_thermal": 66,
+            "near_overload": 36,
+            "near_wear": 67,
+            "near_physical_any": 132,
+            "near_any": 198
+          },
+          "2": {
+            "near_power": 65,
+            "near_thermal": 152,
+            "near_overload": 85,
+            "near_wear": 236,
+            "near_physical_any": 291,
+            "near_any": 498
+          }
+        }
+      }
+    },
+    "2007": {
+      "baseline": {
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      "fn": {
+        "n": 36,
+        "wear_le_onset": 7,
+        "wear_200_219": 23,
+        "wear_ge_220": 7,
+        "wear_score_median": 0.00894641574973502,
+        "wear_score_le_01": 19,
+        "tolerances": {
+          "0.5": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 2,
+            "near_physical_any": 0,
+            "near_any": 2
+          },
+          "1": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 7,
+            "near_physical_any": 0,
+            "near_any": 7
+          },
+          "2": {
+            "near_power": 0,
+            "near_thermal": 1,
+            "near_overload": 1,
+            "near_wear": 16,
+            "near_physical_any": 2,
+            "near_any": 18
+          }
+        }
+      },
+      "tn": {
+        "n": 7703,
+        "wear_le_onset": 7223,
+        "wear_200_219": 443,
+        "wear_ge_220": 64,
+        "wear_score_median": 0.002976534354209456,
+        "wear_score_le_01": 7456,
+        "tolerances": {
+          "0.5": {
+            "near_power": 20,
+            "near_thermal": 29,
+            "near_overload": 19,
+            "near_wear": 27,
+            "near_physical_any": 68,
+            "near_any": 95
+          },
+          "1": {
+            "near_power": 33,
+            "near_thermal": 66,
+            "near_overload": 36,
+            "near_wear": 70,
+            "near_physical_any": 132,
+            "near_any": 200
+          },
+          "2": {
+            "near_power": 65,
+            "near_thermal": 152,
+            "near_overload": 85,
+            "near_wear": 241,
+            "near_physical_any": 291,
+            "near_any": 503
+          }
+        }
+      }
+    },
+    "888": {
+      "baseline": {
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      "fn": {
+        "n": 35,
+        "wear_le_onset": 7,
+        "wear_200_219": 23,
+        "wear_ge_220": 6,
+        "wear_score_median": 0.008445830794835176,
+        "wear_score_le_01": 20,
+        "tolerances": {
+          "0.5": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 2,
+            "near_physical_any": 0,
+            "near_any": 2
+          },
+          "1": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 6,
+            "near_physical_any": 0,
+            "near_any": 6
+          },
+          "2": {
+            "near_power": 0,
+            "near_thermal": 1,
+            "near_overload": 1,
+            "near_wear": 13,
+            "near_physical_any": 2,
+            "near_any": 15
+          }
+        }
+      },
+      "tn": {
+        "n": 7704,
+        "wear_le_onset": 7223,
+        "wear_200_219": 443,
+        "wear_ge_220": 65,
+        "wear_score_median": 0.002704031180801505,
+        "wear_score_le_01": 7467,
+        "tolerances": {
+          "0.5": {
+            "near_power": 20,
+            "near_thermal": 29,
+            "near_overload": 19,
+            "near_wear": 26,
+            "near_physical_any": 68,
+            "near_any": 94
+          },
+          "1": {
+            "near_power": 33,
+            "near_thermal": 66,
+            "near_overload": 36,
+            "near_wear": 62,
+            "near_physical_any": 132,
+            "near_any": 193
+          },
+          "2": {
+            "near_power": 65,
+            "near_thermal": 152,
+            "near_overload": 85,
+            "near_wear": 231,
+            "near_physical_any": 291,
+            "near_any": 496
+          }
+        }
+      }
+    },
+    "1024": {
+      "baseline": {
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234
+      },
+      "fn": {
+        "n": 35,
+        "wear_le_onset": 7,
+        "wear_200_219": 23,
+        "wear_ge_220": 6,
+        "wear_score_median": 0.008860434727551842,
+        "wear_score_le_01": 19,
+        "tolerances": {
+          "0.5": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 2,
+            "near_physical_any": 0,
+            "near_any": 2
+          },
+          "1": {
+            "near_power": 0,
+            "near_thermal": 0,
+            "near_overload": 0,
+            "near_wear": 5,
+            "near_physical_any": 0,
+            "near_any": 5
+          },
+          "2": {
+            "near_power": 0,
+            "near_thermal": 1,
+            "near_overload": 1,
+            "near_wear": 16,
+            "near_physical_any": 2,
+            "near_any": 18
+          }
+        }
+      },
+      "tn": {
+        "n": 7705,
+        "wear_le_onset": 7223,
+        "wear_200_219": 443,
+        "wear_ge_220": 66,
+        "wear_score_median": 0.0027265822624901155,
+        "wear_score_le_01": 7453,
+        "tolerances": {
+          "0.5": {
+            "near_power": 20,
+            "near_thermal": 29,
+            "near_overload": 19,
+            "near_wear": 26,
+            "near_physical_any": 68,
+            "near_any": 94
+          },
+          "1": {
+            "near_power": 33,
+            "near_thermal": 66,
+            "near_overload": 36,
+            "near_wear": 68,
+            "near_physical_any": 132,
+            "near_any": 198
+          },
+          "2": {
+            "near_power": 65,
+            "near_thermal": 152,
+            "near_overload": 85,
+            "near_wear": 238,
+            "near_physical_any": 291,
+            "near_any": 501
+          }
+        }
+      }
+    }
+  },
+  "finished": "2026-11-15T20:05:27+01:00"
+}

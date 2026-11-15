@@ -1,0 +1,9 @@
+version,kosten_mittel,kosten_min,kosten_max,fp_mittel,fn_mittel,recall_pct,kosten_je_seed,zusätzliche_treffer_summe,zusätzliche_fehlalarme_summe
+Hybrid aktuell,237.6,234,242,25.2,35.4,86.93726937269372,240/237/242/235/234,0,0
+"Hybrid mit Merkmalsregel, innere Auswahl",237.6,234,242,25.2,35.4,86.93726937269372,240/237/242/235/234,0,0
+"Bis 1 Bedingung(en), mindestens 2 Treffer",237.6,234,242,25.2,35.4,86.93726937269372,240/237/242/235/234,0,0
+"Bis 1 Bedingung(en), mindestens 3 Treffer",237.6,234,242,25.2,35.4,86.93726937269372,240/237/242/235/234,0,0
+"Bis 1 Bedingung(en), mindestens 5 Treffer",237.6,234,242,25.2,35.4,86.93726937269372,240/237/242/235/234,0,0
+"Bis 2 Bedingung(en), mindestens 2 Treffer",248.8,241,259,36.4,35.4,86.93726937269372,244/247/259/241/253,0,56
+"Bis 2 Bedingung(en), mindestens 5 Treffer",249.8,244,256,48.2,33.6,87.60147601476014,248/249/252/244/256,9,115
+"Bis 2 Bedingung(en), mindestens 3 Treffer",257.4,243,267,47.4,35.0,87.08487084870849,257/258/267/243/262,2,111

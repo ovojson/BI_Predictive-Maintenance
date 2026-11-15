@@ -1,0 +1,6 @@
+version,kosten_mittel,kosten_min,kosten_max,fp_mittel,fn_mittel,recall_pct,kosten_je_seed
+Hybrid aktuell,237.6,234,242,25.2,35.4,86.93726937269372,240/237/242/235/234
+Hybrid mit optimierter Schwelle,248.2,239,259,19.0,38.2,85.9040590405904,240/259/251/239/252
+Physikalische Regeln,252.0,252,252,0.0,42.0,84.5018450184502,252/252/252/252/252
+Gradient Boosting mit Grenzabständen,261.4,255,275,13.0,41.4,84.72324723247233,258/260/275/255/259
+Logistik mit Grenzabständen,263.8,258,270,32.2,38.6,85.75645756457565,261/270/268/258/262

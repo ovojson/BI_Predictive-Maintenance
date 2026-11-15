@@ -1,0 +1,4853 @@
+{
+  "time_log": [
+    {
+      "time": "2026-11-15T20:10:48+01:00",
+      "event": "Versuch gestartet. Schwellen und Modellparameter werden in inneren Falten gewählt."
+    },
+    {
+      "time": "2026-11-15T20:10:48+01:00",
+      "event": "Äußere Validierung gestartet, Seed 2006"
+    },
+    {
+      "time": "2026-11-15T20:11:04+01:00",
+      "event": "Seed 2006 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 240, Hybrid mit optimierter Schwelle: 240, Logistik mit Grenzabständen: 261, Gradient Boosting mit Grenzabständen: 258"
+    },
+    {
+      "time": "2026-11-15T20:11:04+01:00",
+      "event": "Äußere Validierung gestartet, Seed 2026"
+    },
+    {
+      "time": "2026-11-15T20:11:20+01:00",
+      "event": "Seed 2026 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 237, Hybrid mit optimierter Schwelle: 259, Logistik mit Grenzabständen: 270, Gradient Boosting mit Grenzabständen: 260"
+    },
+    {
+      "time": "2026-11-15T20:11:20+01:00",
+      "event": "Äußere Validierung gestartet, Seed 2007"
+    },
+    {
+      "time": "2026-11-15T20:11:37+01:00",
+      "event": "Seed 2007 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 242, Hybrid mit optimierter Schwelle: 251, Logistik mit Grenzabständen: 268, Gradient Boosting mit Grenzabständen: 275"
+    },
+    {
+      "time": "2026-11-15T20:11:37+01:00",
+      "event": "Äußere Validierung gestartet, Seed 888"
+    },
+    {
+      "time": "2026-11-15T20:11:54+01:00",
+      "event": "Seed 888 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 235, Hybrid mit optimierter Schwelle: 239, Logistik mit Grenzabständen: 258, Gradient Boosting mit Grenzabständen: 255"
+    },
+    {
+      "time": "2026-11-15T20:11:54+01:00",
+      "event": "Äußere Validierung gestartet, Seed 1024"
+    },
+    {
+      "time": "2026-11-15T20:12:11+01:00",
+      "event": "Seed 1024 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 234, Hybrid mit optimierter Schwelle: 252, Logistik mit Grenzabständen: 262, Gradient Boosting mit Grenzabständen: 259"
+    },
+    {
+      "time": "2026-11-15T20:12:11+01:00",
+      "event": "Konfiguration festgelegt: {'version': 'Hybrid aktuell', 'configuration': 'Verschleißlogistik C=1', 'params': {'C': 1.0}, 'threshold': 0.14285714285714285, 'seed': 4701}"
+    },
+    {
+      "time": "2026-11-15T20:12:11+01:00",
+      "event": "Challenge-Prognose geprüft: 2000 Zeilen, 63 Alarme"
+    },
+    {
+      "time": "2026-11-15T20:12:11+01:00",
+      "event": "Ranglisten und Schwellenkurven geschrieben."
+    }
+  ],
+  "versions": {
+    "Physikalische Regeln": [
+      {
+        "seed": 2006,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 2026,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 2007,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 888,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 1024,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      }
+    ],
+    "Hybrid aktuell": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234
+      }
+    ],
+    "Hybrid mit optimierter Schwelle": [
+      {
+        "seed": 2006,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 37,
+        "tp": 234,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 40,
+        "tp": 231,
+        "cost": 259
+      },
+      {
+        "seed": 2007,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 39,
+        "tp": 232,
+        "cost": 251
+      },
+      {
+        "seed": 888,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 36,
+        "tp": 235,
+        "cost": 239
+      },
+      {
+        "seed": 1024,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 39,
+        "tp": 232,
+        "cost": 252
+      }
+    ],
+    "Logistik mit Grenzabständen": [
+      {
+        "seed": 2006,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 38,
+        "tp": 233,
+        "cost": 261
+      },
+      {
+        "seed": 2026,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 40,
+        "tp": 231,
+        "cost": 270
+      },
+      {
+        "seed": 2007,
+        "tn": 7683,
+        "fp": 46,
+        "fn": 37,
+        "tp": 234,
+        "cost": 268
+      },
+      {
+        "seed": 888,
+        "tn": 7693,
+        "fp": 36,
+        "fn": 37,
+        "tp": 234,
+        "cost": 258
+      },
+      {
+        "seed": 1024,
+        "tn": 7713,
+        "fp": 16,
+        "fn": 41,
+        "tp": 230,
+        "cost": 262
+      }
+    ],
+    "Gradient Boosting mit Grenzabständen": [
+      {
+        "seed": 2006,
+        "tn": 7723,
+        "fp": 6,
+        "fn": 42,
+        "tp": 229,
+        "cost": 258
+      },
+      {
+        "seed": 2026,
+        "tn": 7721,
+        "fp": 8,
+        "fn": 42,
+        "tp": 229,
+        "cost": 260
+      },
+      {
+        "seed": 2007,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 41,
+        "tp": 230,
+        "cost": 275
+      },
+      {
+        "seed": 888,
+        "tn": 7720,
+        "fp": 9,
+        "fn": 41,
+        "tp": 230,
+        "cost": 255
+      },
+      {
+        "seed": 1024,
+        "tn": 7716,
+        "fp": 13,
+        "fn": 41,
+        "tp": 230,
+        "cost": 259
+      }
+    ]
+  },
+  "configurations": {
+    "Verschleißlogistik C=1": [
+      {
+        "seed": 2006,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 37,
+        "tp": 234,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 40,
+        "tp": 231,
+        "cost": 259
+      },
+      {
+        "seed": 2007,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 39,
+        "tp": 232,
+        "cost": 251
+      },
+      {
+        "seed": 888,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 36,
+        "tp": 235,
+        "cost": 239
+      },
+      {
+        "seed": 1024,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 39,
+        "tp": 232,
+        "cost": 252
+      }
+    ],
+    "Logistik Belastung C=0.01": [
+      {
+        "seed": 2006,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 40,
+        "tp": 231,
+        "cost": 269
+      },
+      {
+        "seed": 2026,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 39,
+        "tp": 232,
+        "cost": 265
+      },
+      {
+        "seed": 2007,
+        "tn": 7673,
+        "fp": 56,
+        "fn": 35,
+        "tp": 236,
+        "cost": 266
+      },
+      {
+        "seed": 888,
+        "tn": 7680,
+        "fp": 49,
+        "fn": 34,
+        "tp": 237,
+        "cost": 253
+      },
+      {
+        "seed": 1024,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 39,
+        "tp": 232,
+        "cost": 261
+      }
+    ],
+    "Logistik Belastung C=0.1": [
+      {
+        "seed": 2006,
+        "tn": 7713,
+        "fp": 16,
+        "fn": 41,
+        "tp": 230,
+        "cost": 262
+      },
+      {
+        "seed": 2026,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 39,
+        "tp": 232,
+        "cost": 257
+      },
+      {
+        "seed": 2007,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 41,
+        "tp": 230,
+        "cost": 271
+      },
+      {
+        "seed": 888,
+        "tn": 7697,
+        "fp": 32,
+        "fn": 38,
+        "tp": 233,
+        "cost": 260
+      },
+      {
+        "seed": 1024,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 42,
+        "tp": 229,
+        "cost": 270
+      }
+    ],
+    "Logistik Belastung C=1": [
+      {
+        "seed": 2006,
+        "tn": 7708,
+        "fp": 21,
+        "fn": 41,
+        "tp": 230,
+        "cost": 267
+      },
+      {
+        "seed": 2026,
+        "tn": 7720,
+        "fp": 9,
+        "fn": 41,
+        "tp": 230,
+        "cost": 255
+      },
+      {
+        "seed": 2007,
+        "tn": 7713,
+        "fp": 16,
+        "fn": 42,
+        "tp": 229,
+        "cost": 268
+      },
+      {
+        "seed": 888,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 38,
+        "tp": 233,
+        "cost": 255
+      },
+      {
+        "seed": 1024,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 42,
+        "tp": 229,
+        "cost": 271
+      }
+    ],
+    "Logistik Belastung C=10": [
+      {
+        "seed": 2006,
+        "tn": 7707,
+        "fp": 22,
+        "fn": 41,
+        "tp": 230,
+        "cost": 268
+      },
+      {
+        "seed": 2026,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 41,
+        "tp": 230,
+        "cost": 251
+      },
+      {
+        "seed": 2007,
+        "tn": 7707,
+        "fp": 22,
+        "fn": 41,
+        "tp": 230,
+        "cost": 268
+      },
+      {
+        "seed": 888,
+        "tn": 7707,
+        "fp": 22,
+        "fn": 38,
+        "tp": 233,
+        "cost": 250
+      },
+      {
+        "seed": 1024,
+        "tn": 7708,
+        "fp": 21,
+        "fn": 42,
+        "tp": 229,
+        "cost": 273
+      }
+    ],
+    "Logistik Alle C=0.01": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 40,
+        "tp": 231,
+        "cost": 264
+      },
+      {
+        "seed": 2026,
+        "tn": 7688,
+        "fp": 41,
+        "fn": 38,
+        "tp": 233,
+        "cost": 269
+      },
+      {
+        "seed": 2007,
+        "tn": 7673,
+        "fp": 56,
+        "fn": 35,
+        "tp": 236,
+        "cost": 266
+      },
+      {
+        "seed": 888,
+        "tn": 7691,
+        "fp": 38,
+        "fn": 36,
+        "tp": 235,
+        "cost": 254
+      },
+      {
+        "seed": 1024,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 39,
+        "tp": 232,
+        "cost": 257
+      }
+    ],
+    "Logistik Alle C=0.1": [
+      {
+        "seed": 2006,
+        "tn": 7715,
+        "fp": 14,
+        "fn": 40,
+        "tp": 231,
+        "cost": 254
+      },
+      {
+        "seed": 2026,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 41,
+        "tp": 230,
+        "cost": 263
+      },
+      {
+        "seed": 2007,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 40,
+        "tp": 231,
+        "cost": 258
+      },
+      {
+        "seed": 888,
+        "tn": 7692,
+        "fp": 37,
+        "fn": 37,
+        "tp": 234,
+        "cost": 259
+      },
+      {
+        "seed": 1024,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 40,
+        "tp": 231,
+        "cost": 259
+      }
+    ],
+    "Logistik Alle C=1": [
+      {
+        "seed": 2006,
+        "tn": 7715,
+        "fp": 14,
+        "fn": 41,
+        "tp": 230,
+        "cost": 260
+      },
+      {
+        "seed": 2026,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 40,
+        "tp": 231,
+        "cost": 257
+      },
+      {
+        "seed": 2007,
+        "tn": 7712,
+        "fp": 17,
+        "fn": 41,
+        "tp": 230,
+        "cost": 263
+      },
+      {
+        "seed": 888,
+        "tn": 7708,
+        "fp": 21,
+        "fn": 38,
+        "tp": 233,
+        "cost": 249
+      },
+      {
+        "seed": 1024,
+        "tn": 7721,
+        "fp": 8,
+        "fn": 41,
+        "tp": 230,
+        "cost": 254
+      }
+    ],
+    "Logistik Alle C=10": [
+      {
+        "seed": 2006,
+        "tn": 7717,
+        "fp": 12,
+        "fn": 41,
+        "tp": 230,
+        "cost": 258
+      },
+      {
+        "seed": 2026,
+        "tn": 7716,
+        "fp": 13,
+        "fn": 40,
+        "tp": 231,
+        "cost": 253
+      },
+      {
+        "seed": 2007,
+        "tn": 7716,
+        "fp": 13,
+        "fn": 41,
+        "tp": 230,
+        "cost": 259
+      },
+      {
+        "seed": 888,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 38,
+        "tp": 233,
+        "cost": 247
+      },
+      {
+        "seed": 1024,
+        "tn": 7719,
+        "fp": 10,
+        "fn": 42,
+        "tp": 229,
+        "cost": 262
+      }
+    ],
+    "Logistik Grenznähe C=0.01": [
+      {
+        "seed": 2006,
+        "tn": 7707,
+        "fp": 22,
+        "fn": 39,
+        "tp": 232,
+        "cost": 256
+      },
+      {
+        "seed": 2026,
+        "tn": 7708,
+        "fp": 21,
+        "fn": 41,
+        "tp": 230,
+        "cost": 267
+      },
+      {
+        "seed": 2007,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 41,
+        "tp": 230,
+        "cost": 269
+      },
+      {
+        "seed": 888,
+        "tn": 7692,
+        "fp": 37,
+        "fn": 37,
+        "tp": 234,
+        "cost": 259
+      },
+      {
+        "seed": 1024,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 40,
+        "tp": 231,
+        "cost": 267
+      }
+    ],
+    "Logistik Grenznähe C=0.1": [
+      {
+        "seed": 2006,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 38,
+        "tp": 233,
+        "cost": 255
+      },
+      {
+        "seed": 2026,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 40,
+        "tp": 231,
+        "cost": 268
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 40,
+        "tp": 231,
+        "cost": 266
+      },
+      {
+        "seed": 888,
+        "tn": 7692,
+        "fp": 37,
+        "fn": 37,
+        "tp": 234,
+        "cost": 259
+      },
+      {
+        "seed": 1024,
+        "tn": 7718,
+        "fp": 11,
+        "fn": 42,
+        "tp": 229,
+        "cost": 263
+      }
+    ],
+    "Logistik Grenznähe C=1": [
+      {
+        "seed": 2006,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 38,
+        "tp": 233,
+        "cost": 259
+      },
+      {
+        "seed": 2026,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 41,
+        "tp": 230,
+        "cost": 269
+      },
+      {
+        "seed": 2007,
+        "tn": 7709,
+        "fp": 20,
+        "fn": 40,
+        "tp": 231,
+        "cost": 260
+      },
+      {
+        "seed": 888,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 38,
+        "tp": 233,
+        "cost": 255
+      },
+      {
+        "seed": 1024,
+        "tn": 7719,
+        "fp": 10,
+        "fn": 42,
+        "tp": 229,
+        "cost": 262
+      }
+    ],
+    "Logistik Grenznähe C=10": [
+      {
+        "seed": 2006,
+        "tn": 7716,
+        "fp": 13,
+        "fn": 42,
+        "tp": 229,
+        "cost": 265
+      },
+      {
+        "seed": 2026,
+        "tn": 7706,
+        "fp": 23,
+        "fn": 41,
+        "tp": 230,
+        "cost": 269
+      },
+      {
+        "seed": 2007,
+        "tn": 7709,
+        "fp": 20,
+        "fn": 40,
+        "tp": 231,
+        "cost": 260
+      },
+      {
+        "seed": 888,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 38,
+        "tp": 233,
+        "cost": 255
+      },
+      {
+        "seed": 1024,
+        "tn": 7719,
+        "fp": 10,
+        "fn": 42,
+        "tp": 229,
+        "cost": 262
+      }
+    ],
+    "HGB Belastung Tiefe=1 Blatt=20": [
+      {
+        "seed": 2006,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 40,
+        "tp": 231,
+        "cost": 245
+      },
+      {
+        "seed": 2026,
+        "tn": 7708,
+        "fp": 21,
+        "fn": 40,
+        "tp": 231,
+        "cost": 261
+      },
+      {
+        "seed": 2007,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 41,
+        "tp": 230,
+        "cost": 264
+      },
+      {
+        "seed": 888,
+        "tn": 7716,
+        "fp": 13,
+        "fn": 40,
+        "tp": 231,
+        "cost": 253
+      },
+      {
+        "seed": 1024,
+        "tn": 7717,
+        "fp": 12,
+        "fn": 42,
+        "tp": 229,
+        "cost": 264
+      }
+    ],
+    "HGB Belastung Tiefe=1 Blatt=60": [
+      {
+        "seed": 2006,
+        "tn": 7718,
+        "fp": 11,
+        "fn": 42,
+        "tp": 229,
+        "cost": 263
+      },
+      {
+        "seed": 2026,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 2007,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 888,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 1024,
+        "tn": 7710,
+        "fp": 19,
+        "fn": 40,
+        "tp": 231,
+        "cost": 259
+      }
+    ],
+    "HGB Belastung Tiefe=2 Blatt=20": [
+      {
+        "seed": 2006,
+        "tn": 7722,
+        "fp": 7,
+        "fn": 42,
+        "tp": 229,
+        "cost": 259
+      },
+      {
+        "seed": 2026,
+        "tn": 7726,
+        "fp": 3,
+        "fn": 42,
+        "tp": 229,
+        "cost": 255
+      },
+      {
+        "seed": 2007,
+        "tn": 7721,
+        "fp": 8,
+        "fn": 42,
+        "tp": 229,
+        "cost": 260
+      },
+      {
+        "seed": 888,
+        "tn": 7722,
+        "fp": 7,
+        "fn": 42,
+        "tp": 229,
+        "cost": 259
+      },
+      {
+        "seed": 1024,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      }
+    ],
+    "HGB Belastung Tiefe=2 Blatt=60": [
+      {
+        "seed": 2006,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 2026,
+        "tn": 7727,
+        "fp": 2,
+        "fn": 42,
+        "tp": 229,
+        "cost": 254
+      },
+      {
+        "seed": 2007,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 888,
+        "tn": 7728,
+        "fp": 1,
+        "fn": 42,
+        "tp": 229,
+        "cost": 253
+      },
+      {
+        "seed": 1024,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      }
+    ],
+    "HGB Belastung Tiefe=3 Blatt=20": [
+      {
+        "seed": 2006,
+        "tn": 7723,
+        "fp": 6,
+        "fn": 42,
+        "tp": 229,
+        "cost": 258
+      },
+      {
+        "seed": 2026,
+        "tn": 7726,
+        "fp": 3,
+        "fn": 42,
+        "tp": 229,
+        "cost": 255
+      },
+      {
+        "seed": 2007,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 888,
+        "tn": 7728,
+        "fp": 1,
+        "fn": 42,
+        "tp": 229,
+        "cost": 253
+      },
+      {
+        "seed": 1024,
+        "tn": 7727,
+        "fp": 2,
+        "fn": 41,
+        "tp": 230,
+        "cost": 248
+      }
+    ],
+    "HGB Belastung Tiefe=3 Blatt=60": [
+      {
+        "seed": 2006,
+        "tn": 7725,
+        "fp": 4,
+        "fn": 42,
+        "tp": 229,
+        "cost": 256
+      },
+      {
+        "seed": 2026,
+        "tn": 7728,
+        "fp": 1,
+        "fn": 42,
+        "tp": 229,
+        "cost": 253
+      },
+      {
+        "seed": 2007,
+        "tn": 7727,
+        "fp": 2,
+        "fn": 42,
+        "tp": 229,
+        "cost": 254
+      },
+      {
+        "seed": 888,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 1024,
+        "tn": 7726,
+        "fp": 3,
+        "fn": 42,
+        "tp": 229,
+        "cost": 255
+      }
+    ],
+    "HGB Alle Tiefe=1 Blatt=20": [
+      {
+        "seed": 2006,
+        "tn": 7718,
+        "fp": 11,
+        "fn": 41,
+        "tp": 230,
+        "cost": 257
+      },
+      {
+        "seed": 2026,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 42,
+        "tp": 229,
+        "cost": 257
+      },
+      {
+        "seed": 2007,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 42,
+        "tp": 229,
+        "cost": 257
+      },
+      {
+        "seed": 888,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 1024,
+        "tn": 7728,
+        "fp": 1,
+        "fn": 42,
+        "tp": 229,
+        "cost": 253
+      }
+    ],
+    "HGB Alle Tiefe=1 Blatt=60": [
+      {
+        "seed": 2006,
+        "tn": 7728,
+        "fp": 1,
+        "fn": 42,
+        "tp": 229,
+        "cost": 253
+      },
+      {
+        "seed": 2026,
+        "tn": 7721,
+        "fp": 8,
+        "fn": 42,
+        "tp": 229,
+        "cost": 260
+      },
+      {
+        "seed": 2007,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 42,
+        "tp": 229,
+        "cost": 257
+      },
+      {
+        "seed": 888,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 1024,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 42,
+        "tp": 229,
+        "cost": 257
+      }
+    ],
+    "HGB Alle Tiefe=2 Blatt=20": [
+      {
+        "seed": 2006,
+        "tn": 7718,
+        "fp": 11,
+        "fn": 42,
+        "tp": 229,
+        "cost": 263
+      },
+      {
+        "seed": 2026,
+        "tn": 7723,
+        "fp": 6,
+        "fn": 42,
+        "tp": 229,
+        "cost": 258
+      },
+      {
+        "seed": 2007,
+        "tn": 7725,
+        "fp": 4,
+        "fn": 42,
+        "tp": 229,
+        "cost": 256
+      },
+      {
+        "seed": 888,
+        "tn": 7726,
+        "fp": 3,
+        "fn": 41,
+        "tp": 230,
+        "cost": 249
+      },
+      {
+        "seed": 1024,
+        "tn": 7717,
+        "fp": 12,
+        "fn": 42,
+        "tp": 229,
+        "cost": 264
+      }
+    ],
+    "HGB Alle Tiefe=2 Blatt=60": [
+      {
+        "seed": 2006,
+        "tn": 7726,
+        "fp": 3,
+        "fn": 41,
+        "tp": 230,
+        "cost": 249
+      },
+      {
+        "seed": 2026,
+        "tn": 7727,
+        "fp": 2,
+        "fn": 42,
+        "tp": 229,
+        "cost": 254
+      },
+      {
+        "seed": 2007,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 42,
+        "tp": 229,
+        "cost": 276
+      },
+      {
+        "seed": 888,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 1024,
+        "tn": 7725,
+        "fp": 4,
+        "fn": 42,
+        "tp": 229,
+        "cost": 256
+      }
+    ],
+    "HGB Alle Tiefe=3 Blatt=20": [
+      {
+        "seed": 2006,
+        "tn": 7711,
+        "fp": 18,
+        "fn": 42,
+        "tp": 229,
+        "cost": 270
+      },
+      {
+        "seed": 2026,
+        "tn": 7724,
+        "fp": 5,
+        "fn": 42,
+        "tp": 229,
+        "cost": 257
+      },
+      {
+        "seed": 2007,
+        "tn": 7723,
+        "fp": 6,
+        "fn": 42,
+        "tp": 229,
+        "cost": 258
+      },
+      {
+        "seed": 888,
+        "tn": 7722,
+        "fp": 7,
+        "fn": 42,
+        "tp": 229,
+        "cost": 259
+      },
+      {
+        "seed": 1024,
+        "tn": 7718,
+        "fp": 11,
+        "fn": 41,
+        "tp": 230,
+        "cost": 257
+      }
+    ],
+    "HGB Alle Tiefe=3 Blatt=60": [
+      {
+        "seed": 2006,
+        "tn": 7729,
+        "fp": 0,
+        "fn": 42,
+        "tp": 229,
+        "cost": 252
+      },
+      {
+        "seed": 2026,
+        "tn": 7717,
+        "fp": 12,
+        "fn": 42,
+        "tp": 229,
+        "cost": 264
+      },
+      {
+        "seed": 2007,
+        "tn": 7713,
+        "fp": 16,
+        "fn": 41,
+        "tp": 230,
+        "cost": 262
+      },
+      {
+        "seed": 888,
+        "tn": 7726,
+        "fp": 3,
+        "fn": 41,
+        "tp": 230,
+        "cost": 249
+      },
+      {
+        "seed": 1024,
+        "tn": 7727,
+        "fp": 2,
+        "fn": 41,
+        "tp": 230,
+        "cost": 248
+      }
+    ]
+  },
+  "folds": [
+    {
+      "seed": 2006,
+      "fold": 1,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=2 Blatt=60"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.6126078988632498,
+        "Logistik Belastung C=0.01": 0.06728352213007983,
+        "Logistik Belastung C=0.1": 0.5628123291692302,
+        "Logistik Belastung C=1": 0.6202005607741545,
+        "Logistik Belastung C=10": 0.6283079821796898,
+        "Logistik Alle C=0.01": 0.11614249899558815,
+        "Logistik Alle C=0.1": 0.19130615631910003,
+        "Logistik Alle C=1": 0.1505746218722221,
+        "Logistik Alle C=10": 0.37868835909062226,
+        "Logistik Grenznähe C=0.01": 0.09868743497257684,
+        "Logistik Grenznähe C=0.1": 0.19370580398128695,
+        "Logistik Grenznähe C=1": 0.7255832427987681,
+        "Logistik Grenznähe C=10": 0.7332958365330284,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.09356389303745673,
+        "HGB Belastung Tiefe=1 Blatt=60": 0.10248540732174855,
+        "HGB Belastung Tiefe=2 Blatt=20": 0.28167165447832887,
+        "HGB Belastung Tiefe=2 Blatt=60": 0.161344852544908,
+        "HGB Belastung Tiefe=3 Blatt=20": 0.5229361038002002,
+        "HGB Belastung Tiefe=3 Blatt=60": 0.2550688596318478,
+        "HGB Alle Tiefe=1 Blatt=20": 0.11024136425846678,
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.17879822868883694,
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.45252927857477554,
+        "HGB Alle Tiefe=3 Blatt=60": "nur_kerneingriffe"
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 194,
+        "Logistik Belastung C=0.01": 195,
+        "Logistik Belastung C=0.1": 193,
+        "Logistik Belastung C=1": 193,
+        "Logistik Belastung C=10": 193,
+        "Logistik Alle C=0.01": 190,
+        "Logistik Alle C=0.1": 189,
+        "Logistik Alle C=1": 188,
+        "Logistik Alle C=10": 190,
+        "Logistik Grenznähe C=0.01": 188,
+        "Logistik Grenznähe C=0.1": 192,
+        "Logistik Grenznähe C=1": 193,
+        "Logistik Grenznähe C=10": 193,
+        "HGB Belastung Tiefe=1 Blatt=20": 196,
+        "HGB Belastung Tiefe=1 Blatt=60": 194,
+        "HGB Belastung Tiefe=2 Blatt=20": 195,
+        "HGB Belastung Tiefe=2 Blatt=60": 188,
+        "HGB Belastung Tiefe=3 Blatt=20": 192,
+        "HGB Belastung Tiefe=3 Blatt=60": 188,
+        "HGB Alle Tiefe=1 Blatt=20": 191,
+        "HGB Alle Tiefe=1 Blatt=60": 198,
+        "HGB Alle Tiefe=2 Blatt=20": 195,
+        "HGB Alle Tiefe=2 Blatt=60": 198,
+        "HGB Alle Tiefe=3 Blatt=20": 193,
+        "HGB Alle Tiefe=3 Blatt=60": 198
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.019422353340098508,
+          "95": 0.006669090661072018,
+          "100": 0.002185666233445271
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.03129632305193097,
+          "95": 0.008162887507542453,
+          "100": 0.0012239229029380704
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.05128757579800772,
+          "95": 0.021875829350006863,
+          "100": 0.0001209885585569081
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Hybrid aktuell": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 9,
+          "tp": 45,
+          "cost": 57
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        }
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 2,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=60"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.12294104817369267,
+        "Logistik Belastung C=0.01": "nur_kerneingriffe",
+        "Logistik Belastung C=0.1": "nur_kerneingriffe",
+        "Logistik Belastung C=1": "nur_kerneingriffe",
+        "Logistik Belastung C=10": "nur_kerneingriffe",
+        "Logistik Alle C=0.01": "nur_kerneingriffe",
+        "Logistik Alle C=0.1": "nur_kerneingriffe",
+        "Logistik Alle C=1": "nur_kerneingriffe",
+        "Logistik Alle C=10": "nur_kerneingriffe",
+        "Logistik Grenznähe C=0.01": "nur_kerneingriffe",
+        "Logistik Grenznähe C=0.1": 0.09317509741692473,
+        "Logistik Grenznähe C=1": 0.10639927941484881,
+        "Logistik Grenznähe C=10": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": 0.17962436450603025,
+        "HGB Alle Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=60": 0.3908851168468144
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 183,
+        "Logistik Belastung C=0.01": 186,
+        "Logistik Belastung C=0.1": 186,
+        "Logistik Belastung C=1": 186,
+        "Logistik Belastung C=10": 186,
+        "Logistik Alle C=0.01": 186,
+        "Logistik Alle C=0.1": 186,
+        "Logistik Alle C=1": 186,
+        "Logistik Alle C=10": 186,
+        "Logistik Grenznähe C=0.01": 186,
+        "Logistik Grenznähe C=0.1": 185,
+        "Logistik Grenznähe C=1": 185,
+        "Logistik Grenznähe C=10": 186,
+        "HGB Belastung Tiefe=1 Blatt=20": 186,
+        "HGB Belastung Tiefe=1 Blatt=60": 186,
+        "HGB Belastung Tiefe=2 Blatt=20": 186,
+        "HGB Belastung Tiefe=2 Blatt=60": 186,
+        "HGB Belastung Tiefe=3 Blatt=20": 186,
+        "HGB Belastung Tiefe=3 Blatt=60": 186,
+        "HGB Alle Tiefe=1 Blatt=20": 186,
+        "HGB Alle Tiefe=1 Blatt=60": 186,
+        "HGB Alle Tiefe=2 Blatt=20": 186,
+        "HGB Alle Tiefe=2 Blatt=60": 183,
+        "HGB Alle Tiefe=3 Blatt=20": 186,
+        "HGB Alle Tiefe=3 Blatt=60": 181
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.010169803107162215,
+          "95": 0.002809068460116816,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.013181846612053159,
+          "95": 0.002973694571403024,
+          "100": 0.0012087156889460057
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.024912618776970697,
+          "95": 0.0024173722669574675,
+          "100": 9.553757865159821e-05
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 11,
+          "tp": 43,
+          "cost": 66
+        },
+        "Hybrid aktuell": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 8,
+          "tp": 46,
+          "cost": 54
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 11,
+          "tp": 43,
+          "cost": 66
+        }
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 3,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Belastung C=0.01",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=1 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.1645882851556691,
+        "Logistik Belastung C=0.01": 0.047152760715946894,
+        "Logistik Belastung C=0.1": 0.15748369708626644,
+        "Logistik Belastung C=1": 0.10421742482835246,
+        "Logistik Belastung C=10": 0.10422841222506965,
+        "Logistik Alle C=0.01": 0.05808242540437074,
+        "Logistik Alle C=0.1": 0.15996798777261423,
+        "Logistik Alle C=1": 0.18741135466427739,
+        "Logistik Alle C=10": 0.18907095254875442,
+        "Logistik Grenznähe C=0.01": 0.05935153148792741,
+        "Logistik Grenznähe C=0.1": 0.08304546085829465,
+        "Logistik Grenznähe C=1": 0.05384613441553391,
+        "Logistik Grenznähe C=10": 0.16922604697704816,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.1935282055304296,
+        "HGB Belastung Tiefe=1 Blatt=60": 0.10517879817764157,
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": 0.1615357502495768,
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.25872503037300953,
+        "HGB Alle Tiefe=3 Blatt=60": 0.3536789747215012
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 191,
+        "Logistik Belastung C=0.01": 196,
+        "Logistik Belastung C=0.1": 199,
+        "Logistik Belastung C=1": 200,
+        "Logistik Belastung C=10": 200,
+        "Logistik Alle C=0.01": 198,
+        "Logistik Alle C=0.1": 198,
+        "Logistik Alle C=1": 202,
+        "Logistik Alle C=10": 203,
+        "Logistik Grenznähe C=0.01": 196,
+        "Logistik Grenznähe C=0.1": 197,
+        "Logistik Grenznähe C=1": 202,
+        "Logistik Grenznähe C=10": 204,
+        "HGB Belastung Tiefe=1 Blatt=20": 204,
+        "HGB Belastung Tiefe=1 Blatt=60": 206,
+        "HGB Belastung Tiefe=2 Blatt=20": 210,
+        "HGB Belastung Tiefe=2 Blatt=60": 210,
+        "HGB Belastung Tiefe=3 Blatt=20": 210,
+        "HGB Belastung Tiefe=3 Blatt=60": 206,
+        "HGB Alle Tiefe=1 Blatt=20": 210,
+        "HGB Alle Tiefe=1 Blatt=60": 210,
+        "HGB Alle Tiefe=2 Blatt=20": 210,
+        "HGB Alle Tiefe=2 Blatt=60": 210,
+        "HGB Alle Tiefe=3 Blatt=20": 206,
+        "HGB Alle Tiefe=3 Blatt=60": 205
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.02064432363651699,
+          "95": 0.006036932053055497,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.019375427890090183,
+          "95": 0.008017366988271032,
+          "100": 0.0039867127007555785
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.05874468373208369,
+          "95": 0.04287882405020893,
+          "100": 0.0005520921594014472
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        },
+        "Hybrid aktuell": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 6,
+          "tp": 48,
+          "cost": 40
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 6,
+          "tp": 48,
+          "cost": 38
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1534,
+          "fp": 12,
+          "fn": 6,
+          "tp": 48,
+          "cost": 48
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        }
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 4,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=0.01",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=2 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.3057893798782972,
+        "Logistik Belastung C=0.01": 0.10121883634179266,
+        "Logistik Belastung C=0.1": 0.17136869646857977,
+        "Logistik Belastung C=1": 0.21043529991555746,
+        "Logistik Belastung C=10": 0.2045343939640974,
+        "Logistik Alle C=0.01": 0.10378137752000384,
+        "Logistik Alle C=0.1": 0.19025411484268892,
+        "Logistik Alle C=1": 0.2303467668763168,
+        "Logistik Alle C=10": 0.2419474832128859,
+        "Logistik Grenznähe C=0.01": 0.10350587594200919,
+        "Logistik Grenznähe C=0.1": 0.22362058750692415,
+        "Logistik Grenznähe C=1": 0.3269412612439293,
+        "Logistik Grenznähe C=10": 0.23022361734094526,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.2744789584243952,
+        "HGB Belastung Tiefe=1 Blatt=60": 0.16373200728048518,
+        "HGB Belastung Tiefe=2 Blatt=20": 0.25610592095805296,
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": 0.3453876114938045,
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": 0.3657880283108227,
+        "HGB Alle Tiefe=1 Blatt=60": 0.17170661234542967,
+        "HGB Alle Tiefe=2 Blatt=20": 0.26501472173213336,
+        "HGB Alle Tiefe=2 Blatt=60": 0.18668359981193822,
+        "HGB Alle Tiefe=3 Blatt=20": 0.3295475711775956,
+        "HGB Alle Tiefe=3 Blatt=60": 0.44445019469237146
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 185,
+        "Logistik Belastung C=0.01": 190,
+        "Logistik Belastung C=0.1": 185,
+        "Logistik Belastung C=1": 189,
+        "Logistik Belastung C=10": 190,
+        "Logistik Alle C=0.01": 188,
+        "Logistik Alle C=0.1": 183,
+        "Logistik Alle C=1": 187,
+        "Logistik Alle C=10": 186,
+        "Logistik Grenznähe C=0.01": 181,
+        "Logistik Grenznähe C=0.1": 182,
+        "Logistik Grenznähe C=1": 183,
+        "Logistik Grenznähe C=10": 183,
+        "HGB Belastung Tiefe=1 Blatt=20": 192,
+        "HGB Belastung Tiefe=1 Blatt=60": 199,
+        "HGB Belastung Tiefe=2 Blatt=20": 194,
+        "HGB Belastung Tiefe=2 Blatt=60": 204,
+        "HGB Belastung Tiefe=3 Blatt=20": 201,
+        "HGB Belastung Tiefe=3 Blatt=60": 204,
+        "HGB Alle Tiefe=1 Blatt=20": 190,
+        "HGB Alle Tiefe=1 Blatt=60": 199,
+        "HGB Alle Tiefe=2 Blatt=20": 185,
+        "HGB Alle Tiefe=2 Blatt=60": 197,
+        "HGB Alle Tiefe=3 Blatt=20": 186,
+        "HGB Alle Tiefe=3 Blatt=60": 198
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.021115455347362706,
+          "95": 0.006262508405234695,
+          "100": 0.0023894845743581486
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.018874474265973915,
+          "95": 0.008115844725255242,
+          "100": 0.0034280968788690585
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.03624617514386742,
+          "95": 0.008921509442876977,
+          "100": 0.0003493294278248689
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 8,
+          "tp": 46,
+          "cost": 48
+        },
+        "Hybrid aktuell": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 8,
+          "tp": 46,
+          "cost": 54
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 8,
+          "tp": 46,
+          "cost": 54
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        }
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 5,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=2 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.2001900078506781,
+        "Logistik Belastung C=0.01": 0.11649738437871346,
+        "Logistik Belastung C=0.1": 0.2265607910878346,
+        "Logistik Belastung C=1": 0.2159730552035271,
+        "Logistik Belastung C=10": 0.21288768141453313,
+        "Logistik Alle C=0.01": 0.11787502258898733,
+        "Logistik Alle C=0.1": 0.2381858484405586,
+        "Logistik Alle C=1": 0.22541144489845616,
+        "Logistik Alle C=10": 0.1984607296494043,
+        "Logistik Grenznähe C=0.01": 0.1004895755363032,
+        "Logistik Grenznähe C=0.1": 0.22879727665118893,
+        "Logistik Grenznähe C=1": 0.24809640204706318,
+        "Logistik Grenznähe C=10": 0.2504998538785389,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.32381399115131004,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": 0.2576813642637773,
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": 0.345817693287358,
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": 0.2896321067597847,
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.20763130435262578,
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.21394600833783897,
+        "HGB Alle Tiefe=3 Blatt=60": 0.3720812360674127
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 190,
+        "Logistik Belastung C=0.01": 191,
+        "Logistik Belastung C=0.1": 191,
+        "Logistik Belastung C=1": 193,
+        "Logistik Belastung C=10": 193,
+        "Logistik Alle C=0.01": 190,
+        "Logistik Alle C=0.1": 189,
+        "Logistik Alle C=1": 190,
+        "Logistik Alle C=10": 190,
+        "Logistik Grenznähe C=0.01": 193,
+        "Logistik Grenznähe C=0.1": 189,
+        "Logistik Grenznähe C=1": 189,
+        "Logistik Grenznähe C=10": 189,
+        "HGB Belastung Tiefe=1 Blatt=20": 205,
+        "HGB Belastung Tiefe=1 Blatt=60": 210,
+        "HGB Belastung Tiefe=2 Blatt=20": 203,
+        "HGB Belastung Tiefe=2 Blatt=60": 210,
+        "HGB Belastung Tiefe=3 Blatt=20": 202,
+        "HGB Belastung Tiefe=3 Blatt=60": 210,
+        "HGB Alle Tiefe=1 Blatt=20": 206,
+        "HGB Alle Tiefe=1 Blatt=60": 210,
+        "HGB Alle Tiefe=2 Blatt=20": 200,
+        "HGB Alle Tiefe=2 Blatt=60": 210,
+        "HGB Alle Tiefe=3 Blatt=20": 206,
+        "HGB Alle Tiefe=3 Blatt=60": 206
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.02770663537187866,
+          "95": 0.007333344382155951,
+          "100": 0.002217022177712683
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.02747992118953354,
+          "95": 0.01067380914652125,
+          "100": 0.0019454729472439978
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.041352863013487215,
+          "95": 0.016338622789644944,
+          "100": 0.0002070533118049263
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1545,
+          "fp": 0,
+          "fn": 7,
+          "tp": 48,
+          "cost": 42
+        },
+        "Hybrid aktuell": {
+          "tn": 1536,
+          "fp": 9,
+          "fn": 6,
+          "tp": 49,
+          "cost": 45
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 6,
+          "tp": 49,
+          "cost": 43
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1544,
+          "fp": 1,
+          "fn": 7,
+          "tp": 48,
+          "cost": 43
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 1,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.12395716388763203,
+        "Logistik Belastung C=0.01": 0.06698005566775189,
+        "Logistik Belastung C=0.1": 0.19153321974280832,
+        "Logistik Belastung C=1": 0.262767462402965,
+        "Logistik Belastung C=10": 0.28489824872472264,
+        "Logistik Alle C=0.01": 0.06988250793242931,
+        "Logistik Alle C=0.1": 0.21076864457966313,
+        "Logistik Alle C=1": 0.33458314424040986,
+        "Logistik Alle C=10": 0.3416792376070343,
+        "Logistik Grenznähe C=0.01": 0.1083619339555568,
+        "Logistik Grenznähe C=0.1": 0.12250329713046768,
+        "Logistik Grenznähe C=1": 0.13264875656911748,
+        "Logistik Grenznähe C=10": 0.13465749862757267,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.48574490597654935,
+        "HGB Alle Tiefe=3 Blatt=60": "nur_kerneingriffe"
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 185,
+        "Logistik Belastung C=0.01": 186,
+        "Logistik Belastung C=0.1": 188,
+        "Logistik Belastung C=1": 191,
+        "Logistik Belastung C=10": 189,
+        "Logistik Alle C=0.01": 185,
+        "Logistik Alle C=0.1": 187,
+        "Logistik Alle C=1": 186,
+        "Logistik Alle C=10": 186,
+        "Logistik Grenznähe C=0.01": 186,
+        "Logistik Grenznähe C=0.1": 184,
+        "Logistik Grenznähe C=1": 185,
+        "Logistik Grenznähe C=10": 184,
+        "HGB Belastung Tiefe=1 Blatt=20": 198,
+        "HGB Belastung Tiefe=1 Blatt=60": 198,
+        "HGB Belastung Tiefe=2 Blatt=20": 198,
+        "HGB Belastung Tiefe=2 Blatt=60": 198,
+        "HGB Belastung Tiefe=3 Blatt=20": 198,
+        "HGB Belastung Tiefe=3 Blatt=60": 198,
+        "HGB Alle Tiefe=1 Blatt=20": 198,
+        "HGB Alle Tiefe=1 Blatt=60": 198,
+        "HGB Alle Tiefe=2 Blatt=20": 198,
+        "HGB Alle Tiefe=2 Blatt=60": 198,
+        "HGB Alle Tiefe=3 Blatt=20": 194,
+        "HGB Alle Tiefe=3 Blatt=60": 198
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.03517160849783371,
+          "95": 0.005156996656159022,
+          "100": 0.0017106744499688635
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.0318583758356472,
+          "95": 0.005043322402533242,
+          "100": 0.002032127571219812
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.02067075074155894,
+          "95": 0.00399153073110227,
+          "100": 0.00011216213053179046
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Hybrid aktuell": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 9,
+          "tp": 45,
+          "cost": 61
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 9,
+          "tp": 45,
+          "cost": 61
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 9,
+          "tp": 45,
+          "cost": 61
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 2,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.13554856931237524,
+        "Logistik Belastung C=0.01": 0.05986741566684858,
+        "Logistik Belastung C=0.1": 0.14754246956869055,
+        "Logistik Belastung C=1": 0.17773089360844846,
+        "Logistik Belastung C=10": 0.16693335153775984,
+        "Logistik Alle C=0.01": 0.06263986259581766,
+        "Logistik Alle C=0.1": 0.16656809853671553,
+        "Logistik Alle C=1": 0.16898584428256122,
+        "Logistik Alle C=10": 0.19391694016918365,
+        "Logistik Grenznähe C=0.01": 0.09558439879287883,
+        "Logistik Grenznähe C=0.1": 0.18630157884326332,
+        "Logistik Grenznähe C=1": 0.2255242789818978,
+        "Logistik Grenznähe C=10": 0.22831974371781658,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": 0.5014813293673104,
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.5465774982566973,
+        "HGB Alle Tiefe=2 Blatt=60": 0.39091233408783926,
+        "HGB Alle Tiefe=3 Blatt=20": 0.44212241441066874,
+        "HGB Alle Tiefe=3 Blatt=60": 0.31230540277514485
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 186,
+        "Logistik Belastung C=0.01": 189,
+        "Logistik Belastung C=0.1": 187,
+        "Logistik Belastung C=1": 183,
+        "Logistik Belastung C=10": 185,
+        "Logistik Alle C=0.01": 188,
+        "Logistik Alle C=0.1": 181,
+        "Logistik Alle C=1": 180,
+        "Logistik Alle C=10": 184,
+        "Logistik Grenznähe C=0.01": 186,
+        "Logistik Grenznähe C=0.1": 186,
+        "Logistik Grenznähe C=1": 183,
+        "Logistik Grenznähe C=10": 183,
+        "HGB Belastung Tiefe=1 Blatt=20": 192,
+        "HGB Belastung Tiefe=1 Blatt=60": 192,
+        "HGB Belastung Tiefe=2 Blatt=20": 192,
+        "HGB Belastung Tiefe=2 Blatt=60": 192,
+        "HGB Belastung Tiefe=3 Blatt=20": 186,
+        "HGB Belastung Tiefe=3 Blatt=60": 192,
+        "HGB Alle Tiefe=1 Blatt=20": 192,
+        "HGB Alle Tiefe=1 Blatt=60": 192,
+        "HGB Alle Tiefe=2 Blatt=20": 189,
+        "HGB Alle Tiefe=2 Blatt=60": 187,
+        "HGB Alle Tiefe=3 Blatt=20": 190,
+        "HGB Alle Tiefe=3 Blatt=60": 187
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.024745814081084096,
+          "95": 0.006846544721646666,
+          "100": 0.002090038042001187
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.032726391696147286,
+          "95": 0.010308241510539544,
+          "100": 0.00023362051783954653
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.044017719259875174,
+          "95": 0.009685900302725977,
+          "100": 6.232109335601441e-05
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 10,
+          "tp": 44,
+          "cost": 60
+        },
+        "Hybrid aktuell": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 8,
+          "tp": 46,
+          "cost": 52
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 9,
+          "tp": 45,
+          "cost": 57
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 10,
+          "tp": 44,
+          "cost": 60
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 3,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.12266341686988895,
+        "Logistik Belastung C=0.01": 0.08525147919203051,
+        "Logistik Belastung C=0.1": 0.08850700447643306,
+        "Logistik Belastung C=1": 0.6405409224698455,
+        "Logistik Belastung C=10": 0.7218394537280004,
+        "Logistik Alle C=0.01": 0.051797325830010905,
+        "Logistik Alle C=0.1": 0.12866429577396832,
+        "Logistik Alle C=1": 0.15411249053565085,
+        "Logistik Alle C=10": 0.31832053872027594,
+        "Logistik Grenznähe C=0.01": 0.08134695901727312,
+        "Logistik Grenznähe C=0.1": 0.07577949502853426,
+        "Logistik Grenznähe C=1": 0.09550625442769167,
+        "Logistik Grenznähe C=10": 0.09671453047765433,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.20978801214264434,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": 0.4591281068955271,
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=60": "nur_kerneingriffe"
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 184,
+        "Logistik Belastung C=0.01": 193,
+        "Logistik Belastung C=0.1": 192,
+        "Logistik Belastung C=1": 199,
+        "Logistik Belastung C=10": 198,
+        "Logistik Alle C=0.01": 189,
+        "Logistik Alle C=0.1": 187,
+        "Logistik Alle C=1": 190,
+        "Logistik Alle C=10": 192,
+        "Logistik Grenznähe C=0.01": 193,
+        "Logistik Grenznähe C=0.1": 185,
+        "Logistik Grenznähe C=1": 182,
+        "Logistik Grenznähe C=10": 182,
+        "HGB Belastung Tiefe=1 Blatt=20": 203,
+        "HGB Belastung Tiefe=1 Blatt=60": 204,
+        "HGB Belastung Tiefe=2 Blatt=20": 204,
+        "HGB Belastung Tiefe=2 Blatt=60": 204,
+        "HGB Belastung Tiefe=3 Blatt=20": 200,
+        "HGB Belastung Tiefe=3 Blatt=60": 204,
+        "HGB Alle Tiefe=1 Blatt=20": 204,
+        "HGB Alle Tiefe=1 Blatt=60": 204,
+        "HGB Alle Tiefe=2 Blatt=20": 204,
+        "HGB Alle Tiefe=2 Blatt=60": 204,
+        "HGB Alle Tiefe=3 Blatt=20": 204,
+        "HGB Alle Tiefe=3 Blatt=60": 204
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.01601966118516926,
+          "95": 0.0048019826730930065,
+          "100": 0.0025810992707259593
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.017559352117414564,
+          "95": 0.004562419988706552,
+          "100": 0.002235757953895065
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.028168013332112544,
+          "95": 0.0014017746380652935,
+          "100": 7.49171336047511e-05
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 8,
+          "tp": 46,
+          "cost": 48
+        },
+        "Hybrid aktuell": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 8,
+          "tp": 46,
+          "cost": 53
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1536,
+          "fp": 10,
+          "fn": 8,
+          "tp": 46,
+          "cost": 58
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 4,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=2 Blatt=60"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.6063686008177389,
+        "Logistik Belastung C=0.01": 0.23151168370735198,
+        "Logistik Belastung C=0.1": 0.5638365629196653,
+        "Logistik Belastung C=1": 0.6053492515350787,
+        "Logistik Belastung C=10": 0.6103019926776687,
+        "Logistik Alle C=0.01": 0.23985925918008172,
+        "Logistik Alle C=0.1": 0.5398799166600804,
+        "Logistik Alle C=1": 0.2606744635654152,
+        "Logistik Alle C=10": 0.2660857748923202,
+        "Logistik Grenznähe C=0.01": 0.25089701434435957,
+        "Logistik Grenznähe C=0.1": 0.5740030877496338,
+        "Logistik Grenznähe C=1": 0.754638864945131,
+        "Logistik Grenznähe C=10": 0.759837380795462,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.12558587991576914,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": 0.09230527227416455,
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": 0.2430844559517658,
+        "HGB Alle Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=60": 0.19938454866680838
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 210,
+        "Logistik Belastung C=0.01": 211,
+        "Logistik Belastung C=0.1": 210,
+        "Logistik Belastung C=1": 210,
+        "Logistik Belastung C=10": 210,
+        "Logistik Alle C=0.01": 211,
+        "Logistik Alle C=0.1": 210,
+        "Logistik Alle C=1": 209,
+        "Logistik Alle C=10": 209,
+        "Logistik Grenznähe C=0.01": 211,
+        "Logistik Grenznähe C=0.1": 211,
+        "Logistik Grenznähe C=1": 210,
+        "Logistik Grenznähe C=10": 210,
+        "HGB Belastung Tiefe=1 Blatt=20": 215,
+        "HGB Belastung Tiefe=1 Blatt=60": 216,
+        "HGB Belastung Tiefe=2 Blatt=20": 216,
+        "HGB Belastung Tiefe=2 Blatt=60": 216,
+        "HGB Belastung Tiefe=3 Blatt=20": 216,
+        "HGB Belastung Tiefe=3 Blatt=60": 216,
+        "HGB Alle Tiefe=1 Blatt=20": 216,
+        "HGB Alle Tiefe=1 Blatt=60": 211,
+        "HGB Alle Tiefe=2 Blatt=20": 216,
+        "HGB Alle Tiefe=2 Blatt=60": 206,
+        "HGB Alle Tiefe=3 Blatt=20": 216,
+        "HGB Alle Tiefe=3 Blatt=60": 211
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.011701110602725849,
+          "95": 0.005654435884499132,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.020912110919843276,
+          "95": 0.00988733310335918,
+          "100": 0.0006032779086479663
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.04251558689750907,
+          "95": 0.012935013413040946,
+          "100": 0.00016234746112321255
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Hybrid aktuell": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 2,
+          "tp": 52,
+          "cost": 16
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1545,
+          "fp": 1,
+          "fn": 6,
+          "tp": 48,
+          "cost": 37
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        }
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 5,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=0.01",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=60"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.22111952705618632,
+        "Logistik Belastung C=0.01": 0.06226033097100363,
+        "Logistik Belastung C=0.1": 0.14899010399161994,
+        "Logistik Belastung C=1": 0.1450675444142845,
+        "Logistik Belastung C=10": 0.6667769146611535,
+        "Logistik Alle C=0.01": 0.06607801166802049,
+        "Logistik Alle C=0.1": 0.18175354644704292,
+        "Logistik Alle C=1": 0.17548234294101372,
+        "Logistik Alle C=10": 0.13076579185718545,
+        "Logistik Grenznähe C=0.01": 0.08464949809664511,
+        "Logistik Grenznähe C=0.1": 0.2066875911410661,
+        "Logistik Grenznähe C=1": 0.23271085850355572,
+        "Logistik Grenznähe C=10": 0.23593949871369774,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.09729956920065849,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": 0.32016411881906254,
+        "HGB Belastung Tiefe=2 Blatt=60": 0.1707163758652302,
+        "HGB Belastung Tiefe=3 Blatt=20": 0.48808960502678234,
+        "HGB Belastung Tiefe=3 Blatt=60": 0.34677711602182115,
+        "HGB Alle Tiefe=1 Blatt=20": 0.12440784648123591,
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.1632121702349241,
+        "HGB Alle Tiefe=2 Blatt=60": 0.17982555329500172,
+        "HGB Alle Tiefe=3 Blatt=20": 0.2818527139551771,
+        "HGB Alle Tiefe=3 Blatt=60": 0.19025752637063764
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 182,
+        "Logistik Belastung C=0.01": 181,
+        "Logistik Belastung C=0.1": 188,
+        "Logistik Belastung C=1": 192,
+        "Logistik Belastung C=10": 193,
+        "Logistik Alle C=0.01": 180,
+        "Logistik Alle C=0.1": 180,
+        "Logistik Alle C=1": 181,
+        "Logistik Alle C=10": 186,
+        "Logistik Grenznähe C=0.01": 186,
+        "Logistik Grenznähe C=0.1": 180,
+        "Logistik Grenznähe C=1": 182,
+        "Logistik Grenznähe C=10": 182,
+        "HGB Belastung Tiefe=1 Blatt=20": 184,
+        "HGB Belastung Tiefe=1 Blatt=60": 198,
+        "HGB Belastung Tiefe=2 Blatt=20": 197,
+        "HGB Belastung Tiefe=2 Blatt=60": 187,
+        "HGB Belastung Tiefe=3 Blatt=20": 193,
+        "HGB Belastung Tiefe=3 Blatt=60": 186,
+        "HGB Alle Tiefe=1 Blatt=20": 192,
+        "HGB Alle Tiefe=1 Blatt=60": 198,
+        "HGB Alle Tiefe=2 Blatt=20": 186,
+        "HGB Alle Tiefe=2 Blatt=60": 182,
+        "HGB Alle Tiefe=3 Blatt=20": 190,
+        "HGB Alle Tiefe=3 Blatt=60": 178
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.023710422111065447,
+          "95": 0.005933221246102806,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.021142764938144865,
+          "95": 0.008413194677564545,
+          "100": 0.0026593960008732863
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.06187154118840427,
+          "95": 0.010580278316465009,
+          "100": 0.00019512714647821765
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1545,
+          "fp": 0,
+          "fn": 9,
+          "tp": 46,
+          "cost": 54
+        },
+        "Hybrid aktuell": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 8,
+          "tp": 47,
+          "cost": 55
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1542,
+          "fp": 3,
+          "fn": 9,
+          "tp": 46,
+          "cost": 57
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1536,
+          "fp": 9,
+          "fn": 8,
+          "tp": 47,
+          "cost": 57
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 9,
+          "tp": 46,
+          "cost": 60
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 1,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Belastung C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=1 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.14071734845499062,
+        "Logistik Belastung C=0.01": 0.22022096165202937,
+        "Logistik Belastung C=0.1": 0.4195714278936533,
+        "Logistik Belastung C=1": 0.2227459972176794,
+        "Logistik Belastung C=10": 0.22178982732741234,
+        "Logistik Alle C=0.01": 0.22759532700319401,
+        "Logistik Alle C=0.1": 0.20874889309363603,
+        "Logistik Alle C=1": 0.22903187737549047,
+        "Logistik Alle C=10": 0.216857645612036,
+        "Logistik Grenznähe C=0.01": 0.23142176574387163,
+        "Logistik Grenznähe C=0.1": 0.5544886445914855,
+        "Logistik Grenznähe C=1": 0.6036985692242636,
+        "Logistik Grenznähe C=10": 0.6094134508397306,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": 0.14289912582009384,
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=60": "nur_kerneingriffe"
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 188,
+        "Logistik Belastung C=0.01": 192,
+        "Logistik Belastung C=0.1": 193,
+        "Logistik Belastung C=1": 189,
+        "Logistik Belastung C=10": 189,
+        "Logistik Alle C=0.01": 192,
+        "Logistik Alle C=0.1": 191,
+        "Logistik Alle C=1": 190,
+        "Logistik Alle C=10": 190,
+        "Logistik Grenznähe C=0.01": 193,
+        "Logistik Grenznähe C=0.1": 192,
+        "Logistik Grenznähe C=1": 192,
+        "Logistik Grenznähe C=10": 192,
+        "HGB Belastung Tiefe=1 Blatt=20": 198,
+        "HGB Belastung Tiefe=1 Blatt=60": 198,
+        "HGB Belastung Tiefe=2 Blatt=20": 198,
+        "HGB Belastung Tiefe=2 Blatt=60": 198,
+        "HGB Belastung Tiefe=3 Blatt=20": 198,
+        "HGB Belastung Tiefe=3 Blatt=60": 198,
+        "HGB Alle Tiefe=1 Blatt=20": 197,
+        "HGB Alle Tiefe=1 Blatt=60": 198,
+        "HGB Alle Tiefe=2 Blatt=20": 198,
+        "HGB Alle Tiefe=2 Blatt=60": 198,
+        "HGB Alle Tiefe=3 Blatt=20": 198,
+        "HGB Alle Tiefe=3 Blatt=60": 198
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.018364473818742684,
+          "95": 0.006702340025957966,
+          "100": 0.002876431107028254
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.028964856643863356,
+          "95": 0.009792471234407496,
+          "100": 0.002251718117630125
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.053808817705658145,
+          "95": 0.02891842113794737,
+          "100": 0.0010898606472305832
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Hybrid aktuell": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1545,
+          "fp": 1,
+          "fn": 9,
+          "tp": 45,
+          "cost": 55
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 2,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=1 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.15300042176449075,
+        "Logistik Belastung C=0.01": 0.06136705594581322,
+        "Logistik Belastung C=0.1": 0.10124764188007393,
+        "Logistik Belastung C=1": 0.096628429274427,
+        "Logistik Belastung C=10": 0.09118282513002432,
+        "Logistik Alle C=0.01": 0.06019587141536627,
+        "Logistik Alle C=0.1": 0.1406606032926227,
+        "Logistik Alle C=1": 0.14666306243158056,
+        "Logistik Alle C=10": 0.31605778033852927,
+        "Logistik Grenznähe C=0.01": 0.05380454755722935,
+        "Logistik Grenznähe C=0.1": 0.12750133204174646,
+        "Logistik Grenznähe C=1": 0.1438605673875652,
+        "Logistik Grenznähe C=10": 0.14479019065513954,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.09863482348294801,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": 0.20846663494871048,
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": 0.23808420682449433,
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": 0.14027048538757758,
+        "HGB Alle Tiefe=1 Blatt=60": 0.18910581367927787,
+        "HGB Alle Tiefe=2 Blatt=20": 0.5721823449953866,
+        "HGB Alle Tiefe=2 Blatt=60": 0.1257809196501845,
+        "HGB Alle Tiefe=3 Blatt=20": 0.248523523703845,
+        "HGB Alle Tiefe=3 Blatt=60": 0.2740550306197367
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 175,
+        "Logistik Belastung C=0.01": 175,
+        "Logistik Belastung C=0.1": 179,
+        "Logistik Belastung C=1": 183,
+        "Logistik Belastung C=10": 189,
+        "Logistik Alle C=0.01": 176,
+        "Logistik Alle C=0.1": 174,
+        "Logistik Alle C=1": 183,
+        "Logistik Alle C=10": 185,
+        "Logistik Grenznähe C=0.01": 181,
+        "Logistik Grenznähe C=0.1": 176,
+        "Logistik Grenznähe C=1": 178,
+        "Logistik Grenznähe C=10": 178,
+        "HGB Belastung Tiefe=1 Blatt=20": 182,
+        "HGB Belastung Tiefe=1 Blatt=60": 198,
+        "HGB Belastung Tiefe=2 Blatt=20": 194,
+        "HGB Belastung Tiefe=2 Blatt=60": 198,
+        "HGB Belastung Tiefe=3 Blatt=20": 182,
+        "HGB Belastung Tiefe=3 Blatt=60": 198,
+        "HGB Alle Tiefe=1 Blatt=20": 190,
+        "HGB Alle Tiefe=1 Blatt=60": 195,
+        "HGB Alle Tiefe=2 Blatt=20": 193,
+        "HGB Alle Tiefe=2 Blatt=60": 185,
+        "HGB Alle Tiefe=3 Blatt=20": 188,
+        "HGB Alle Tiefe=3 Blatt=60": 195
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.04228815083484064,
+          "95": 0.0048244675519129865,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.04252618410969737,
+          "95": 0.0066143096028732,
+          "100": 0.0012455515004248015
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.051224234568170664,
+          "95": 0.012680925621427738,
+          "100": 0.00048178180477681054
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Hybrid aktuell": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 9,
+          "tp": 45,
+          "cost": 59
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 9,
+          "tp": 45,
+          "cost": 57
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 9,
+          "tp": 45,
+          "cost": 58
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 9,
+          "tp": 45,
+          "cost": 63
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 3,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=0.01",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=2 Blatt=60"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.722841394554808,
+        "Logistik Belastung C=0.01": 0.049678813547016816,
+        "Logistik Belastung C=0.1": 0.7105020453262347,
+        "Logistik Belastung C=1": 0.7605293937492039,
+        "Logistik Belastung C=10": 0.76577386389702,
+        "Logistik Alle C=0.01": 0.050111499300209375,
+        "Logistik Alle C=0.1": 0.6612602880360708,
+        "Logistik Alle C=1": 0.6614702296700132,
+        "Logistik Alle C=10": 0.6482113795534797,
+        "Logistik Grenznähe C=0.01": 0.3288202728292131,
+        "Logistik Grenznähe C=0.1": 0.7449517824506788,
+        "Logistik Grenznähe C=1": 0.7884768411550938,
+        "Logistik Grenznähe C=10": 0.7932777541014946,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": 0.12399279742391811,
+        "HGB Alle Tiefe=2 Blatt=20": 0.2413892135401314,
+        "HGB Alle Tiefe=2 Blatt=60": 0.1452084059984946,
+        "HGB Alle Tiefe=3 Blatt=20": 0.49038602317162516,
+        "HGB Alle Tiefe=3 Blatt=60": 0.20446198065681317
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 204,
+        "Logistik Belastung C=0.01": 203,
+        "Logistik Belastung C=0.1": 204,
+        "Logistik Belastung C=1": 204,
+        "Logistik Belastung C=10": 204,
+        "Logistik Alle C=0.01": 201,
+        "Logistik Alle C=0.1": 204,
+        "Logistik Alle C=1": 204,
+        "Logistik Alle C=10": 204,
+        "Logistik Grenznähe C=0.01": 205,
+        "Logistik Grenznähe C=0.1": 204,
+        "Logistik Grenznähe C=1": 204,
+        "Logistik Grenznähe C=10": 204,
+        "HGB Belastung Tiefe=1 Blatt=20": 210,
+        "HGB Belastung Tiefe=1 Blatt=60": 210,
+        "HGB Belastung Tiefe=2 Blatt=20": 210,
+        "HGB Belastung Tiefe=2 Blatt=60": 210,
+        "HGB Belastung Tiefe=3 Blatt=20": 210,
+        "HGB Belastung Tiefe=3 Blatt=60": 210,
+        "HGB Alle Tiefe=1 Blatt=20": 210,
+        "HGB Alle Tiefe=1 Blatt=60": 199,
+        "HGB Alle Tiefe=2 Blatt=20": 201,
+        "HGB Alle Tiefe=2 Blatt=60": 188,
+        "HGB Alle Tiefe=3 Blatt=20": 200,
+        "HGB Alle Tiefe=3 Blatt=60": 190
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.020228189954417095,
+          "95": 0.006862918941199843,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.0170138056174614,
+          "95": 0.00901818601197193,
+          "100": 0.0038610497661867244
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.05941549836105102,
+          "95": 0.017118490066247286,
+          "100": 0.00034763058609649765
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        },
+        "Hybrid aktuell": {
+          "tn": 1542,
+          "fp": 4,
+          "fn": 4,
+          "tp": 50,
+          "cost": 28
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1529,
+          "fp": 17,
+          "fn": 4,
+          "tp": 50,
+          "cost": 41
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1535,
+          "fp": 11,
+          "fn": 7,
+          "tp": 47,
+          "cost": 53
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 4,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=1 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.2015173449957266,
+        "Logistik Belastung C=0.01": 0.04502343061736945,
+        "Logistik Belastung C=0.1": 0.22740250928564482,
+        "Logistik Belastung C=1": 0.24744406603670743,
+        "Logistik Belastung C=10": 0.23943414266791557,
+        "Logistik Alle C=0.01": 0.04621267645319822,
+        "Logistik Alle C=0.1": 0.19795250997246538,
+        "Logistik Alle C=1": 0.2222358023549163,
+        "Logistik Alle C=10": 0.24267364764300103,
+        "Logistik Grenznähe C=0.01": 0.15265074449898336,
+        "Logistik Grenznähe C=0.1": 0.06984980785530978,
+        "Logistik Grenznähe C=1": 0.2179980854404776,
+        "Logistik Grenznähe C=10": 0.21863013071995463,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.11127289478323033,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": 0.1972555201903205,
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": 0.17162898662569942,
+        "HGB Alle Tiefe=1 Blatt=20": 0.22047174481828347,
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=60": "nur_kerneingriffe"
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 186,
+        "Logistik Belastung C=0.01": 191,
+        "Logistik Belastung C=0.1": 194,
+        "Logistik Belastung C=1": 193,
+        "Logistik Belastung C=10": 193,
+        "Logistik Alle C=0.01": 191,
+        "Logistik Alle C=0.1": 190,
+        "Logistik Alle C=1": 192,
+        "Logistik Alle C=10": 191,
+        "Logistik Grenznähe C=0.01": 192,
+        "Logistik Grenznähe C=0.1": 188,
+        "Logistik Grenznähe C=1": 190,
+        "Logistik Grenznähe C=10": 190,
+        "HGB Belastung Tiefe=1 Blatt=20": 190,
+        "HGB Belastung Tiefe=1 Blatt=60": 204,
+        "HGB Belastung Tiefe=2 Blatt=20": 204,
+        "HGB Belastung Tiefe=2 Blatt=60": 202,
+        "HGB Belastung Tiefe=3 Blatt=20": 204,
+        "HGB Belastung Tiefe=3 Blatt=60": 196,
+        "HGB Alle Tiefe=1 Blatt=20": 200,
+        "HGB Alle Tiefe=1 Blatt=60": 204,
+        "HGB Alle Tiefe=2 Blatt=20": 204,
+        "HGB Alle Tiefe=2 Blatt=60": 204,
+        "HGB Alle Tiefe=3 Blatt=20": 204,
+        "HGB Alle Tiefe=3 Blatt=60": 204
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.017795282549406034,
+          "95": 0.006258766198907166,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.01832542240089046,
+          "95": 0.006288532735667733,
+          "100": 0.0015614753776455985
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.06637916773313923,
+          "95": 0.02467574404768951,
+          "100": "alle_alarme"
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 10,
+          "tp": 44,
+          "cost": 60
+        },
+        "Hybrid aktuell": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 9,
+          "tp": 45,
+          "cost": 62
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 9,
+          "tp": 45,
+          "cost": 60
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1533,
+          "fp": 13,
+          "fn": 9,
+          "tp": 45,
+          "cost": 67
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 9,
+          "tp": 45,
+          "cost": 63
+        }
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 5,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Belastung C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.16763838487725952,
+        "Logistik Belastung C=0.01": 0.06783462541046542,
+        "Logistik Belastung C=0.1": 0.10968878454934047,
+        "Logistik Belastung C=1": "nur_kerneingriffe",
+        "Logistik Belastung C=10": 0.24022990237123762,
+        "Logistik Alle C=0.01": 0.06804901025032273,
+        "Logistik Alle C=0.1": 0.17626962201108431,
+        "Logistik Alle C=1": 0.21549314678257125,
+        "Logistik Alle C=10": 0.20686705517972753,
+        "Logistik Grenznähe C=0.01": 0.09321537917862102,
+        "Logistik Grenznähe C=0.1": 0.13965418610492275,
+        "Logistik Grenznähe C=1": 0.13405244053933751,
+        "Logistik Grenznähe C=10": 0.13543260004225183,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": 0.2759977208248149,
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": 0.47199515142527637,
+        "HGB Belastung Tiefe=3 Blatt=60": 0.25762649270405,
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.48828954911089617,
+        "HGB Alle Tiefe=3 Blatt=60": 0.21284973495572201
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 197,
+        "Logistik Belastung C=0.01": 204,
+        "Logistik Belastung C=0.1": 200,
+        "Logistik Belastung C=1": 210,
+        "Logistik Belastung C=10": 209,
+        "Logistik Alle C=0.01": 202,
+        "Logistik Alle C=0.1": 201,
+        "Logistik Alle C=1": 204,
+        "Logistik Alle C=10": 205,
+        "Logistik Grenznähe C=0.01": 208,
+        "Logistik Grenznähe C=0.1": 203,
+        "Logistik Grenznähe C=1": 200,
+        "Logistik Grenznähe C=10": 200,
+        "HGB Belastung Tiefe=1 Blatt=20": 210,
+        "HGB Belastung Tiefe=1 Blatt=60": 210,
+        "HGB Belastung Tiefe=2 Blatt=20": 205,
+        "HGB Belastung Tiefe=2 Blatt=60": 210,
+        "HGB Belastung Tiefe=3 Blatt=20": 204,
+        "HGB Belastung Tiefe=3 Blatt=60": 205,
+        "HGB Alle Tiefe=1 Blatt=20": 210,
+        "HGB Alle Tiefe=1 Blatt=60": 210,
+        "HGB Alle Tiefe=2 Blatt=20": 210,
+        "HGB Alle Tiefe=2 Blatt=60": 210,
+        "HGB Alle Tiefe=3 Blatt=20": 204,
+        "HGB Alle Tiefe=3 Blatt=60": 204
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.01777752780307612,
+          "95": 0.0056078601221506465,
+          "100": 0.0026741624596245683
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.02497632591176495,
+          "95": 0.008227352823065815,
+          "100": 0.001381422159475264
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.048566869983759274,
+          "95": 0.0022622275106220753,
+          "100": 6.808066652509845e-05
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1545,
+          "fp": 0,
+          "fn": 7,
+          "tp": 48,
+          "cost": 42
+        },
+        "Hybrid aktuell": {
+          "tn": 1538,
+          "fp": 7,
+          "fn": 6,
+          "tp": 49,
+          "cost": 43
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 6,
+          "tp": 49,
+          "cost": 42
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1534,
+          "fp": 11,
+          "fn": 6,
+          "tp": 49,
+          "cost": 47
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1545,
+          "fp": 0,
+          "fn": 7,
+          "tp": 48,
+          "cost": 42
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 1,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Belastung C=0.01",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.13257496500086163,
+        "Logistik Belastung C=0.01": 0.08121033098197644,
+        "Logistik Belastung C=0.1": 0.768979053545656,
+        "Logistik Belastung C=1": 0.18065225768242724,
+        "Logistik Belastung C=10": 0.8180426896564319,
+        "Logistik Alle C=0.01": 0.08164614186574704,
+        "Logistik Alle C=0.1": 0.7805399169568824,
+        "Logistik Alle C=1": 0.7959335945787914,
+        "Logistik Alle C=10": 0.7924553500274933,
+        "Logistik Grenznähe C=0.01": 0.387791296361079,
+        "Logistik Grenznähe C=0.1": 0.8365753025257494,
+        "Logistik Grenznähe C=1": 0.8780100832465216,
+        "Logistik Grenznähe C=10": 0.8823971290292649,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.14417058509769132,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.4126617819967129,
+        "HGB Alle Tiefe=3 Blatt=60": "nur_kerneingriffe"
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 196,
+        "Logistik Belastung C=0.01": 201,
+        "Logistik Belastung C=0.1": 204,
+        "Logistik Belastung C=1": 203,
+        "Logistik Belastung C=10": 204,
+        "Logistik Alle C=0.01": 201,
+        "Logistik Alle C=0.1": 204,
+        "Logistik Alle C=1": 204,
+        "Logistik Alle C=10": 204,
+        "Logistik Grenznähe C=0.01": 205,
+        "Logistik Grenznähe C=0.1": 204,
+        "Logistik Grenznähe C=1": 204,
+        "Logistik Grenznähe C=10": 204,
+        "HGB Belastung Tiefe=1 Blatt=20": 206,
+        "HGB Belastung Tiefe=1 Blatt=60": 210,
+        "HGB Belastung Tiefe=2 Blatt=20": 210,
+        "HGB Belastung Tiefe=2 Blatt=60": 210,
+        "HGB Belastung Tiefe=3 Blatt=20": 210,
+        "HGB Belastung Tiefe=3 Blatt=60": 210,
+        "HGB Alle Tiefe=1 Blatt=20": 210,
+        "HGB Alle Tiefe=1 Blatt=60": 210,
+        "HGB Alle Tiefe=2 Blatt=20": 210,
+        "HGB Alle Tiefe=2 Blatt=60": 210,
+        "HGB Alle Tiefe=3 Blatt=20": 205,
+        "HGB Alle Tiefe=3 Blatt=60": 210
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.02087442451493963,
+          "95": 0.006099063767158573,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.01885219606708341,
+          "95": 0.008657109445408786,
+          "100": 0.0037225667558402746
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.02457263216968776,
+          "95": 0.007198933547568656,
+          "100": 0.00016335920214451594
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        },
+        "Hybrid aktuell": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1545,
+          "fp": 1,
+          "fn": 6,
+          "tp": 48,
+          "cost": 37
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 2,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.22083041384164342,
+        "Logistik Belastung C=0.01": 0.09257107357207137,
+        "Logistik Belastung C=0.1": 0.15510592670918605,
+        "Logistik Belastung C=1": 0.1809541240763427,
+        "Logistik Belastung C=10": 0.1790384094195772,
+        "Logistik Alle C=0.01": 0.09005130835667188,
+        "Logistik Alle C=0.1": 0.17201317041140926,
+        "Logistik Alle C=1": 0.19404908668622856,
+        "Logistik Alle C=10": 0.19346501555524856,
+        "Logistik Grenznähe C=0.01": 0.09424790223471868,
+        "Logistik Grenznähe C=0.1": 0.1969442034084079,
+        "Logistik Grenznähe C=1": 0.20665312949361586,
+        "Logistik Grenznähe C=10": 0.20749780657890765,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.10820756911438059,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": 0.24258912813176373,
+        "HGB Belastung Tiefe=2 Blatt=60": 0.20775599310702547,
+        "HGB Belastung Tiefe=3 Blatt=20": 0.30819535007746424,
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.2901546529491442,
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.15736361479077518,
+        "HGB Alle Tiefe=3 Blatt=60": 0.40125613463720866
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 197,
+        "Logistik Belastung C=0.01": 199,
+        "Logistik Belastung C=0.1": 203,
+        "Logistik Belastung C=1": 208,
+        "Logistik Belastung C=10": 208,
+        "Logistik Alle C=0.01": 200,
+        "Logistik Alle C=0.1": 199,
+        "Logistik Alle C=1": 205,
+        "Logistik Alle C=10": 206,
+        "Logistik Grenznähe C=0.01": 200,
+        "Logistik Grenznähe C=0.1": 198,
+        "Logistik Grenznähe C=1": 198,
+        "Logistik Grenznähe C=10": 198,
+        "HGB Belastung Tiefe=1 Blatt=20": 209,
+        "HGB Belastung Tiefe=1 Blatt=60": 216,
+        "HGB Belastung Tiefe=2 Blatt=20": 212,
+        "HGB Belastung Tiefe=2 Blatt=60": 211,
+        "HGB Belastung Tiefe=3 Blatt=20": 211,
+        "HGB Belastung Tiefe=3 Blatt=60": 216,
+        "HGB Alle Tiefe=1 Blatt=20": 216,
+        "HGB Alle Tiefe=1 Blatt=60": 216,
+        "HGB Alle Tiefe=2 Blatt=20": 209,
+        "HGB Alle Tiefe=2 Blatt=60": 216,
+        "HGB Alle Tiefe=3 Blatt=20": 202,
+        "HGB Alle Tiefe=3 Blatt=60": 211
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.017996230878834334,
+          "95": 0.006513575777853709,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.01753307107878654,
+          "95": 0.0057843705359179026,
+          "100": 0.0020489491970492146
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.029376204765495264,
+          "95": 0.004020814802648345,
+          "100": 7.596144980349503e-05
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 6,
+          "tp": 48,
+          "cost": 36
+        },
+        "Hybrid aktuell": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 4,
+          "tp": 50,
+          "cost": 33
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 5,
+          "tp": 49,
+          "cost": 36
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 5,
+          "tp": 49,
+          "cost": 36
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1540,
+          "fp": 6,
+          "fn": 6,
+          "tp": 48,
+          "cost": 42
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 3,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=0.01",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=1 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.13006264950118945,
+        "Logistik Belastung C=0.01": 0.041664904554074185,
+        "Logistik Belastung C=0.1": 0.08968931661275537,
+        "Logistik Belastung C=1": 0.09726691829418793,
+        "Logistik Belastung C=10": 0.1984850627996428,
+        "Logistik Alle C=0.01": 0.05068432668627999,
+        "Logistik Alle C=0.1": 0.11020581020321654,
+        "Logistik Alle C=1": 0.10632760747610137,
+        "Logistik Alle C=10": 0.113837357770705,
+        "Logistik Grenznähe C=0.01": 0.049323893528282675,
+        "Logistik Grenznähe C=0.1": 0.06011867518054133,
+        "Logistik Grenznähe C=1": 0.2014455553914722,
+        "Logistik Grenznähe C=10": 0.19222513177525874,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.18869312405410105,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": 0.15964238088482563,
+        "HGB Belastung Tiefe=2 Blatt=60": 0.23777833333147436,
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": 0.21562984133325191,
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.4116636382796438,
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.6100039734203788,
+        "HGB Alle Tiefe=3 Blatt=60": 0.3167096252626133
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 175,
+        "Logistik Belastung C=0.01": 173,
+        "Logistik Belastung C=0.1": 175,
+        "Logistik Belastung C=1": 178,
+        "Logistik Belastung C=10": 179,
+        "Logistik Alle C=0.01": 172,
+        "Logistik Alle C=0.1": 173,
+        "Logistik Alle C=1": 174,
+        "Logistik Alle C=10": 179,
+        "Logistik Grenznähe C=0.01": 169,
+        "Logistik Grenznähe C=0.1": 173,
+        "Logistik Grenznähe C=1": 175,
+        "Logistik Grenznähe C=10": 176,
+        "HGB Belastung Tiefe=1 Blatt=20": 174,
+        "HGB Belastung Tiefe=1 Blatt=60": 180,
+        "HGB Belastung Tiefe=2 Blatt=20": 179,
+        "HGB Belastung Tiefe=2 Blatt=60": 174,
+        "HGB Belastung Tiefe=3 Blatt=20": 180,
+        "HGB Belastung Tiefe=3 Blatt=60": 180,
+        "HGB Alle Tiefe=1 Blatt=20": 175,
+        "HGB Alle Tiefe=1 Blatt=60": 180,
+        "HGB Alle Tiefe=2 Blatt=20": 174,
+        "HGB Alle Tiefe=2 Blatt=60": 180,
+        "HGB Alle Tiefe=3 Blatt=20": 174,
+        "HGB Alle Tiefe=3 Blatt=60": 176
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.04459653747768927,
+          "95": 0.005377788801709455,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.023637089991069678,
+          "95": 0.007447629659796113,
+          "100": 0.0028057190595858223
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.07121166924990352,
+          "95": 0.018405263639509693,
+          "100": "alle_alarme"
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 12,
+          "tp": 42,
+          "cost": 72
+        },
+        "Hybrid aktuell": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 10,
+          "tp": 44,
+          "cost": 67
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 10,
+          "tp": 44,
+          "cost": 68
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1535,
+          "fp": 11,
+          "fn": 10,
+          "tp": 44,
+          "cost": 71
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 12,
+          "tp": 42,
+          "cost": 72
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 4,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.1551405949572207,
+        "Logistik Belastung C=0.01": 0.05061753446557288,
+        "Logistik Belastung C=0.1": 0.0966843541965347,
+        "Logistik Belastung C=1": 0.2115186161531713,
+        "Logistik Belastung C=10": 0.21842355602288294,
+        "Logistik Alle C=0.01": 0.05308748070891699,
+        "Logistik Alle C=0.1": 0.06826035326822977,
+        "Logistik Alle C=1": 0.27893905089118354,
+        "Logistik Alle C=10": 0.28083673609931326,
+        "Logistik Grenznähe C=0.01": 0.051835692693641924,
+        "Logistik Grenznähe C=0.1": 0.06676691218874302,
+        "Logistik Grenznähe C=1": 0.07224479362921284,
+        "Logistik Grenznähe C=10": 0.07371779361808552,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.4407014804437675,
+        "HGB Alle Tiefe=3 Blatt=60": 0.39885741823830323
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 185,
+        "Logistik Belastung C=0.01": 186,
+        "Logistik Belastung C=0.1": 189,
+        "Logistik Belastung C=1": 192,
+        "Logistik Belastung C=10": 192,
+        "Logistik Alle C=0.01": 187,
+        "Logistik Alle C=0.1": 187,
+        "Logistik Alle C=1": 187,
+        "Logistik Alle C=10": 187,
+        "Logistik Grenznähe C=0.01": 187,
+        "Logistik Grenznähe C=0.1": 184,
+        "Logistik Grenznähe C=1": 190,
+        "Logistik Grenznähe C=10": 190,
+        "HGB Belastung Tiefe=1 Blatt=20": 198,
+        "HGB Belastung Tiefe=1 Blatt=60": 198,
+        "HGB Belastung Tiefe=2 Blatt=20": 198,
+        "HGB Belastung Tiefe=2 Blatt=60": 198,
+        "HGB Belastung Tiefe=3 Blatt=20": 198,
+        "HGB Belastung Tiefe=3 Blatt=60": 198,
+        "HGB Alle Tiefe=1 Blatt=20": 198,
+        "HGB Alle Tiefe=1 Blatt=60": 198,
+        "HGB Alle Tiefe=2 Blatt=20": 198,
+        "HGB Alle Tiefe=2 Blatt=60": 198,
+        "HGB Alle Tiefe=3 Blatt=20": 195,
+        "HGB Alle Tiefe=3 Blatt=60": 196
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.02546821823012651,
+          "95": 0.006621567058555275,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.028283117318131455,
+          "95": 0.006286353618548915,
+          "100": 0.0015662030518776545
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.03146422662175005,
+          "95": 0.0050997001832446195,
+          "100": 0.00016828546044441684
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Hybrid aktuell": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1532,
+          "fp": 14,
+          "fn": 8,
+          "tp": 46,
+          "cost": 62
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1545,
+          "fp": 1,
+          "fn": 9,
+          "tp": 45,
+          "cost": 55
+        }
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 5,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=60"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.1676428476819614,
+        "Logistik Belastung C=0.01": 0.0395140442011499,
+        "Logistik Belastung C=0.1": 0.17651087770845597,
+        "Logistik Belastung C=1": 0.1323272030438332,
+        "Logistik Belastung C=10": 0.13780925042833186,
+        "Logistik Alle C=0.01": 0.12033557234460962,
+        "Logistik Alle C=0.1": 0.16763346368318346,
+        "Logistik Alle C=1": 0.16249179637452515,
+        "Logistik Alle C=10": 0.16974645735904725,
+        "Logistik Grenznähe C=0.01": 0.0982267948647933,
+        "Logistik Grenznähe C=0.1": 0.1582457342251275,
+        "Logistik Grenznähe C=1": 0.14649849187230463,
+        "Logistik Grenznähe C=10": 0.14663395717212063,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": 0.17745931222324346,
+        "HGB Alle Tiefe=1 Blatt=60": 0.1737999403918713,
+        "HGB Alle Tiefe=2 Blatt=20": 0.1910569017794676,
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.6216130620546472,
+        "HGB Alle Tiefe=3 Blatt=60": 0.16742750784615534
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 184,
+        "Logistik Belastung C=0.01": 188,
+        "Logistik Belastung C=0.1": 195,
+        "Logistik Belastung C=1": 194,
+        "Logistik Belastung C=10": 193,
+        "Logistik Alle C=0.01": 194,
+        "Logistik Alle C=0.1": 189,
+        "Logistik Alle C=1": 185,
+        "Logistik Alle C=10": 185,
+        "Logistik Grenznähe C=0.01": 192,
+        "Logistik Grenznähe C=0.1": 190,
+        "Logistik Grenznähe C=1": 186,
+        "Logistik Grenznähe C=10": 186,
+        "HGB Belastung Tiefe=1 Blatt=20": 204,
+        "HGB Belastung Tiefe=1 Blatt=60": 204,
+        "HGB Belastung Tiefe=2 Blatt=20": 204,
+        "HGB Belastung Tiefe=2 Blatt=60": 204,
+        "HGB Belastung Tiefe=3 Blatt=20": 204,
+        "HGB Belastung Tiefe=3 Blatt=60": 204,
+        "HGB Alle Tiefe=1 Blatt=20": 202,
+        "HGB Alle Tiefe=1 Blatt=60": 199,
+        "HGB Alle Tiefe=2 Blatt=20": 202,
+        "HGB Alle Tiefe=2 Blatt=60": 204,
+        "HGB Alle Tiefe=3 Blatt=20": 198,
+        "HGB Alle Tiefe=3 Blatt=60": 195
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.02157712838484084,
+          "95": 0.004995062722018698,
+          "100": 0.0027859815855366824
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.03146196829424121,
+          "95": 0.0063714798301149735,
+          "100": 0.0005533279748864087
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.04778041345753095,
+          "95": 0.0037406599947389955,
+          "100": 0.00010265656381225062
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1545,
+          "fp": 0,
+          "fn": 8,
+          "tp": 47,
+          "cost": 48
+        },
+        "Hybrid aktuell": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1541,
+          "fp": 4,
+          "fn": 8,
+          "tp": 47,
+          "cost": 52
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1543,
+          "fp": 2,
+          "fn": 7,
+          "tp": 48,
+          "cost": 44
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 1,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=2 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.1871695411882092,
+        "Logistik Belastung C=0.01": 0.0897429524784858,
+        "Logistik Belastung C=0.1": 0.1506989217853266,
+        "Logistik Belastung C=1": 0.10662347060203861,
+        "Logistik Belastung C=10": 0.10737617219246026,
+        "Logistik Alle C=0.01": 0.09084116040019552,
+        "Logistik Alle C=0.1": 0.15131791426350355,
+        "Logistik Alle C=1": 0.2507679277518119,
+        "Logistik Alle C=10": 0.20725148851919956,
+        "Logistik Grenznähe C=0.01": 0.09711218546681202,
+        "Logistik Grenznähe C=0.1": 0.15039139572116578,
+        "Logistik Grenznähe C=1": 0.17091598630883426,
+        "Logistik Grenznähe C=10": 0.17167657612369036,
+        "HGB Belastung Tiefe=1 Blatt=20": 0.11222527805520788,
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": 0.5019602714268491,
+        "HGB Belastung Tiefe=2 Blatt=60": 0.2762365986444147,
+        "HGB Belastung Tiefe=3 Blatt=20": 0.5363990503763085,
+        "HGB Belastung Tiefe=3 Blatt=60": 0.321307465948942,
+        "HGB Alle Tiefe=1 Blatt=20": 0.3924815225542253,
+        "HGB Alle Tiefe=1 Blatt=60": 0.16547282366273408,
+        "HGB Alle Tiefe=2 Blatt=20": 0.1915331027282555,
+        "HGB Alle Tiefe=2 Blatt=60": 0.2794699808049622,
+        "HGB Alle Tiefe=3 Blatt=20": 0.16071445142810079,
+        "HGB Alle Tiefe=3 Blatt=60": 0.34327743370261754
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 195,
+        "Logistik Belastung C=0.01": 199,
+        "Logistik Belastung C=0.1": 201,
+        "Logistik Belastung C=1": 206,
+        "Logistik Belastung C=10": 206,
+        "Logistik Alle C=0.01": 199,
+        "Logistik Alle C=0.1": 201,
+        "Logistik Alle C=1": 202,
+        "Logistik Alle C=10": 204,
+        "Logistik Grenznähe C=0.01": 201,
+        "Logistik Grenznähe C=0.1": 198,
+        "Logistik Grenznähe C=1": 194,
+        "Logistik Grenznähe C=10": 194,
+        "HGB Belastung Tiefe=1 Blatt=20": 201,
+        "HGB Belastung Tiefe=1 Blatt=60": 222,
+        "HGB Belastung Tiefe=2 Blatt=20": 216,
+        "HGB Belastung Tiefe=2 Blatt=60": 217,
+        "HGB Belastung Tiefe=3 Blatt=20": 216,
+        "HGB Belastung Tiefe=3 Blatt=60": 216,
+        "HGB Alle Tiefe=1 Blatt=20": 212,
+        "HGB Alle Tiefe=1 Blatt=60": 215,
+        "HGB Alle Tiefe=2 Blatt=20": 197,
+        "HGB Alle Tiefe=2 Blatt=60": 219,
+        "HGB Alle Tiefe=3 Blatt=20": 201,
+        "HGB Alle Tiefe=3 Blatt=60": 213
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.018869475191398817,
+          "95": 0.006177895964885334,
+          "100": 0.0022911849043408946
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.01806675718799205,
+          "95": 0.005744643403790875,
+          "100": "alle_alarme"
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.062277922775584735,
+          "95": 0.017756406267816154,
+          "100": 0.0001262510285711325
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 7,
+          "tp": 47,
+          "cost": 42
+        },
+        "Hybrid aktuell": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 7,
+          "tp": 47,
+          "cost": 50
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 7,
+          "fn": 7,
+          "tp": 47,
+          "cost": 49
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1538,
+          "fp": 8,
+          "fn": 7,
+          "tp": 47,
+          "cost": 50
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1537,
+          "fp": 9,
+          "fn": 7,
+          "tp": 47,
+          "cost": 51
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 2,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Belastung C=0.01",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": "nur_kerneingriffe",
+        "Logistik Belastung C=0.01": "nur_kerneingriffe",
+        "Logistik Belastung C=0.1": "nur_kerneingriffe",
+        "Logistik Belastung C=1": "nur_kerneingriffe",
+        "Logistik Belastung C=10": "nur_kerneingriffe",
+        "Logistik Alle C=0.01": "nur_kerneingriffe",
+        "Logistik Alle C=0.1": "nur_kerneingriffe",
+        "Logistik Alle C=1": "nur_kerneingriffe",
+        "Logistik Alle C=10": "nur_kerneingriffe",
+        "Logistik Grenznähe C=0.01": "nur_kerneingriffe",
+        "Logistik Grenznähe C=0.1": "nur_kerneingriffe",
+        "Logistik Grenznähe C=1": "nur_kerneingriffe",
+        "Logistik Grenznähe C=10": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": 0.10862138763877241,
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": 0.2642087815984766,
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": 0.25638032381880754,
+        "HGB Alle Tiefe=3 Blatt=60": 0.3575054203791448
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 198,
+        "Logistik Belastung C=0.01": 198,
+        "Logistik Belastung C=0.1": 198,
+        "Logistik Belastung C=1": 198,
+        "Logistik Belastung C=10": 198,
+        "Logistik Alle C=0.01": 198,
+        "Logistik Alle C=0.1": 198,
+        "Logistik Alle C=1": 198,
+        "Logistik Alle C=10": 198,
+        "Logistik Grenznähe C=0.01": 198,
+        "Logistik Grenznähe C=0.1": 198,
+        "Logistik Grenznähe C=1": 198,
+        "Logistik Grenznähe C=10": 198,
+        "HGB Belastung Tiefe=1 Blatt=20": 198,
+        "HGB Belastung Tiefe=1 Blatt=60": 196,
+        "HGB Belastung Tiefe=2 Blatt=20": 198,
+        "HGB Belastung Tiefe=2 Blatt=60": 198,
+        "HGB Belastung Tiefe=3 Blatt=20": 198,
+        "HGB Belastung Tiefe=3 Blatt=60": 194,
+        "HGB Alle Tiefe=1 Blatt=20": 198,
+        "HGB Alle Tiefe=1 Blatt=60": 198,
+        "HGB Alle Tiefe=2 Blatt=20": 198,
+        "HGB Alle Tiefe=2 Blatt=60": 198,
+        "HGB Alle Tiefe=3 Blatt=20": 193,
+        "HGB Alle Tiefe=3 Blatt=60": 194
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.02022459563565846,
+          "95": 0.006189516765915722,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.017966741117529758,
+          "95": 0.008561771683815075,
+          "100": 0.0035566237556137405
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.023444702368608066,
+          "95": 0.004269474083523581,
+          "100": 8.64043710165855e-05
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Hybrid aktuell": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 6,
+          "tp": 48,
+          "cost": 39
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 9,
+          "tp": 45,
+          "cost": 54
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 3,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Grenznähe C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Belastung Tiefe=2 Blatt=60"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.1927485169638367,
+        "Logistik Belastung C=0.01": 0.08424321803644601,
+        "Logistik Belastung C=0.1": 0.7002494891181595,
+        "Logistik Belastung C=1": 0.7433690323055868,
+        "Logistik Belastung C=10": 0.7479961443735279,
+        "Logistik Alle C=0.01": 0.0838306013560079,
+        "Logistik Alle C=0.1": 0.21338782978464646,
+        "Logistik Alle C=1": 0.2170558698042726,
+        "Logistik Alle C=10": 0.34904421120384577,
+        "Logistik Grenznähe C=0.01": 0.0699275147789303,
+        "Logistik Grenznähe C=0.1": 0.24265894764112245,
+        "Logistik Grenznähe C=1": 0.2818431342068305,
+        "Logistik Grenznähe C=10": 0.28538667027849074,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": 0.104118008319769,
+        "HGB Belastung Tiefe=2 Blatt=20": 0.268032728736769,
+        "HGB Belastung Tiefe=2 Blatt=60": 0.19101702585091987,
+        "HGB Belastung Tiefe=3 Blatt=20": 0.43166037931821144,
+        "HGB Belastung Tiefe=3 Blatt=60": 0.3244188732003078,
+        "HGB Alle Tiefe=1 Blatt=20": 0.22789528997813513,
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.2761199280337343,
+        "HGB Alle Tiefe=2 Blatt=60": 0.2029161947929241,
+        "HGB Alle Tiefe=3 Blatt=20": 0.5075399627726724,
+        "HGB Alle Tiefe=3 Blatt=60": 0.3501344780385029
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 181,
+        "Logistik Belastung C=0.01": 184,
+        "Logistik Belastung C=0.1": 186,
+        "Logistik Belastung C=1": 186,
+        "Logistik Belastung C=10": 186,
+        "Logistik Alle C=0.01": 184,
+        "Logistik Alle C=0.1": 184,
+        "Logistik Alle C=1": 184,
+        "Logistik Alle C=10": 185,
+        "Logistik Grenznähe C=0.01": 184,
+        "Logistik Grenznähe C=0.1": 184,
+        "Logistik Grenznähe C=1": 183,
+        "Logistik Grenznähe C=10": 183,
+        "HGB Belastung Tiefe=1 Blatt=20": 192,
+        "HGB Belastung Tiefe=1 Blatt=60": 189,
+        "HGB Belastung Tiefe=2 Blatt=20": 187,
+        "HGB Belastung Tiefe=2 Blatt=60": 180,
+        "HGB Belastung Tiefe=3 Blatt=20": 186,
+        "HGB Belastung Tiefe=3 Blatt=60": 186,
+        "HGB Alle Tiefe=1 Blatt=20": 189,
+        "HGB Alle Tiefe=1 Blatt=60": 192,
+        "HGB Alle Tiefe=2 Blatt=20": 183,
+        "HGB Alle Tiefe=2 Blatt=60": 184,
+        "HGB Alle Tiefe=3 Blatt=20": 186,
+        "HGB Alle Tiefe=3 Blatt=60": 187
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.029888253817705344,
+          "95": 0.0055924182136031265,
+          "100": 0.0027419524210162685
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.02138348694579207,
+          "95": 0.0056646524190013805,
+          "100": 0.0024371922876215697
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.04989124326487839,
+          "95": 0.021237265399872314,
+          "100": 0.00011009206849555374
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 10,
+          "tp": 44,
+          "cost": 60
+        },
+        "Hybrid aktuell": {
+          "tn": 1541,
+          "fp": 5,
+          "fn": 7,
+          "tp": 47,
+          "cost": 47
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1543,
+          "fp": 3,
+          "fn": 8,
+          "tp": 46,
+          "cost": 51
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1545,
+          "fp": 1,
+          "fn": 10,
+          "tp": 44,
+          "cost": 61
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 10,
+          "tp": 44,
+          "cost": 60
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 4,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=2 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.15772271926839165,
+        "Logistik Belastung C=0.01": 0.09121850713104748,
+        "Logistik Belastung C=0.1": 0.12546546238436865,
+        "Logistik Belastung C=1": 0.5954235099316156,
+        "Logistik Belastung C=10": 0.22169556175456545,
+        "Logistik Alle C=0.01": 0.11611412972258911,
+        "Logistik Alle C=0.1": 0.28626909248976373,
+        "Logistik Alle C=1": 0.3220467756824473,
+        "Logistik Alle C=10": 0.30612262264724693,
+        "Logistik Grenznähe C=0.01": 0.08683812198965733,
+        "Logistik Grenznähe C=0.1": 0.5220565063463736,
+        "Logistik Grenznähe C=1": 0.6847768766419184,
+        "Logistik Grenznähe C=10": 0.6936724659201376,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.3898770558180804,
+        "HGB Alle Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=20": "nur_kerneingriffe",
+        "HGB Alle Tiefe=3 Blatt=60": "nur_kerneingriffe"
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 187,
+        "Logistik Belastung C=0.01": 197,
+        "Logistik Belastung C=0.1": 196,
+        "Logistik Belastung C=1": 199,
+        "Logistik Belastung C=10": 198,
+        "Logistik Alle C=0.01": 198,
+        "Logistik Alle C=0.1": 194,
+        "Logistik Alle C=1": 192,
+        "Logistik Alle C=10": 193,
+        "Logistik Grenznähe C=0.01": 196,
+        "Logistik Grenznähe C=0.1": 201,
+        "Logistik Grenznähe C=1": 198,
+        "Logistik Grenznähe C=10": 198,
+        "HGB Belastung Tiefe=1 Blatt=20": 204,
+        "HGB Belastung Tiefe=1 Blatt=60": 204,
+        "HGB Belastung Tiefe=2 Blatt=20": 204,
+        "HGB Belastung Tiefe=2 Blatt=60": 204,
+        "HGB Belastung Tiefe=3 Blatt=20": 204,
+        "HGB Belastung Tiefe=3 Blatt=60": 204,
+        "HGB Alle Tiefe=1 Blatt=20": 204,
+        "HGB Alle Tiefe=1 Blatt=60": 204,
+        "HGB Alle Tiefe=2 Blatt=20": 202,
+        "HGB Alle Tiefe=2 Blatt=60": 204,
+        "HGB Alle Tiefe=3 Blatt=20": 204,
+        "HGB Alle Tiefe=3 Blatt=60": 204
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.018154636173587313,
+          "95": 0.006875089682275103,
+          "100": 0.002445059124105873
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.03220966957113674,
+          "95": 0.009938154954046088,
+          "100": 0.0018418436364417475
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.048795768567200276,
+          "95": 0.015940454015666163,
+          "100": 0.0006590687809586362
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 8,
+          "tp": 46,
+          "cost": 48
+        },
+        "Hybrid aktuell": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1544,
+          "fp": 2,
+          "fn": 8,
+          "tp": 46,
+          "cost": 50
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1545,
+          "fp": 1,
+          "fn": 8,
+          "tp": 46,
+          "cost": 49
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1546,
+          "fp": 0,
+          "fn": 8,
+          "tp": 46,
+          "cost": 48
+        }
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 5,
+      "winners": {
+        "Hybrid mit optimierter Schwelle": "Verschleißlogistik C=1",
+        "Logistik mit Grenzabständen": "Logistik Alle C=0.1",
+        "Gradient Boosting mit Grenzabständen": "HGB Alle Tiefe=3 Blatt=20"
+      },
+      "thresholds": {
+        "Verschleißlogistik C=1": 0.2070350664839417,
+        "Logistik Belastung C=0.01": 0.10690934086918925,
+        "Logistik Belastung C=0.1": 0.2211407530961958,
+        "Logistik Belastung C=1": 0.2541182629170534,
+        "Logistik Belastung C=10": 0.2479499904190442,
+        "Logistik Alle C=0.01": 0.07731296156504242,
+        "Logistik Alle C=0.1": 0.14373488233465437,
+        "Logistik Alle C=1": 0.24387907701705852,
+        "Logistik Alle C=10": 0.253901510851543,
+        "Logistik Grenznähe C=0.01": 0.13576223797149065,
+        "Logistik Grenznähe C=0.1": 0.39821907195230805,
+        "Logistik Grenznähe C=1": 0.4269124024175224,
+        "Logistik Grenznähe C=10": 0.43020935588701437,
+        "HGB Belastung Tiefe=1 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=20": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=2 Blatt=60": "nur_kerneingriffe",
+        "HGB Belastung Tiefe=3 Blatt=20": 0.304014067118052,
+        "HGB Belastung Tiefe=3 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=1 Blatt=20": 0.17945774943388412,
+        "HGB Alle Tiefe=1 Blatt=60": "nur_kerneingriffe",
+        "HGB Alle Tiefe=2 Blatt=20": 0.21385103886477708,
+        "HGB Alle Tiefe=2 Blatt=60": 0.24866615614316775,
+        "HGB Alle Tiefe=3 Blatt=20": 0.20429031627292507,
+        "HGB Alle Tiefe=3 Blatt=60": 0.3251846630471926
+      },
+      "inner_costs": {
+        "Verschleißlogistik C=1": 184,
+        "Logistik Belastung C=0.01": 196,
+        "Logistik Belastung C=0.1": 194,
+        "Logistik Belastung C=1": 193,
+        "Logistik Belastung C=10": 193,
+        "Logistik Alle C=0.01": 192,
+        "Logistik Alle C=0.1": 189,
+        "Logistik Alle C=1": 194,
+        "Logistik Alle C=10": 193,
+        "Logistik Grenznähe C=0.01": 191,
+        "Logistik Grenznähe C=0.1": 196,
+        "Logistik Grenznähe C=1": 196,
+        "Logistik Grenznähe C=10": 196,
+        "HGB Belastung Tiefe=1 Blatt=20": 204,
+        "HGB Belastung Tiefe=1 Blatt=60": 204,
+        "HGB Belastung Tiefe=2 Blatt=20": 204,
+        "HGB Belastung Tiefe=2 Blatt=60": 204,
+        "HGB Belastung Tiefe=3 Blatt=20": 199,
+        "HGB Belastung Tiefe=3 Blatt=60": 204,
+        "HGB Alle Tiefe=1 Blatt=20": 194,
+        "HGB Alle Tiefe=1 Blatt=60": 204,
+        "HGB Alle Tiefe=2 Blatt=20": 193,
+        "HGB Alle Tiefe=2 Blatt=60": 192,
+        "HGB Alle Tiefe=3 Blatt=20": 191,
+        "HGB Alle Tiefe=3 Blatt=60": 191
+      },
+      "recall_thresholds": {
+        "Hybrid aktuell": {
+          "90": 0.01994657933405187,
+          "95": 0.006032121133544689,
+          "100": "alle_alarme"
+        },
+        "Logistik mit Grenzabständen": {
+          "90": 0.023284955641024542,
+          "95": 0.007821546496369434,
+          "100": 0.001067539720878215
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "90": 0.04284774715719615,
+          "95": 0.006290707656367854,
+          "100": 0.00014435179870511927
+        }
+      },
+      "outer_metrics": {
+        "Physikalische Regeln": {
+          "tn": 1545,
+          "fp": 0,
+          "fn": 8,
+          "tp": 47,
+          "cost": 48
+        },
+        "Hybrid aktuell": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Hybrid mit optimierter Schwelle": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Logistik mit Grenzabständen": {
+          "tn": 1539,
+          "fp": 6,
+          "fn": 7,
+          "tp": 48,
+          "cost": 48
+        },
+        "Gradient Boosting mit Grenzabständen": {
+          "tn": 1543,
+          "fp": 2,
+          "fn": 8,
+          "tp": 47,
+          "cost": 50
+        }
+      }
+    }
+  ],
+  "recall_runs": [
+    {
+      "version": "Hybrid aktuell",
+      "target_recall_pct": 90,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 7551,
+          "fp": 178,
+          "fn": 25,
+          "tp": 246,
+          "cost": 328
+        },
+        {
+          "seed": 2026,
+          "tn": 7562,
+          "fp": 167,
+          "fn": 25,
+          "tp": 246,
+          "cost": 317
+        },
+        {
+          "seed": 2007,
+          "tn": 7571,
+          "fp": 158,
+          "fn": 27,
+          "tp": 244,
+          "cost": 320
+        },
+        {
+          "seed": 888,
+          "tn": 7589,
+          "fp": 140,
+          "fn": 28,
+          "tp": 243,
+          "cost": 308
+        },
+        {
+          "seed": 1024,
+          "tn": 7574,
+          "fp": 155,
+          "fn": 28,
+          "tp": 243,
+          "cost": 323
+        }
+      ]
+    },
+    {
+      "version": "Hybrid aktuell",
+      "target_recall_pct": 95,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 5903,
+          "fp": 1826,
+          "fn": 11,
+          "tp": 260,
+          "cost": 1892
+        },
+        {
+          "seed": 2026,
+          "tn": 7353,
+          "fp": 376,
+          "fn": 13,
+          "tp": 258,
+          "cost": 454
+        },
+        {
+          "seed": 2007,
+          "tn": 7372,
+          "fp": 357,
+          "fn": 11,
+          "tp": 260,
+          "cost": 423
+        },
+        {
+          "seed": 888,
+          "tn": 7364,
+          "fp": 365,
+          "fn": 14,
+          "tp": 257,
+          "cost": 449
+        },
+        {
+          "seed": 1024,
+          "tn": 7376,
+          "fp": 353,
+          "fn": 13,
+          "tp": 258,
+          "cost": 431
+        }
+      ]
+    },
+    {
+      "version": "Hybrid aktuell",
+      "target_recall_pct": 100,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 0,
+          "fp": 7729,
+          "fn": 0,
+          "tp": 271,
+          "cost": 7729
+        },
+        {
+          "seed": 2026,
+          "tn": 0,
+          "fp": 7729,
+          "fn": 0,
+          "tp": 271,
+          "cost": 7729
+        },
+        {
+          "seed": 2007,
+          "tn": 1021,
+          "fp": 6708,
+          "fn": 2,
+          "tp": 269,
+          "cost": 6720
+        },
+        {
+          "seed": 888,
+          "tn": 0,
+          "fp": 7729,
+          "fn": 0,
+          "tp": 271,
+          "cost": 7729
+        },
+        {
+          "seed": 1024,
+          "tn": 875,
+          "fp": 6854,
+          "fn": 1,
+          "tp": 270,
+          "cost": 6860
+        }
+      ]
+    },
+    {
+      "version": "Logistik mit Grenzabständen",
+      "target_recall_pct": 90,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 7546,
+          "fp": 183,
+          "fn": 25,
+          "tp": 246,
+          "cost": 333
+        },
+        {
+          "seed": 2026,
+          "tn": 7552,
+          "fp": 177,
+          "fn": 25,
+          "tp": 246,
+          "cost": 327
+        },
+        {
+          "seed": 2007,
+          "tn": 7551,
+          "fp": 178,
+          "fn": 28,
+          "tp": 243,
+          "cost": 346
+        },
+        {
+          "seed": 888,
+          "tn": 7574,
+          "fp": 155,
+          "fn": 27,
+          "tp": 244,
+          "cost": 317
+        },
+        {
+          "seed": 1024,
+          "tn": 7556,
+          "fp": 173,
+          "fn": 25,
+          "tp": 246,
+          "cost": 323
+        }
+      ]
+    },
+    {
+      "version": "Logistik mit Grenzabständen",
+      "target_recall_pct": 95,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 6551,
+          "fp": 1178,
+          "fn": 12,
+          "tp": 259,
+          "cost": 1250
+        },
+        {
+          "seed": 2026,
+          "tn": 7137,
+          "fp": 592,
+          "fn": 12,
+          "tp": 259,
+          "cost": 664
+        },
+        {
+          "seed": 2007,
+          "tn": 7249,
+          "fp": 480,
+          "fn": 12,
+          "tp": 259,
+          "cost": 552
+        },
+        {
+          "seed": 888,
+          "tn": 7199,
+          "fp": 530,
+          "fn": 13,
+          "tp": 258,
+          "cost": 608
+        },
+        {
+          "seed": 1024,
+          "tn": 7276,
+          "fp": 453,
+          "fn": 12,
+          "tp": 259,
+          "cost": 525
+        }
+      ]
+    },
+    {
+      "version": "Logistik mit Grenzabständen",
+      "target_recall_pct": 100,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 2367,
+          "fp": 5362,
+          "fn": 1,
+          "tp": 270,
+          "cost": 5368
+        },
+        {
+          "seed": 2026,
+          "tn": 732,
+          "fp": 6997,
+          "fn": 0,
+          "tp": 271,
+          "cost": 6997
+        },
+        {
+          "seed": 2007,
+          "tn": 2029,
+          "fp": 5700,
+          "fn": 1,
+          "tp": 270,
+          "cost": 5706
+        },
+        {
+          "seed": 888,
+          "tn": 842,
+          "fp": 6887,
+          "fn": 0,
+          "tp": 271,
+          "cost": 6887
+        },
+        {
+          "seed": 1024,
+          "tn": 1953,
+          "fp": 5776,
+          "fn": 3,
+          "tp": 268,
+          "cost": 5794
+        }
+      ]
+    },
+    {
+      "version": "Gradient Boosting mit Grenzabständen",
+      "target_recall_pct": 90,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 7464,
+          "fp": 265,
+          "fn": 24,
+          "tp": 247,
+          "cost": 409
+        },
+        {
+          "seed": 2026,
+          "tn": 7444,
+          "fp": 285,
+          "fn": 23,
+          "tp": 248,
+          "cost": 423
+        },
+        {
+          "seed": 2007,
+          "tn": 7481,
+          "fp": 248,
+          "fn": 28,
+          "tp": 243,
+          "cost": 416
+        },
+        {
+          "seed": 888,
+          "tn": 7507,
+          "fp": 222,
+          "fn": 27,
+          "tp": 244,
+          "cost": 384
+        },
+        {
+          "seed": 1024,
+          "tn": 7467,
+          "fp": 262,
+          "fn": 30,
+          "tp": 241,
+          "cost": 442
+        }
+      ]
+    },
+    {
+      "version": "Gradient Boosting mit Grenzabständen",
+      "target_recall_pct": 95,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 7146,
+          "fp": 583,
+          "fn": 11,
+          "tp": 260,
+          "cost": 649
+        },
+        {
+          "seed": 2026,
+          "tn": 6749,
+          "fp": 980,
+          "fn": 9,
+          "tp": 262,
+          "cost": 1034
+        },
+        {
+          "seed": 2007,
+          "tn": 7175,
+          "fp": 554,
+          "fn": 11,
+          "tp": 260,
+          "cost": 620
+        },
+        {
+          "seed": 888,
+          "tn": 7023,
+          "fp": 706,
+          "fn": 8,
+          "tp": 263,
+          "cost": 754
+        },
+        {
+          "seed": 1024,
+          "tn": 7194,
+          "fp": 535,
+          "fn": 12,
+          "tp": 259,
+          "cost": 607
+        }
+      ]
+    },
+    {
+      "version": "Gradient Boosting mit Grenzabständen",
+      "target_recall_pct": 100,
+      "repeats": [
+        {
+          "seed": 2006,
+          "tn": 864,
+          "fp": 6865,
+          "fn": 1,
+          "tp": 270,
+          "cost": 6871
+        },
+        {
+          "seed": 2026,
+          "tn": 509,
+          "fp": 7220,
+          "fn": 1,
+          "tp": 270,
+          "cost": 7226
+        },
+        {
+          "seed": 2007,
+          "tn": 683,
+          "fp": 7046,
+          "fn": 1,
+          "tp": 270,
+          "cost": 7052
+        },
+        {
+          "seed": 888,
+          "tn": 583,
+          "fp": 7146,
+          "fn": 1,
+          "tp": 270,
+          "cost": 7152
+        },
+        {
+          "seed": 1024,
+          "tn": 725,
+          "fp": 7004,
+          "fn": 1,
+          "tp": 270,
+          "cost": 7010
+        }
+      ]
+    }
+  ],
+  "final": {
+    "version": "Hybrid aktuell",
+    "configuration": "Verschleißlogistik C=1",
+    "params": {
+      "C": 1.0
+    },
+    "threshold": 0.14285714285714285,
+    "seed": 4701,
+    "predictions": 2000,
+    "alarms": 63
+  },
+  "grid": {
+    "Hybrid mit optimierter Schwelle": {
+      "Verschleißlogistik C=1": {}
+    },
+    "Logistik mit Grenzabständen": {
+      "Logistik Belastung C=0.01": {
+        "features": "Belastung",
+        "C": 0.01
+      },
+      "Logistik Belastung C=0.1": {
+        "features": "Belastung",
+        "C": 0.1
+      },
+      "Logistik Belastung C=1": {
+        "features": "Belastung",
+        "C": 1.0
+      },
+      "Logistik Belastung C=10": {
+        "features": "Belastung",
+        "C": 10.0
+      },
+      "Logistik Alle C=0.01": {
+        "features": "Alle",
+        "C": 0.01
+      },
+      "Logistik Alle C=0.1": {
+        "features": "Alle",
+        "C": 0.1
+      },
+      "Logistik Alle C=1": {
+        "features": "Alle",
+        "C": 1.0
+      },
+      "Logistik Alle C=10": {
+        "features": "Alle",
+        "C": 10.0
+      },
+      "Logistik Grenznähe C=0.01": {
+        "features": "Grenznähe",
+        "C": 0.01
+      },
+      "Logistik Grenznähe C=0.1": {
+        "features": "Grenznähe",
+        "C": 0.1
+      },
+      "Logistik Grenznähe C=1": {
+        "features": "Grenznähe",
+        "C": 1.0
+      },
+      "Logistik Grenznähe C=10": {
+        "features": "Grenznähe",
+        "C": 10.0
+      }
+    },
+    "Gradient Boosting mit Grenzabständen": {
+      "HGB Belastung Tiefe=1 Blatt=20": {
+        "features": "Belastung",
+        "max_depth": 1,
+        "min_samples_leaf": 20
+      },
+      "HGB Belastung Tiefe=1 Blatt=60": {
+        "features": "Belastung",
+        "max_depth": 1,
+        "min_samples_leaf": 60
+      },
+      "HGB Belastung Tiefe=2 Blatt=20": {
+        "features": "Belastung",
+        "max_depth": 2,
+        "min_samples_leaf": 20
+      },
+      "HGB Belastung Tiefe=2 Blatt=60": {
+        "features": "Belastung",
+        "max_depth": 2,
+        "min_samples_leaf": 60
+      },
+      "HGB Belastung Tiefe=3 Blatt=20": {
+        "features": "Belastung",
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      "HGB Belastung Tiefe=3 Blatt=60": {
+        "features": "Belastung",
+        "max_depth": 3,
+        "min_samples_leaf": 60
+      },
+      "HGB Alle Tiefe=1 Blatt=20": {
+        "features": "Alle",
+        "max_depth": 1,
+        "min_samples_leaf": 20
+      },
+      "HGB Alle Tiefe=1 Blatt=60": {
+        "features": "Alle",
+        "max_depth": 1,
+        "min_samples_leaf": 60
+      },
+      "HGB Alle Tiefe=2 Blatt=20": {
+        "features": "Alle",
+        "max_depth": 2,
+        "min_samples_leaf": 20
+      },
+      "HGB Alle Tiefe=2 Blatt=60": {
+        "features": "Alle",
+        "max_depth": 2,
+        "min_samples_leaf": 60
+      },
+      "HGB Alle Tiefe=3 Blatt=20": {
+        "features": "Alle",
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      "HGB Alle Tiefe=3 Blatt=60": {
+        "features": "Alle",
+        "max_depth": 3,
+        "min_samples_leaf": 60
+      }
+    }
+  },
+  "first_run_time_log": [
+    {
+      "time": "2026-11-15T20:08:10+01:00",
+      "event": "Versuch gestartet. Schwellen und Modellparameter werden in inneren Falten gewählt."
+    },
+    {
+      "time": "2026-11-15T20:08:10+01:00",
+      "event": "Äußere Validierung gestartet, Seed 2006"
+    },
+    {
+      "time": "2026-11-15T20:08:27+01:00",
+      "event": "Seed 2006 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 240, Hybrid mit optimierter Schwelle: 240, Logistik mit Grenzabständen: 261, Gradient Boosting mit Grenzabständen: 258"
+    },
+    {
+      "time": "2026-11-15T20:08:27+01:00",
+      "event": "Äußere Validierung gestartet, Seed 2026"
+    },
+    {
+      "time": "2026-11-15T20:08:44+01:00",
+      "event": "Seed 2026 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 237, Hybrid mit optimierter Schwelle: 259, Logistik mit Grenzabständen: 270, Gradient Boosting mit Grenzabständen: 260"
+    },
+    {
+      "time": "2026-11-15T20:08:44+01:00",
+      "event": "Äußere Validierung gestartet, Seed 2007"
+    },
+    {
+      "time": "2026-11-15T20:09:01+01:00",
+      "event": "Seed 2007 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 242, Hybrid mit optimierter Schwelle: 251, Logistik mit Grenzabständen: 268, Gradient Boosting mit Grenzabständen: 275"
+    },
+    {
+      "time": "2026-11-15T20:09:01+01:00",
+      "event": "Äußere Validierung gestartet, Seed 888"
+    },
+    {
+      "time": "2026-11-15T20:09:22+01:00",
+      "event": "Seed 888 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 235, Hybrid mit optimierter Schwelle: 239, Logistik mit Grenzabständen: 258, Gradient Boosting mit Grenzabständen: 255"
+    },
+    {
+      "time": "2026-11-15T20:09:22+01:00",
+      "event": "Äußere Validierung gestartet, Seed 1024"
+    },
+    {
+      "time": "2026-11-15T20:09:39+01:00",
+      "event": "Seed 1024 abgeschlossen. Physikalische Regeln: 252, Hybrid aktuell: 234, Hybrid mit optimierter Schwelle: 252, Logistik mit Grenzabständen: 262, Gradient Boosting mit Grenzabständen: 259"
+    },
+    {
+      "time": "2026-11-15T20:09:39+01:00",
+      "event": "Konfiguration festgelegt: {'version': 'Hybrid aktuell', 'configuration': 'Verschleißlogistik C=1', 'params': {}, 'threshold': 0.14285714285714285, 'seed': 4701}"
+    },
+    {
+      "time": "2026-11-15T20:09:39+01:00",
+      "event": "Challenge-Prognose geprüft: 2000 Zeilen, 63 Alarme"
+    },
+    {
+      "time": "2026-11-15T20:09:39+01:00",
+      "event": "Ranglisten und Schwellenkurven geschrieben."
+    }
+  ]
+}
