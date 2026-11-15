@@ -1,0 +1,8 @@
+version,kosten_mittel,kosten_min,kosten_max,fp_mittel,fn_mittel,recall_pct,kosten_je_seed,new_hits_mittel,lost_hits_mittel,new_false_alarms_mittel,removed_false_alarms_mittel,new_hits_200_219_mittel,lost_hits_200_219_mittel
+Hybrid aktuell,237.6,234,242,25.2,35.4,86.93726937269372,240/237/242/235/234,0.0,0.0,0.0,0.0,0.0,0.0
+Hybrid mit optimierter Schwelle,248.2,239,259,19.0,38.2,85.9040590405904,240/259/251/239/252,0.0,2.8,0.6,6.8,0.0,0.0
+Kurve + Produktvariante,258.2,252,265,38.6,36.6,86.49446494464945,261/265/252/258/255,1.8,3.0,19.4,6.0,0.0,0.0
+Kurve,259.8,254,266,34.2,37.6,86.12546125461253,263/266/259/257/254,0.8,3.0,12.4,3.4,0.0,0.0
+Kurve + beide Wechselwirkungen,262.6,253,276,28.6,39.0,85.60885608856088,265/257/262/253/276,0.8,4.4,12.8,9.4,0.2,0.0
+Verschleißkurve mit innerer Auswahl,266.4,257,272,36.0,38.4,85.83025830258302,265/272/267/257/271,0.8,3.8,15.6,4.8,0.2,0.0
+Kurve + Drehmoment,266.6,260,279,37.4,38.2,85.9040590405904,260/264/267/263/279,0.8,3.6,17.6,5.4,0.0,0.0

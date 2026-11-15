@@ -1,0 +1,2321 @@
+{
+  "time_log": [
+    {
+      "time": "2026-11-15T20:54:37+01:00",
+      "event": "Suche nach statischen Merkmalsregeln gestartet."
+    },
+    {
+      "time": "2026-11-15T20:54:41+01:00",
+      "event": "Seed 2006: Hybrid 240, innere Regelauswahl 240 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:54:45+01:00",
+      "event": "Seed 2026: Hybrid 237, innere Regelauswahl 237 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:54:49+01:00",
+      "event": "Seed 2007: Hybrid 242, innere Regelauswahl 242 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:54:52+01:00",
+      "event": "Seed 888: Hybrid 235, innere Regelauswahl 235 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:54:56+01:00",
+      "event": "Seed 1024: Hybrid 234, innere Regelauswahl 234 Kosteneinheiten."
+    },
+    {
+      "time": "2026-11-15T20:54:56+01:00",
+      "event": "Vergleich abgeschlossen und Rangliste geschrieben."
+    }
+  ],
+  "raster": {
+    "Bis 1 Bedingung(en), mindestens 2 Treffer": [
+      1,
+      2
+    ],
+    "Bis 1 Bedingung(en), mindestens 3 Treffer": [
+      1,
+      3
+    ],
+    "Bis 1 Bedingung(en), mindestens 5 Treffer": [
+      1,
+      5
+    ],
+    "Bis 2 Bedingung(en), mindestens 2 Treffer": [
+      2,
+      2
+    ],
+    "Bis 2 Bedingung(en), mindestens 3 Treffer": [
+      2,
+      3
+    ],
+    "Bis 2 Bedingung(en), mindestens 5 Treffer": [
+      2,
+      5
+    ]
+  },
+  "quantile": [
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5,
+    0.65,
+    0.8,
+    0.9,
+    0.95,
+    0.975,
+    0.99
+  ],
+  "results": {
+    "Hybrid aktuell": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      }
+    ],
+    "Hybrid mit Merkmalsregel, innere Auswahl": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      }
+    ],
+    "Bis 1 Bedingung(en), mindestens 2 Treffer": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      }
+    ],
+    "Bis 1 Bedingung(en), mindestens 3 Treffer": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      }
+    ],
+    "Bis 1 Bedingung(en), mindestens 5 Treffer": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 0
+      }
+    ],
+    "Bis 2 Bedingung(en), mindestens 2 Treffer": [
+      {
+        "seed": 2006,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 36,
+        "tp": 235,
+        "cost": 244,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 4
+      },
+      {
+        "seed": 2026,
+        "tn": 7692,
+        "fp": 37,
+        "fn": 35,
+        "tp": 236,
+        "cost": 247,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 10
+      },
+      {
+        "seed": 2007,
+        "tn": 7686,
+        "fp": 43,
+        "fn": 36,
+        "tp": 235,
+        "cost": 259,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 17
+      },
+      {
+        "seed": 888,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 35,
+        "tp": 236,
+        "cost": 241,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 6
+      },
+      {
+        "seed": 1024,
+        "tn": 7686,
+        "fp": 43,
+        "fn": 35,
+        "tp": 236,
+        "cost": 253,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 19
+      }
+    ],
+    "Bis 2 Bedingung(en), mindestens 3 Treffer": [
+      {
+        "seed": 2006,
+        "tn": 7682,
+        "fp": 47,
+        "fn": 35,
+        "tp": 236,
+        "cost": 257,
+        "zusätzliche_treffer": 1,
+        "zusätzliche_fehlalarme": 23
+      },
+      {
+        "seed": 2026,
+        "tn": 7681,
+        "fp": 48,
+        "fn": 35,
+        "tp": 236,
+        "cost": 258,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 21
+      },
+      {
+        "seed": 2007,
+        "tn": 7678,
+        "fp": 51,
+        "fn": 36,
+        "tp": 235,
+        "cost": 267,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 25
+      },
+      {
+        "seed": 888,
+        "tn": 7690,
+        "fp": 39,
+        "fn": 34,
+        "tp": 237,
+        "cost": 243,
+        "zusätzliche_treffer": 1,
+        "zusätzliche_fehlalarme": 14
+      },
+      {
+        "seed": 1024,
+        "tn": 7677,
+        "fp": 52,
+        "fn": 35,
+        "tp": 236,
+        "cost": 262,
+        "zusätzliche_treffer": 0,
+        "zusätzliche_fehlalarme": 28
+      }
+    ],
+    "Bis 2 Bedingung(en), mindestens 5 Treffer": [
+      {
+        "seed": 2006,
+        "tn": 7691,
+        "fp": 38,
+        "fn": 35,
+        "tp": 236,
+        "cost": 248,
+        "zusätzliche_treffer": 1,
+        "zusätzliche_fehlalarme": 14
+      },
+      {
+        "seed": 2026,
+        "tn": 7678,
+        "fp": 51,
+        "fn": 33,
+        "tp": 238,
+        "cost": 249,
+        "zusätzliche_treffer": 2,
+        "zusätzliche_fehlalarme": 24
+      },
+      {
+        "seed": 2007,
+        "tn": 7687,
+        "fp": 42,
+        "fn": 35,
+        "tp": 236,
+        "cost": 252,
+        "zusätzliche_treffer": 1,
+        "zusätzliche_fehlalarme": 16
+      },
+      {
+        "seed": 888,
+        "tn": 7677,
+        "fp": 52,
+        "fn": 32,
+        "tp": 239,
+        "cost": 244,
+        "zusätzliche_treffer": 3,
+        "zusätzliche_fehlalarme": 27
+      },
+      {
+        "seed": 1024,
+        "tn": 7671,
+        "fp": 58,
+        "fn": 33,
+        "tp": 238,
+        "cost": 256,
+        "zusätzliche_treffer": 2,
+        "zusätzliche_fehlalarme": 34
+      }
+    ]
+  },
+  "folds": [
+    {
+      "seed": 2006,
+      "fold": 1,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 198,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 198,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 198,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 198,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 199,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 212,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 211
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 2
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Prozesstemperatur [K]",
+              "relation": "<=",
+              "threshold": 309.3
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 13
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1544,
+        "fp": 2,
+        "fn": 8,
+        "tp": 46,
+        "cost": 50
+      },
+      "test_referenz": {
+        "tn": 1544,
+        "fp": 2,
+        "fn": 8,
+        "tp": 46,
+        "cost": 50
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 2,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 195,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 195,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 195,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 195,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 216,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 231,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 209
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 3
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": "<=",
+              "threshold": 300.0
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 17
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1543,
+        "fp": 3,
+        "fn": 8,
+        "tp": 46,
+        "cost": 51
+      },
+      "test_referenz": {
+        "tn": 1543,
+        "fp": 3,
+        "fn": 8,
+        "tp": 46,
+        "cost": 51
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 3,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 198,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 198,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 198,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 198,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 210,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 221,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 207
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Prozesstemperatur [K]",
+              "relation": ">",
+              "threshold": 313.0
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 1
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Drehmoment [Nm]",
+              "relation": "<=",
+              "threshold": 27.3
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 10
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 27
+        }
+      },
+      "test_auswahl": {
+        "tn": 1542,
+        "fp": 4,
+        "fn": 6,
+        "tp": 48,
+        "cost": 40
+      },
+      "test_referenz": {
+        "tn": 1542,
+        "fp": 4,
+        "fn": 6,
+        "tp": 48,
+        "cost": 40
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 4,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 192,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 192,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 192,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 192,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 209,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 213,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 209
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 11.300000000000011
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 5
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1540,
+        "fp": 6,
+        "fn": 8,
+        "tp": 46,
+        "cost": 54
+      },
+      "test_referenz": {
+        "tn": 1540,
+        "fp": 6,
+        "fn": 8,
+        "tp": 46,
+        "cost": 54
+      }
+    },
+    {
+      "seed": 2006,
+      "fold": 5,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 194,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 194,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 194,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 194,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 210,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 215,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 210
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 2
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Drehmoment [Nm]",
+              "relation": "<=",
+              "threshold": 27.3
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 10
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 6,
+          "training_fehlalarme": 29
+        }
+      },
+      "test_auswahl": {
+        "tn": 1536,
+        "fp": 9,
+        "fn": 6,
+        "tp": 49,
+        "cost": 45
+      },
+      "test_referenz": {
+        "tn": 1536,
+        "fp": 9,
+        "fn": 6,
+        "tp": 49,
+        "cost": 45
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 1,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 189,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 189,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 189,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 189,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 204,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 215,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 207
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Prozesstemperatur [K]",
+              "relation": ">",
+              "threshold": 313.0
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 0
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": "<=",
+              "threshold": 297.4
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 17
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1539,
+        "fp": 7,
+        "fn": 9,
+        "tp": 45,
+        "cost": 61
+      },
+      "test_referenz": {
+        "tn": 1539,
+        "fp": 7,
+        "fn": 9,
+        "tp": 45,
+        "cost": 61
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 2,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 191,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 191,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 191,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 191,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 213,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 213,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 217
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Drehzahl [U/min]",
+              "relation": ">",
+              "threshold": 1861.0
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 4
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Produktvariante",
+              "relation": "=",
+              "threshold": "M"
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 11
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 28
+        }
+      },
+      "test_auswahl": {
+        "tn": 1542,
+        "fp": 4,
+        "fn": 8,
+        "tp": 46,
+        "cost": 52
+      },
+      "test_referenz": {
+        "tn": 1542,
+        "fp": 4,
+        "fn": 8,
+        "tp": 46,
+        "cost": 52
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 3,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 188,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 188,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 188,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 188,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 195,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 212,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 188
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 2
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Drehmoment [Nm]",
+              "relation": "<=",
+              "threshold": 27.3
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 10
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1541,
+        "fp": 5,
+        "fn": 8,
+        "tp": 46,
+        "cost": 53
+      },
+      "test_referenz": {
+        "tn": 1541,
+        "fp": 5,
+        "fn": 8,
+        "tp": 46,
+        "cost": 53
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 4,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 217,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 217,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 217,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 217,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 226,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 244,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 236
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Drehzahl [U/min]",
+              "relation": "<=",
+              "threshold": 1411.0
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 4
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Produktvariante",
+              "relation": "=",
+              "threshold": "M"
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 10
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 6,
+          "training_fehlalarme": 30
+        }
+      },
+      "test_auswahl": {
+        "tn": 1542,
+        "fp": 4,
+        "fn": 2,
+        "tp": 52,
+        "cost": 16
+      },
+      "test_referenz": {
+        "tn": 1542,
+        "fp": 4,
+        "fn": 2,
+        "tp": 52,
+        "cost": 16
+      }
+    },
+    {
+      "seed": 2026,
+      "fold": 5,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 186,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 186,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 186,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 186,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 203,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 196,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 194
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 11.300000000000011
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 3
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Leistung [W]",
+              "relation": "<=",
+              "threshold": 4921.847340179931
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 12
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 27
+        }
+      },
+      "test_auswahl": {
+        "tn": 1538,
+        "fp": 7,
+        "fn": 8,
+        "tp": 47,
+        "cost": 55
+      },
+      "test_referenz": {
+        "tn": 1538,
+        "fp": 7,
+        "fn": 8,
+        "tp": 47,
+        "cost": 55
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 1,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 194,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 194,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 194,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 194,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 209,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 219,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 205
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 220.0
+            },
+            {
+              "feature": "Drehzahl [U/min]",
+              "relation": "<=",
+              "threshold": 1413.0
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 3
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 205.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 11.300000000000011
+            }
+          ],
+          "training_treffer": 4,
+          "training_fehlalarme": 22
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1544,
+        "fp": 2,
+        "fn": 8,
+        "tp": 46,
+        "cost": 50
+      },
+      "test_referenz": {
+        "tn": 1544,
+        "fp": 2,
+        "fn": 8,
+        "tp": 46,
+        "cost": 50
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 2,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 176,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 176,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 176,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 176,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 177,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 201,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 176
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 2
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Produktvariante",
+              "relation": "=",
+              "threshold": "M"
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 11
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 29
+        }
+      },
+      "test_auswahl": {
+        "tn": 1541,
+        "fp": 5,
+        "fn": 9,
+        "tp": 45,
+        "cost": 59
+      },
+      "test_referenz": {
+        "tn": 1541,
+        "fp": 5,
+        "fn": 9,
+        "tp": 45,
+        "cost": 59
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 3,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 214,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 214,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 214,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 214,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 228,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 228,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 229
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.07999999999993
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 6,
+          "training_fehlalarme": 28
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.07999999999993
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 6,
+          "training_fehlalarme": 28
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.07999999999993
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 6,
+          "training_fehlalarme": 28
+        }
+      },
+      "test_auswahl": {
+        "tn": 1542,
+        "fp": 4,
+        "fn": 4,
+        "tp": 50,
+        "cost": 28
+      },
+      "test_referenz": {
+        "tn": 1542,
+        "fp": 4,
+        "fn": 4,
+        "tp": 50,
+        "cost": 28
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 4,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 193,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 193,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 193,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 193,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 203,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 203,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 209
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 3
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 211.0
+            },
+            {
+              "feature": "Leistung [W]",
+              "relation": "<=",
+              "threshold": 4941.092736775821
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 11
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1538,
+        "fp": 8,
+        "fn": 9,
+        "tp": 45,
+        "cost": 62
+      },
+      "test_referenz": {
+        "tn": 1538,
+        "fp": 8,
+        "fn": 9,
+        "tp": 45,
+        "cost": 62
+      }
+    },
+    {
+      "seed": 2007,
+      "fold": 5,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 200,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 200,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 200,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 200,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 204,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 215,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 200
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 1
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Drehmoment [Nm]",
+              "relation": "<=",
+              "threshold": 27.3
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 12
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1538,
+        "fp": 7,
+        "fn": 6,
+        "tp": 49,
+        "cost": 43
+      },
+      "test_referenz": {
+        "tn": 1538,
+        "fp": 7,
+        "fn": 6,
+        "tp": 49,
+        "cost": 43
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 1,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 202,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 202,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 202,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 202,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 213,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 224,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 213
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 3
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Drehmoment [Nm]",
+              "relation": "<=",
+              "threshold": 27.3
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 11
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1546,
+        "fp": 0,
+        "fn": 6,
+        "tp": 48,
+        "cost": 36
+      },
+      "test_referenz": {
+        "tn": 1546,
+        "fp": 0,
+        "fn": 6,
+        "tp": 48,
+        "cost": 36
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 2,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 203,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 203,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 203,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 203,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 214,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 214,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 217
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Leistung [W]",
+              "relation": "<=",
+              "threshold": 6247.30831907559
+            },
+            {
+              "feature": "Verschleißlast [Nm min]",
+              "relation": ">",
+              "threshold": 9072.539999999999
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 3
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Produktvariante",
+              "relation": "=",
+              "threshold": "M"
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 10
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 28
+        }
+      },
+      "test_auswahl": {
+        "tn": 1537,
+        "fp": 9,
+        "fn": 4,
+        "tp": 50,
+        "cost": 33
+      },
+      "test_referenz": {
+        "tn": 1537,
+        "fp": 9,
+        "fn": 4,
+        "tp": 50,
+        "cost": 33
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 3,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 179,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 179,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 179,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 179,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 191,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 189,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 204
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 11.300000000000011
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 4
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Leistung [W]",
+              "relation": "<=",
+              "threshold": 4932.00725082164
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 13
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 26
+        }
+      },
+      "test_auswahl": {
+        "tn": 1539,
+        "fp": 7,
+        "fn": 10,
+        "tp": 44,
+        "cost": 67
+      },
+      "test_referenz": {
+        "tn": 1539,
+        "fp": 7,
+        "fn": 10,
+        "tp": 44,
+        "cost": 67
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 4,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 188,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 188,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 188,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 188,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 217,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 216,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 214
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 2
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Produktvariante",
+              "relation": "=",
+              "threshold": "M"
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 12
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 28
+        }
+      },
+      "test_auswahl": {
+        "tn": 1543,
+        "fp": 3,
+        "fn": 8,
+        "tp": 46,
+        "cost": 51
+      },
+      "test_referenz": {
+        "tn": 1543,
+        "fp": 3,
+        "fn": 8,
+        "tp": 46,
+        "cost": 51
+      }
+    },
+    {
+      "seed": 888,
+      "fold": 5,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 189,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 189,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 189,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 189,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 202,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 192,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 189
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 1
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 220.0
+            },
+            {
+              "feature": "Drehzahl [U/min]",
+              "relation": ">",
+              "threshold": 1563.0
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 14
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1539,
+        "fp": 6,
+        "fn": 7,
+        "tp": 48,
+        "cost": 48
+      },
+      "test_referenz": {
+        "tn": 1539,
+        "fp": 6,
+        "fn": 7,
+        "tp": 48,
+        "cost": 48
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 1,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 202,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 202,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 202,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 202,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 237,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 237,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 243
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 11.300000000000011
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 3
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.0
+            },
+            {
+              "feature": "Leistung [W]",
+              "relation": "<=",
+              "threshold": 4927.430997522911
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 10
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 27
+        }
+      },
+      "test_auswahl": {
+        "tn": 1538,
+        "fp": 8,
+        "fn": 7,
+        "tp": 47,
+        "cost": 50
+      },
+      "test_referenz": {
+        "tn": 1538,
+        "fp": 8,
+        "fn": 7,
+        "tp": 47,
+        "cost": 50
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 2,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 202,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 202,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 202,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 202,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 209,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 234,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 221
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 3
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Drehzahl [U/min]",
+              "relation": "<=",
+              "threshold": 1457.0
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 16
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 5,
+          "training_fehlalarme": 29
+        }
+      },
+      "test_auswahl": {
+        "tn": 1543,
+        "fp": 3,
+        "fn": 6,
+        "tp": 48,
+        "cost": 39
+      },
+      "test_referenz": {
+        "tn": 1543,
+        "fp": 3,
+        "fn": 6,
+        "tp": 48,
+        "cost": 39
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 3,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 187,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 187,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 187,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 187,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 203,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 198,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 201
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 6,
+          "training_fehlalarme": 25
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 6,
+          "training_fehlalarme": 25
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 218.0
+            },
+            {
+              "feature": "Temperaturdifferenz [K]",
+              "relation": ">",
+              "threshold": 9.5
+            }
+          ],
+          "training_treffer": 6,
+          "training_fehlalarme": 25
+        }
+      },
+      "test_auswahl": {
+        "tn": 1541,
+        "fp": 5,
+        "fn": 7,
+        "tp": 47,
+        "cost": 47
+      },
+      "test_referenz": {
+        "tn": 1541,
+        "fp": 5,
+        "fn": 7,
+        "tp": 47,
+        "cost": 47
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 4,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 190,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 190,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 190,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 190,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 203,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 204,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 190
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 204.0
+            },
+            {
+              "feature": "Lufttemperatur [K]",
+              "relation": ">",
+              "threshold": 303.8
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 2
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Leistung [W]",
+              "relation": "<=",
+              "threshold": 4925.401528668692
+            },
+            {
+              "feature": "Verschleißlast [Nm min]",
+              "relation": ">",
+              "threshold": 5237.8
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 15
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1544,
+        "fp": 2,
+        "fn": 8,
+        "tp": 46,
+        "cost": 50
+      },
+      "test_referenz": {
+        "tn": 1544,
+        "fp": 2,
+        "fn": 8,
+        "tp": 46,
+        "cost": 50
+      }
+    },
+    {
+      "seed": 1024,
+      "fold": 5,
+      "auswahl": "Hybrid aktuell",
+      "innere_kosten": {
+        "Hybrid aktuell": 193,
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": 193,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": 193,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": 193,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": 209,
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": 206,
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": 210
+      },
+      "regeln": {
+        "Bis 1 Bedingung(en), mindestens 2 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 3 Treffer": null,
+        "Bis 1 Bedingung(en), mindestens 5 Treffer": null,
+        "Bis 2 Bedingung(en), mindestens 2 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 212.19999999999982
+            },
+            {
+              "feature": "Drehzahl [U/min]",
+              "relation": ">",
+              "threshold": 1861.3999999999996
+            }
+          ],
+          "training_treffer": 2,
+          "training_fehlalarme": 4
+        },
+        "Bis 2 Bedingung(en), mindestens 3 Treffer": {
+          "bedingungen": [
+            {
+              "feature": "Standzeit [min]",
+              "relation": ">",
+              "threshold": 219.07999999999993
+            },
+            {
+              "feature": "Produktvariante",
+              "relation": "=",
+              "threshold": "M"
+            }
+          ],
+          "training_treffer": 3,
+          "training_fehlalarme": 12
+        },
+        "Bis 2 Bedingung(en), mindestens 5 Treffer": null
+      },
+      "test_auswahl": {
+        "tn": 1539,
+        "fp": 6,
+        "fn": 7,
+        "tp": 48,
+        "cost": 48
+      },
+      "test_referenz": {
+        "tn": 1539,
+        "fp": 6,
+        "fn": 7,
+        "tp": 48,
+        "cost": 48
+      }
+    }
+  ]
+}

@@ -1,0 +1,1345 @@
+{
+  "time_log": [
+    {
+      "time": "2026-11-15T20:40:34+01:00",
+      "event": "Nachbarschaftstest gestartet."
+    },
+    {
+      "time": "2026-11-15T20:40:40+01:00",
+      "event": "Seed 2006: Hybrid 240, mit ausgewähltem Zusatzalarm 246."
+    },
+    {
+      "time": "2026-11-15T20:40:47+01:00",
+      "event": "Seed 2026: Hybrid 237, mit ausgewähltem Zusatzalarm 238."
+    },
+    {
+      "time": "2026-11-15T20:40:53+01:00",
+      "event": "Seed 2007: Hybrid 242, mit ausgewähltem Zusatzalarm 249."
+    },
+    {
+      "time": "2026-11-15T20:41:01+01:00",
+      "event": "Seed 888: Hybrid 235, mit ausgewähltem Zusatzalarm 236."
+    },
+    {
+      "time": "2026-11-15T20:41:14+01:00",
+      "event": "Seed 1024: Hybrid 234, mit ausgewähltem Zusatzalarm 246."
+    },
+    {
+      "time": "2026-11-15T20:41:14+01:00",
+      "event": "Fertig. Mittlere Kosten mit innerer Auswahl: 243.0."
+    }
+  ],
+  "ranking": [
+    {
+      "version": "Hybrid",
+      "kosten_mittel": 237.6,
+      "kosten_min": 234,
+      "kosten_max": 242,
+      "fp_mittel": 25.2,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/237/242/235/234"
+    },
+    {
+      "version": "Sensorwerte ×6 k=64",
+      "kosten_mittel": 237.6,
+      "kosten_min": 234,
+      "kosten_max": 242,
+      "fp_mittel": 25.2,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/237/242/235/234"
+    },
+    {
+      "version": "Prozessmerkmale ×1 k=64",
+      "kosten_mittel": 237.6,
+      "kosten_min": 234,
+      "kosten_max": 242,
+      "fp_mittel": 25.2,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/237/242/235/234"
+    },
+    {
+      "version": "Sensorwerte ×1 k=64",
+      "kosten_mittel": 238.0,
+      "kosten_min": 234,
+      "kosten_max": 242,
+      "fp_mittel": 25.6,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/239/242/235/234"
+    },
+    {
+      "version": "Prozessmerkmale ×6 k=64",
+      "kosten_mittel": 238.0,
+      "kosten_min": 234,
+      "kosten_max": 242,
+      "fp_mittel": 25.6,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "241/238/242/235/234"
+    },
+    {
+      "version": "Prozessmerkmale ×1 k=24",
+      "kosten_mittel": 238.2,
+      "kosten_min": 235,
+      "kosten_max": 242,
+      "fp_mittel": 25.8,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/237/242/235/237"
+    },
+    {
+      "version": "Prozessmerkmale ×3 k=64",
+      "kosten_mittel": 238.6,
+      "kosten_min": 235,
+      "kosten_max": 242,
+      "fp_mittel": 26.2,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/238/242/235/238"
+    },
+    {
+      "version": "Sensorwerte ×3 k=64",
+      "kosten_mittel": 239.0,
+      "kosten_min": 235,
+      "kosten_max": 242,
+      "fp_mittel": 26.6,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/237/242/235/241"
+    },
+    {
+      "version": "Sensorwerte ×3 k=24",
+      "kosten_mittel": 239.6,
+      "kosten_min": 234,
+      "kosten_max": 245,
+      "fp_mittel": 27.2,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/244/245/235/234"
+    },
+    {
+      "version": "Prozessmerkmale ×6 k=24",
+      "kosten_mittel": 240.0,
+      "kosten_min": 235,
+      "kosten_max": 246,
+      "fp_mittel": 27.6,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/246/242/235/237"
+    },
+    {
+      "version": "Sensorwerte ×1 k=24",
+      "kosten_mittel": 240.2,
+      "kosten_min": 237,
+      "kosten_max": 243,
+      "fp_mittel": 27.8,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "242/237/243/238/241"
+    },
+    {
+      "version": "Sensorwerte ×6 k=24",
+      "kosten_mittel": 240.4,
+      "kosten_min": 235,
+      "kosten_max": 245,
+      "fp_mittel": 28.0,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/245/244/235/238"
+    },
+    {
+      "version": "Sensorwerte ×6 k=8",
+      "kosten_mittel": 241.6,
+      "kosten_min": 233,
+      "kosten_max": 248,
+      "fp_mittel": 30.4,
+      "fn_mittel": 35.2,
+      "recall_pct": 87.0110701107011,
+      "kosten_je_seed": "240/242/248/233/245"
+    },
+    {
+      "version": "Prozessmerkmale ×3 k=24",
+      "kosten_mittel": 242.2,
+      "kosten_min": 235,
+      "kosten_max": 251,
+      "fp_mittel": 29.8,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "240/251/246/235/239"
+    },
+    {
+      "version": "Prozessmerkmale ×6 k=8",
+      "kosten_mittel": 242.4,
+      "kosten_min": 238,
+      "kosten_max": 249,
+      "fp_mittel": 30.0,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "241/238/249/240/244"
+    },
+    {
+      "version": "KNN innere Auswahl",
+      "kosten_mittel": 243.0,
+      "kosten_min": 236,
+      "kosten_max": 249,
+      "fp_mittel": 31.8,
+      "fn_mittel": 35.2,
+      "recall_pct": 87.0110701107011,
+      "kosten_je_seed": "246/238/249/236/246"
+    },
+    {
+      "version": "Sensorwerte ×3 k=8",
+      "kosten_mittel": 243.2,
+      "kosten_min": 238,
+      "kosten_max": 246,
+      "fp_mittel": 30.8,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "246/240/246/238/246"
+    },
+    {
+      "version": "Prozessmerkmale ×3 k=8",
+      "kosten_mittel": 243.4,
+      "kosten_min": 241,
+      "kosten_max": 248,
+      "fp_mittel": 31.0,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "241/243/244/241/248"
+    },
+    {
+      "version": "Sensorwerte ×1 k=8",
+      "kosten_mittel": 243.8,
+      "kosten_min": 238,
+      "kosten_max": 252,
+      "fp_mittel": 31.4,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "243/241/252/238/245"
+    },
+    {
+      "version": "Prozessmerkmale ×1 k=8",
+      "kosten_mittel": 244.6,
+      "kosten_min": 241,
+      "kosten_max": 250,
+      "fp_mittel": 32.2,
+      "fn_mittel": 35.4,
+      "recall_pct": 86.93726937269372,
+      "kosten_je_seed": "242/243/250/241/247"
+    }
+  ],
+  "results": {
+    "Hybrid": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234
+      }
+    ],
+    "KNN innere Auswahl": [
+      {
+        "seed": 2006,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 36,
+        "tp": 235,
+        "cost": 246
+      },
+      {
+        "seed": 2026,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      },
+      {
+        "seed": 2007,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 36,
+        "tp": 235,
+        "cost": 249
+      },
+      {
+        "seed": 888,
+        "tn": 7697,
+        "fp": 32,
+        "fn": 34,
+        "tp": 237,
+        "cost": 236
+      },
+      {
+        "seed": 1024,
+        "tn": 7693,
+        "fp": 36,
+        "fn": 35,
+        "tp": 236,
+        "cost": 246
+      }
+    ],
+    "Sensorwerte ×1 k=8": [
+      {
+        "seed": 2006,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 36,
+        "tp": 235,
+        "cost": 243
+      },
+      {
+        "seed": 2026,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 35,
+        "tp": 236,
+        "cost": 241
+      },
+      {
+        "seed": 2007,
+        "tn": 7693,
+        "fp": 36,
+        "fn": 36,
+        "tp": 235,
+        "cost": 252
+      },
+      {
+        "seed": 888,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      },
+      {
+        "seed": 1024,
+        "tn": 7694,
+        "fp": 35,
+        "fn": 35,
+        "tp": 236,
+        "cost": 245
+      }
+    ],
+    "Sensorwerte ×1 k=24": [
+      {
+        "seed": 2006,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      },
+      {
+        "seed": 2007,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 36,
+        "tp": 235,
+        "cost": 243
+      },
+      {
+        "seed": 888,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      },
+      {
+        "seed": 1024,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 35,
+        "tp": 236,
+        "cost": 241
+      }
+    ],
+    "Sensorwerte ×1 k=64": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 35,
+        "tp": 236,
+        "cost": 239
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234
+      }
+    ],
+    "Sensorwerte ×3 k=8": [
+      {
+        "seed": 2006,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 36,
+        "tp": 235,
+        "cost": 246
+      },
+      {
+        "seed": 2026,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 35,
+        "tp": 236,
+        "cost": 240
+      },
+      {
+        "seed": 2007,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 36,
+        "tp": 235,
+        "cost": 246
+      },
+      {
+        "seed": 888,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      },
+      {
+        "seed": 1024,
+        "tn": 7693,
+        "fp": 36,
+        "fn": 35,
+        "tp": 236,
+        "cost": 246
+      }
+    ],
+    "Sensorwerte ×3 k=24": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7695,
+        "fp": 34,
+        "fn": 35,
+        "tp": 236,
+        "cost": 244
+      },
+      {
+        "seed": 2007,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 36,
+        "tp": 235,
+        "cost": 245
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234
+      }
+    ],
+    "Sensorwerte ×3 k=64": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 35,
+        "tp": 236,
+        "cost": 241
+      }
+    ],
+    "Sensorwerte ×6 k=8": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7697,
+        "fp": 32,
+        "fn": 35,
+        "tp": 236,
+        "cost": 242
+      },
+      {
+        "seed": 2007,
+        "tn": 7697,
+        "fp": 32,
+        "fn": 36,
+        "tp": 235,
+        "cost": 248
+      },
+      {
+        "seed": 888,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 34,
+        "tp": 237,
+        "cost": 233
+      },
+      {
+        "seed": 1024,
+        "tn": 7694,
+        "fp": 35,
+        "fn": 35,
+        "tp": 236,
+        "cost": 245
+      }
+    ],
+    "Sensorwerte ×6 k=24": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7694,
+        "fp": 35,
+        "fn": 35,
+        "tp": 236,
+        "cost": 245
+      },
+      {
+        "seed": 2007,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 36,
+        "tp": 235,
+        "cost": 244
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      }
+    ],
+    "Sensorwerte ×6 k=64": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234
+      }
+    ],
+    "Prozessmerkmale ×1 k=8": [
+      {
+        "seed": 2006,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 2026,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 35,
+        "tp": 236,
+        "cost": 243
+      },
+      {
+        "seed": 2007,
+        "tn": 7695,
+        "fp": 34,
+        "fn": 36,
+        "tp": 235,
+        "cost": 250
+      },
+      {
+        "seed": 888,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 35,
+        "tp": 236,
+        "cost": 241
+      },
+      {
+        "seed": 1024,
+        "tn": 7692,
+        "fp": 37,
+        "fn": 35,
+        "tp": 236,
+        "cost": 247
+      }
+    ],
+    "Prozessmerkmale ×1 k=24": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      }
+    ],
+    "Prozessmerkmale ×1 k=64": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234
+      }
+    ],
+    "Prozessmerkmale ×3 k=8": [
+      {
+        "seed": 2006,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 36,
+        "tp": 235,
+        "cost": 241
+      },
+      {
+        "seed": 2026,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 35,
+        "tp": 236,
+        "cost": 243
+      },
+      {
+        "seed": 2007,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 36,
+        "tp": 235,
+        "cost": 244
+      },
+      {
+        "seed": 888,
+        "tn": 7698,
+        "fp": 31,
+        "fn": 35,
+        "tp": 236,
+        "cost": 241
+      },
+      {
+        "seed": 1024,
+        "tn": 7691,
+        "fp": 38,
+        "fn": 35,
+        "tp": 236,
+        "cost": 248
+      }
+    ],
+    "Prozessmerkmale ×3 k=24": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7688,
+        "fp": 41,
+        "fn": 35,
+        "tp": 236,
+        "cost": 251
+      },
+      {
+        "seed": 2007,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 36,
+        "tp": 235,
+        "cost": 246
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7700,
+        "fp": 29,
+        "fn": 35,
+        "tp": 236,
+        "cost": 239
+      }
+    ],
+    "Prozessmerkmale ×3 k=64": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      }
+    ],
+    "Prozessmerkmale ×6 k=8": [
+      {
+        "seed": 2006,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 36,
+        "tp": 235,
+        "cost": 241
+      },
+      {
+        "seed": 2026,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      },
+      {
+        "seed": 2007,
+        "tn": 7696,
+        "fp": 33,
+        "fn": 36,
+        "tp": 235,
+        "cost": 249
+      },
+      {
+        "seed": 888,
+        "tn": 7699,
+        "fp": 30,
+        "fn": 35,
+        "tp": 236,
+        "cost": 240
+      },
+      {
+        "seed": 1024,
+        "tn": 7695,
+        "fp": 34,
+        "fn": 35,
+        "tp": 236,
+        "cost": 244
+      }
+    ],
+    "Prozessmerkmale ×6 k=24": [
+      {
+        "seed": 2006,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 36,
+        "tp": 235,
+        "cost": 240
+      },
+      {
+        "seed": 2026,
+        "tn": 7693,
+        "fp": 36,
+        "fn": 35,
+        "tp": 236,
+        "cost": 246
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7702,
+        "fp": 27,
+        "fn": 35,
+        "tp": 236,
+        "cost": 237
+      }
+    ],
+    "Prozessmerkmale ×6 k=64": [
+      {
+        "seed": 2006,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 36,
+        "tp": 235,
+        "cost": 241
+      },
+      {
+        "seed": 2026,
+        "tn": 7701,
+        "fp": 28,
+        "fn": 35,
+        "tp": 236,
+        "cost": 238
+      },
+      {
+        "seed": 2007,
+        "tn": 7703,
+        "fp": 26,
+        "fn": 36,
+        "tp": 235,
+        "cost": 242
+      },
+      {
+        "seed": 888,
+        "tn": 7704,
+        "fp": 25,
+        "fn": 35,
+        "tp": 236,
+        "cost": 235
+      },
+      {
+        "seed": 1024,
+        "tn": 7705,
+        "fp": 24,
+        "fn": 35,
+        "tp": 236,
+        "cost": 234
+      }
+    ]
+  },
+  "picks": [
+    {
+      "seed": 2006,
+      "fold": 1,
+      "configuration": "Sensorwerte ×3 k=8",
+      "inner_cost": 196,
+      "threshold": 0.2646212581624342
+    },
+    {
+      "seed": 2006,
+      "fold": 2,
+      "configuration": "Sensorwerte ×3 k=64",
+      "inner_cost": 187,
+      "threshold": 0.10853265878440031
+    },
+    {
+      "seed": 2006,
+      "fold": 3,
+      "configuration": "Sensorwerte ×3 k=8",
+      "inner_cost": 188,
+      "threshold": 0.3050132554011741
+    },
+    {
+      "seed": 2006,
+      "fold": 4,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 192,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 2006,
+      "fold": 5,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 194,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 2026,
+      "fold": 1,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 189,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 2026,
+      "fold": 2,
+      "configuration": "Prozessmerkmale ×6 k=8",
+      "inner_cost": 174,
+      "threshold": 0.30944663794415617
+    },
+    {
+      "seed": 2026,
+      "fold": 3,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 188,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 2026,
+      "fold": 4,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 217,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 2026,
+      "fold": 5,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 186,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 2007,
+      "fold": 1,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 194,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 2007,
+      "fold": 2,
+      "configuration": "Prozessmerkmale ×6 k=8",
+      "inner_cost": 164,
+      "threshold": 0.276334326097839
+    },
+    {
+      "seed": 2007,
+      "fold": 3,
+      "configuration": "Sensorwerte ×3 k=8",
+      "inner_cost": 196,
+      "threshold": 0.2699449916716106
+    },
+    {
+      "seed": 2007,
+      "fold": 4,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 193,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 2007,
+      "fold": 5,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 200,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 888,
+      "fold": 1,
+      "configuration": "Prozessmerkmale ×6 k=8",
+      "inner_cost": 195,
+      "threshold": 0.29699518781573303
+    },
+    {
+      "seed": 888,
+      "fold": 2,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 194,
+      "threshold": 0.29632715259648
+    },
+    {
+      "seed": 888,
+      "fold": 3,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 179,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 888,
+      "fold": 4,
+      "configuration": "Sensorwerte ×6 k=8",
+      "inner_cost": 184,
+      "threshold": 0.2963836131403845
+    },
+    {
+      "seed": 888,
+      "fold": 5,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 189,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 1024,
+      "fold": 1,
+      "configuration": "Prozessmerkmale ×6 k=8",
+      "inner_cost": 188,
+      "threshold": 0.32578096508593535
+    },
+    {
+      "seed": 1024,
+      "fold": 2,
+      "configuration": "Prozessmerkmale ×3 k=8",
+      "inner_cost": 186,
+      "threshold": 0.32069184530383754
+    },
+    {
+      "seed": 1024,
+      "fold": 3,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 187,
+      "threshold": "nur_kerneingriffe"
+    },
+    {
+      "seed": 1024,
+      "fold": 4,
+      "configuration": "Sensorwerte ×1 k=8",
+      "inner_cost": 184,
+      "threshold": 0.26980812319919645
+    },
+    {
+      "seed": 1024,
+      "fold": 5,
+      "configuration": "Sensorwerte ×3 k=8",
+      "inner_cost": 183,
+      "threshold": 0.3214102298116501
+    }
+  ],
+  "configurations": {
+    "Sensorwerte ×1 k=8": [
+      "Sensorwerte",
+      1.0,
+      8
+    ],
+    "Sensorwerte ×1 k=24": [
+      "Sensorwerte",
+      1.0,
+      24
+    ],
+    "Sensorwerte ×1 k=64": [
+      "Sensorwerte",
+      1.0,
+      64
+    ],
+    "Sensorwerte ×3 k=8": [
+      "Sensorwerte",
+      3.0,
+      8
+    ],
+    "Sensorwerte ×3 k=24": [
+      "Sensorwerte",
+      3.0,
+      24
+    ],
+    "Sensorwerte ×3 k=64": [
+      "Sensorwerte",
+      3.0,
+      64
+    ],
+    "Sensorwerte ×6 k=8": [
+      "Sensorwerte",
+      6.0,
+      8
+    ],
+    "Sensorwerte ×6 k=24": [
+      "Sensorwerte",
+      6.0,
+      24
+    ],
+    "Sensorwerte ×6 k=64": [
+      "Sensorwerte",
+      6.0,
+      64
+    ],
+    "Prozessmerkmale ×1 k=8": [
+      "Prozessmerkmale",
+      1.0,
+      8
+    ],
+    "Prozessmerkmale ×1 k=24": [
+      "Prozessmerkmale",
+      1.0,
+      24
+    ],
+    "Prozessmerkmale ×1 k=64": [
+      "Prozessmerkmale",
+      1.0,
+      64
+    ],
+    "Prozessmerkmale ×3 k=8": [
+      "Prozessmerkmale",
+      3.0,
+      8
+    ],
+    "Prozessmerkmale ×3 k=24": [
+      "Prozessmerkmale",
+      3.0,
+      24
+    ],
+    "Prozessmerkmale ×3 k=64": [
+      "Prozessmerkmale",
+      3.0,
+      64
+    ],
+    "Prozessmerkmale ×6 k=8": [
+      "Prozessmerkmale",
+      6.0,
+      8
+    ],
+    "Prozessmerkmale ×6 k=24": [
+      "Prozessmerkmale",
+      6.0,
+      24
+    ],
+    "Prozessmerkmale ×6 k=64": [
+      "Prozessmerkmale",
+      6.0,
+      64
+    ]
+  }
+}
