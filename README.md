@@ -4,6 +4,8 @@ Das Hybridmodell kombiniert gelernte physikalische Alarmregeln mit einem logisti
 
 ## Modell lokal ausführen
 
+Für den Ablauf im Stil der Vorlesung gibt es `classification_hybrid.ipynb`. Das Notebook liegt neben `modell.py` und `physik.py` und nutzt deren Modellcode. Mit `python -m pip install -r requirements-notebook.txt` installierst du die Pakete für den Python-Kernel. Öffne das Notebook im Projektordner, wähle diesen Kernel aus und führe die Zellen der Reihe nach aus. Gruppenname und Dateipfade stehen in der ersten Codezelle. Die Notebook-Prognose landet standardmäßig in `results/`.
+
 Python 3.11 oder neuer. Die Resultate wurden mit Python 3.13, NumPy 2.5.1, pandas 3.0.5 und scikit-learn 1.9.0 erzeugt.
 
 ```powershell
