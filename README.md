@@ -4,6 +4,12 @@ Das Hybridmodell kombiniert gelernte physikalische Alarmregeln mit einem logisti
 
 ## Modell lokal ausführen
 
+`classification_hybrid_V4.ipynb` greift zusätzlich den Aufbau der bereitgestellten Data-Desperados-Unterlagen auf. Sie ergänzt physikalische Verteilungsplots, eine Korrelationsmatrix, Roh-/Physikvergleiche, gelernte Baumregeln, eine Schwellenkurve aus inneren Validierungsscores und die Analyse der verbleibenden Ausfälle. Modellgrenzen und Ergebnisse werden aus den aktuellen Trainingsfalten berechnet. Die Quellen und Eigenbeiträge stehen am Ende der V4.
+
+Für die Abgabe mit Vorlesungsvergleich gibt es zusätzlich `classification_hybrid_V3.ipynb`. Sie basiert auf V2 und ergänzt kNN, Entscheidungsbäume, Random Forest, Gradient Boosting, Naive Bayes und SVM. Die V3 zeigt das Kostenranking, die Kennzahlen aus der Vorlesung und einen kleinen Entscheidungsbaum. Zur Ausführung genügen das Notebook, die beiden CSV-Dateien und ein Python-Kernel mit den Paketen aus `requirements-notebook.txt`.
+
+**Zum Teilen im Team:** `classification_hybrid_einfach.ipynb` enthält den gesamten Modellcode. Lege es zusammen mit `modeling.csv` und `challenge.csv` in einen Ordner. Wähle einen Jupyter-Kernel mit NumPy, pandas und scikit-learn, trage den Gruppennamen ein und wähle **Run All**. Die CSV landet unter `results/`.
+
 Für den Ablauf im Stil der Vorlesung gibt es `classification_hybrid.ipynb`. Das Notebook liegt neben `modell.py` und `physik.py` und nutzt deren Modellcode. Mit `python -m pip install -r requirements-notebook.txt` installierst du die Pakete für den Python-Kernel. Öffne das Notebook im Projektordner, wähle diesen Kernel aus und führe die Zellen der Reihe nach aus. Gruppenname und Dateipfade stehen in der ersten Codezelle. Die Notebook-Prognose landet standardmäßig in `results/`.
 
 Python 3.11 oder neuer. Die Resultate wurden mit Python 3.13, NumPy 2.5.1, pandas 3.0.5 und scikit-learn 1.9.0 erzeugt.
